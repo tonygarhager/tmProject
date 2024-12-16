@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UserControl x:Class="Sdl.Common.Licensing.Provider.Core.UI.LicenseManagerView" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mahControls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" x:Uid="UserControl_1" xmlns:ui="clr-namespace:Sdl.Common.Licensing.Provider.Core.UI;assembly=Sdl.Common.Licensing.Provider.Core">
+  <FrameworkElement.Resources>
+    <ResourceDictionary x:Uid="ResourceDictionary_1">
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary x:Uid="ResourceDictionary_2" Source="UI/WPFControls/WPFControlsStyle.xaml" />
+        <ResourceDictionary x:Uid="ResourceDictionary_3" Source="UI/WPFControls/ProgressRingStyle.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <UIElement.InputBindings>
+    <KeyBinding x:Uid="ShortcutCommand" Modifiers="Ctrl" Key="F10" x:Name="ShortcutCommand" />
+  </UIElement.InputBindings>
+  <Grid x:Uid="Grid_1">
+    <Border Name="ProgressRingBorder" x:Uid="ProgressRingBorder" Background="#00FFFFFF" Visibility="Collapsed">
+      <mahControls:ProgressRing Name="ProgressRing" x:Uid="xctk:BusyIndicator_1" VerticalAlignment="Center" HorizontalContentAlignment="Center" Style="{StaticResource Sdl.ProgressRing.Asterisk}" />
+    </Border>
+    <DockPanel Name="LicenseContentDockPanel" x:Uid="LicenseContentDockPanel" Margin="0,10,0,0">
+      <StackPanel x:Uid="StackPanel_1" DockPanel.Dock="Top" Margin="22 0">
+        <TextBlock Name="Title" x:Uid="Title" Style="{StaticResource Sdl.TextBlock.InformationTitleStyle}" Text="Sample Title" />
+        <TextBlock Name="SubTitle" x:Uid="SubTitle" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" Text="Sample subtitle Title" Margin="0 5 0 0" TextAlignment="Left" />
+      </StackPanel>
+      <Separator x:Uid="Separator_1" DockPanel.Dock="Top" IsManipulationEnabled="False" Background="#E1E7EB" Margin="0 5 0 5" />
+      <ContentPresenter Name="ContentControl" x:Uid="ContentControl" Margin="0 30 0 0" DockPanel.Dock="Top" />
+    </DockPanel>
+  </Grid>
+</UserControl>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FB287D2D-5CFA-49E6-A15F-E429F850F52A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Common.Licensing.Provider.Core</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MahApps.Metro">
+      <HintPath>..\libs\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\WindowsBase\v4.0_4.0.0.0__31bf3856ad364e35\WindowsBase.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>E:\work\task Trados SDK Fuzzy Matching\1. Trados SDK Fuzzy Matching Instructions\Fuzzy_Match_SDK\Fuzzy_Match_SDK\Fuzzy_Match_SDK\bin\Debug\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\PresentationFramework\v4.0_4.0.0.0__31bf3856ad364e35\PresentationFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xaml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xaml\v4.0_4.0.0.0__b77a5c561934e089\System.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_64\PresentationCore\v4.0_4.0.0.0__31bf3856ad364e35\PresentationCore.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Management\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Management.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.ServiceProcess\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.ServiceProcess.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.Exceptions\LicenseErrorCodes.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.Exceptions\LicenseTypeNotFoundException.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.Exceptions\LicensingProviderException.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.Helpers\ServiceManager.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.Models\ActivatedFeature.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.Models\ActivatedLicense.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.Commands\DiagnosticPageCommand.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.Commands\EnterCommand.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.Commands\EscapeCommand.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\AlternativeActivationOptionsControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\BorrowLicenseStatusServerControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\ButtonsAlignment.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\ConnectionSettingsControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\DiagnosticPageControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\IconExtensions.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\IconToImageSourceConverter.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\ImageUtils.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\LicensePageControlWPF.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\LicenseServerConfigControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\LicenseStatusControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\LicenseStatusServerControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\NumericUpDown.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\NumericUpDownChangedRoutedEventArgs.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\NumericUpDownChangedRoutedEventHandler.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\OfflineActivationControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\OnlineActivationControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\OnlineDeactivationControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI.WPFControls\ViewDeactivationCertificateControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\ClipboardAccess.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\CustomStatusPage.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\DoubleBufferedTableLayoutPanel.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\GetLicenseCompletedEventArgs.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\GradientPanel.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\Helpers.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\ILicensingForm.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\IsLicenseValidForMachineDelegate.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\IsProductAllowedDelegate.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\IUIControl.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\LicenseInfoProviderDelegate.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\LicenseManager.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\LicenseManagerView.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\LicenseModeUI.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\LicensePageType.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\LicensingFormConfiguration.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\MultiProviderLicensingForm.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\NetworkConnectivity.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\OSVersion.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\ShowCustomStatusPageDelegate.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core.UI\WebLinkHelper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\AbstractRegistryAccess.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ComputedLicenseTypeMapper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\GetFeatureValueDelegate.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\Helper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\IAbstractRegistryAccess.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicenseFeature.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicenseRegistryAccess.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicenseTypeMapper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicensingControlsProvider.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicensingDialog.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicensingHelpProvider.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicensingProvider.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicensingProviderConfiguration.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicensingProviderFactory.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ILicensingProviderManager.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ImageResources.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\INativeLicense.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\INetworkLicenseFeature.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\INetworkLicensingServerProvider.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\IProductLicense.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ITelemetrySupport.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseDescriptionDelegate.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseMode.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseModeDetails.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseRegistryAccess.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseStatus.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseTypeMapper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseTypeToFeatureMap.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseTypeToFeaturesMap.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicenseTypeToProductIdMap.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicensingHelpIDs.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicensingProviderFactoryAttribute.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LicensingProviderManager.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\LocalLicenseServerStatus.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\MessageLog.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\MultipleFeatureLicenseTypeMapper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ProductFeature.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ProductLicenseProperty.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ProductToLicenseProviderFeatureMap.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\ProductTypeByFeaturePropertyTypeMapper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\Proxy.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\SingleFeatureLicenseTypeMapper.cs" />
+    <Compile Include="Sdl.Common.Licensing.Provider.Core\StringResources.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.Common.Licensing.Provider.Core\ImageResources.resx" />
+    <EmbeddedResource Include="Sdl.Common.Licensing.Provider.Core\StringResources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="licensemanagerview.xaml" />
+    <Page Include="ui\wpfcontrols\alternativeactivationoptionscontrol.xaml" />
+    <Page Include="ui\wpfcontrols\borrowlicensestatusservercontrol.xaml" />
+    <Page Include="ui\wpfcontrols\connectionsettingscontrol.xaml" />
+    <Page Include="ui\wpfcontrols\datagridresources.xaml" />
+    <Page Include="ui\wpfcontrols\diagnosticpagecontrol.xaml" />
+    <Page Include="ui\wpfcontrols\licenseserverconfigcontrol.xaml" />
+    <Page Include="ui\wpfcontrols\licensestatuscontrol.xaml" />
+    <Page Include="ui\wpfcontrols\licensestatusservercontrol.xaml" />
+    <Page Include="ui\wpfcontrols\numericupdownstyle.xaml" />
+    <Page Include="ui\wpfcontrols\offlineactivationcontrol.xaml" />
+    <Page Include="ui\wpfcontrols\onlineactivationcontrol.xaml" />
+    <Page Include="ui\wpfcontrols\onlinedeactivationcontrol.xaml" />
+    <Page Include="ui\wpfcontrols\progressringstyle.xaml" />
+    <Page Include="ui\wpfcontrols\styles\checkboxstyle.xaml" />
+    <Page Include="ui\wpfcontrols\styles\datagridresources.xaml" />
+    <Page Include="ui\wpfcontrols\viewdeactivationcertificatecontrol.xaml" />
+    <Page Include="ui\wpfcontrols\wpfcontrolsstyle.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.PluginFramework\Sdl.Core.PluginFramework.csproj">
+      <Project>{732b3798-5e2c-4234-b228-1671e69639c1}</Project>
+      <Name>Sdl.Core.PluginFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ApplicationServerNotReachable"><value>Failed to connect to the application server. Please contact your system administrator.</value></data>
+  <data name="HttpEndpointOnly"><value>This behavior extension is for http endpoints only.</value></data>
+  <data name="ServiceNotAvailable"><value>The requested service is not available on server {0}: {1}</value></data>
+  <data name="UnsupportedUriScheme"><value>Unsupported uri scheme {0}. Only http or tcp connections are supported.</value></data>
+  <data name="UserManagerOnly"><value>This behavior extension is for the UserManager Service only.</value></data>
+  <data name="ClientBehaviorOnly"><value>This behavior is for client endpoints only.</value></data>
+  <data name="InvalidResourcePermissionFormat"><value>Permission '{0}' is not in the correct format for a resource specific permission.</value></data>
+  <data name="WindowsAuthNotHttp"><value>Windows Authentication is not supported via http.</value></data>
+  <data name="WindowsOnlyTcp"><value>Only Windows Authentication is supported via tcp.</value></data>
+  <data name="MissingCredentials"><value>A userName &amp; password must be supplied for {0} authentication.</value></data>
+  <data name="InvalidGlobalPermissionFormat"><value>Permission '{0}' is not in the correct format for a global permission.</value></data>
+  </root>

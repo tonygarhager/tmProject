@@ -1,0 +1,212 @@
+﻿body
+{
+	color: Black;
+}
+
+table
+{
+	border-width: thin;
+	border-color: White;
+}
+
+table td
+{
+	vertical-align: top;
+	text-align: left;
+}
+
+.sourceCell
+{
+	background-color: #F7F7F7;
+	width: 50%;
+}
+
+.targetCell
+{
+	width: 50%;
+}
+
+.contextCell
+{
+	width: auto;
+	text-align: center;
+}
+
+.external
+{
+	display: none;
+}
+
+.canHide
+{
+	display: none;
+}
+
+.fuzzy
+{
+	
+}
+
+.interactive
+{
+	
+}
+
+.context-match
+{
+	color: Green;
+}
+
+.mt
+{
+	color: Blue;
+}
+
+.tm
+{
+	color : Olive;
+}
+
+.not-translated
+{
+	
+}
+
+.auto-propagated
+{
+	color : Purple;
+}
+
+.source
+{
+}
+
+.tag
+{
+	border-left: solid 1px #c0c0c0;
+	border-top: solid 1px #c0c0c0;
+	border-bottom: solid 1px #004d3d;
+	border-right: solid 1px #004d3d;
+	padding: 1px;
+	background-color: #D0CFE7;
+	font-family: Arial;
+	font-size: x-small;
+	display: none;
+}
+
+.locked
+{
+	background-color: #C0BCBC;
+}
+
+.Low
+{
+	background-color: #EEE8AA;
+}
+
+.Medium
+{
+	background-color: #FFDEAD;
+}
+
+.High
+{
+	background-color: #E9967A;
+}
+
+.hideTransOrigin
+{
+}
+
+.commentText
+{
+	color: #86A28E;
+}
+
+.commentBlock
+{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.hideComment
+{
+	display: none;
+}
+
+.rightAlign
+{
+	text-align: right;
+}
+
+
+#OptionsMinimised
+{
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+
+#OptionsMaximised
+{
+	position: fixed;
+	top: 5px;
+	right: 5px;
+}
+
+.optionsWindow
+{
+	border-left: solid 1px #c0c0c0;
+	border-top: solid 1px #c0c0c0;
+	border-bottom: solid 1px #004d3d;
+	border-right: solid 1px #004d3d;
+	padding: 2px;
+	background-color: #BED8D5;
+	font-family: Arial;
+	font-size: x-small;
+}
+
+.optionsTitle
+{
+	font-weight: bold;
+	text-align: right;
+}
+
+.button
+{
+	border-left: solid 1px Gray;
+	border-top: solid 1px Gray;
+	border-bottom: solid 1px Black;
+	border-right: solid 1px Black;
+	background-color: #9CB5B2;
+	font-family: Arial;
+	font-size: x-small;
+}
+
+.hyperlink
+{
+	color: Blue;
+	text-decoration: underline;
+	cursor: pointer;
+	cursor: hand;
+}
+
+.inserted
+{
+	color: DarkCyan;
+	text-decoration: underline;
+}
+
+.deleted
+{
+	color: Red;
+	text-decoration: line-through;
+}
+
+@media print
+{
+	.optionsWindowPrint
+	{
+		display: none !important;
+	}
+}

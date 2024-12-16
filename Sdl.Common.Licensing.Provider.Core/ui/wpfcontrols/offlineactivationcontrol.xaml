@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:LicensePageControlWPF x:Class="Sdl.Common.Licensing.Provider.Core.UI.WPFControls.OfflineActivationControl" x:ClassModifier="internal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Sdl.Common.Licensing.Provider.Core.UI.WPFControls" x:Uid="local:LicensePageControlWPF_1">
+  <FrameworkElement.Resources>
+    <ResourceDictionary x:Uid="ResourceDictionary_1">
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary x:Uid="ResourceDictionary_2" Source="WPFControlsStyle.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <UIElement.InputBindings>
+    <KeyBinding x:Uid="EscapeCommand" Key="Esc" x:Name="EscapeCommand" />
+    <KeyBinding x:Uid="EnterCommand" Key="Return" x:Name="EnterCommand" />
+  </UIElement.InputBindings>
+  <DockPanel x:Uid="DockPanel_1">
+    <DockPanel x:Uid="DockPanel_2" Dock="Bottom" LastChildFill="False" Margin="22,10">
+      <UniformGrid x:Uid="UniformGrid_1" Columns="2" DockPanel.Dock="Right">
+        <Button Name="CancelButton" x:Uid="CancelButton" Content="_Cancel" AutomationProperties.AutomationId="OfflineActivation_Button_Cancel" HorizontalAlignment="Center" TabIndex="10" Style="{StaticResource Sdl.Button.SecondaryStyle}" VerticalAlignment="Center" Click="CancelButton_Click" />
+        <Button Name="HelpButton" x:Uid="HelpButton" Content="_Help" TabIndex="11" HorizontalAlignment="Center" Margin="12 0 0 0" AutomationProperties.AutomationId="OfflineActivation_Button_Help" Style="{StaticResource Sdl.Button.SecondaryStyle}" VerticalAlignment="Center" Click="HelpButton_Click" />
+      </UniformGrid>
+    </DockPanel>
+    <Separator x:Uid="Separator_1" DockPanel.Dock="Bottom" IsManipulationEnabled="False" Background="#E1E7EB" />
+    <Grid x:Uid="Grid_1" Margin="22 0">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition x:Uid="ColumnDefinition_1" Width="*" />
+        <ColumnDefinition x:Uid="ColumnDefinition_2" Width="Auto" />
+      </Grid.ColumnDefinitions>
+      <Grid.RowDefinitions>
+        <RowDefinition x:Uid="RowDefinition_1" Height="Auto" />
+        <RowDefinition x:Uid="RowDefinition_2" Height="Auto" />
+        <RowDefinition x:Uid="RowDefinition_3" Height="Auto" />
+        <RowDefinition x:Uid="RowDefinition_4" Height="Auto" />
+        <RowDefinition x:Uid="RowDefinition_5" Height="Auto" />
+        <RowDefinition x:Uid="RowDefinition_6" Height="Auto" />
+        <RowDefinition x:Uid="RowDefinition_7" Height="Auto" />
+        <RowDefinition x:Uid="RowDefinition_8" Height="Auto" />
+      </Grid.RowDefinitions>
+      <TextBlock x:Uid="TextBlock_1" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" Text="Activation Code" FontWeight="Bold" Margin="0 0 0 5" />
+      <TextBox Name="ActivationCodeTextBox" x:Uid="ActivationCodeTextBox" Grid.Row="1" Height="24" TabIndex="1" VerticalContentAlignment="Center" AutomationProperties.AutomationId="OfflineActivation_TextBox_ActivationCode" HorizontalAlignment="Stretch" VerticalAlignment="Center" MaxLength="36" TextChanged="ActivationCodeTextBox_TextChanged" />
+      <TextBlock x:Uid="TextBlock_2" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" Text="Installation ID" Grid.Row="2" FontWeight="Bold" Margin="0 15 0 5" />
+      <TextBox Name="InstallationIDTextBox" x:Uid="InstallationIDTextBox" Grid.Row="3" Height="24" TabIndex="3" IsReadOnly="True" VerticalContentAlignment="Center" HorizontalAlignment="Stretch" VerticalAlignment="Center" AutomationProperties.AutomationId="OfflineActivation_TextBox_InstallationID" MaxLines="1" />
+      <TextBlock x:Uid="TextBlock_3" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" Text="Activation Certificate" Grid.Row="4" FontWeight="Bold" Margin="0 15 0 5" />
+      <TextBox Name="ActivationCertificateTextBox" x:Uid="ActivationCertificateTextBox" Grid.Row="5" HorizontalAlignment="Stretch" VerticalAlignment="Top" MinHeight="120" TextWrapping="Wrap" VerticalContentAlignment="Top" VerticalScrollBarVisibility="Auto" AutomationProperties.AutomationId="OfflineActivation_TextBox_Certificate" AcceptsReturn="True" TextChanged="ActivationCertificateTextBox_TextChanged" />
+      <DockPanel x:Uid="DockPanel_3" Grid.Row="6" HorizontalAlignment="Right" Margin="0 5 5 5">
+        <Button Name="AlternativeActivationButton" x:Uid="AlternativeActivationButton" DockPanel.Dock="Right" TabIndex="9" AutomationProperties.AutomationId="OfflineActivation_Button_AlternativeOptions" Content="Alternative activation options" Style="{StaticResource Sdl.Button.HyperLinkStyle}" HorizontalAlignment="Right" Margin="15 0 0 0" Click="AlternativeActivationButton_Click" />
+        <Button Name="PurchaseLicenseButton" x:Uid="PurchaseLicenseButton" Content="Purchase a license" AutomationProperties.AutomationId="OfflineActivation_Button_PurchaseLicense" DockPanel.Dock="Right" TabIndex="8" Style="{StaticResource Sdl.Button.HyperLinkStyle}" HorizontalAlignment="Right" ToolTip="Purchase a license from the SDL website" Click="PurchaseLicenseButton_Click" />
+      </DockPanel>
+      <Button Name="ActivateButton" x:Uid="ActivateButton" Grid.Row="7" HorizontalAlignment="Right" VerticalAlignment="Center" TabIndex="7" Style="{StaticResource Sdl.Button.SecondaryStyle}" AutomationProperties.AutomationId="OfflineActivation_Button_Activate" Margin="0 20 5 0" Click="ActivateButton_Click">
+        <DockPanel x:Uid="DockPanel_4" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+          <Image Name="ActivateImage" x:Uid="ActivateImage" DockPanel.Dock="Left" Width="20" Height="20" />
+          <Label x:Uid="TextBlock_4" Content="_Activate" VerticalAlignment="Center" Margin="4 0 0 0" />
+        </DockPanel>
+      </Button>
+      <Button Name="ActivationCodePasteButton" x:Uid="ActivationCodePasteButton" Grid.Row="1" Grid.Column="1" Style="{StaticResource IconButtonStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" ToolTip="Paste from the clipboard" AutomationProperties.AutomationId="OfflineActivation_Button_ActivationCodePaste" Margin="5 0 0 0" Click="ActivationCodePasteButton_Click">
+        <Image Name="ActivationCodePasteImage" x:Uid="ActivationCodePasteImage" Width="16" Height="16" VerticalAlignment="Center" HorizontalAlignment="Center" />
+      </Button>
+      <Button Name="InstallationIDCopyButton" x:Uid="InstallationIDCopyButton" Grid.Row="3" Grid.Column="1" TabIndex="4" Style="{StaticResource IconButtonStyle}" HorizontalAlignment="Center" VerticalAlignment="Center" ToolTip="Copy the installation ID to the clipboard" AutomationProperties.AutomationId="OfflineActivation_Button_InstallationIDPaste" Margin="5 0 0 0" Click="InstallationIDCopyButton_Click">
+        <Image Name="InstallationIDCopyImage" x:Uid="InstallationIDCopyImage" Width="16" Height="16" VerticalAlignment="Center" HorizontalAlignment="Center" />
+      </Button>
+      <Button Name="ActivationCertificatePasteButton" x:Uid="ActivationCertificatePasteButton" Grid.Row="5" Grid.Column="1" TabIndex="6" Style="{StaticResource IconButtonStyle}" HorizontalAlignment="Center" VerticalAlignment="Top" ToolTip="Paste from the clipboard" AutomationProperties.AutomationId="OfflineActivation_Button_CertificatePaste" Margin="5 0 0 0" Click="ActivationCertificatePasteButton_Click">
+        <Image Name="ActivationCertificatePasteImage" x:Uid="ActivationCertificatePasteImage" Width="16" Height="16" VerticalAlignment="Center" HorizontalAlignment="Center" />
+      </Button>
+    </Grid>
+  </DockPanel>
+</local:LicensePageControlWPF>

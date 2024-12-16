@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero" x:Uid="DataGridResources">
+  <SolidColorBrush x:Key="OutterBorderColor" x:Uid="SolidColorBrush_2">#636463</SolidColorBrush>
+  <SolidColorBrush x:Key="InnerBorderColor" x:Uid="SolidColorBrush_1">#BFCDD4</SolidColorBrush>
+  <SolidColorBrush x:Key="HeaderBackgroundColor" x:Uid="SolidColorBrush_4">White</SolidColorBrush>
+  <SolidColorBrush x:Key="RowItemHighlight" x:Uid="SolidColorBrush_3">#CDE6F7</SolidColorBrush>
+  <Style x:Key="Sdl.DataGridCell.GenericStyle" x:Uid="Style_6" TargetType="{x:Type DataGridCell}">
+    <Setter x:Uid="Setter_23" Property="Foreground" Value="{StaticResource InformationTitleColor}" />
+    <Setter x:Uid="Setter_26" Property="MinHeight" Value="24" />
+    <Style.Triggers>
+      <Trigger x:Uid="Trigger_3" Property="DataGridCell.IsSelected" Value="True">
+        <Setter x:Uid="Setter_24" Property="Background" Value="{StaticResource RowItemHighlight}" />
+        <Setter x:Uid="Setter_25" Property="BorderBrush" Value="{StaticResource RowItemHighlight}" />
+      </Trigger>
+    </Style.Triggers>
+  </Style>
+  <Style x:Key="Sdl.DataGridColumnHeader.GripperStyle" x:Uid="Style_2" TargetType="{x:Type Thumb}">
+    <Setter x:Uid="Setter_5" Property="Width" Value="8" />
+    <Setter x:Uid="Setter_6" Property="Background" Value="#00FFFFFF" />
+    <Setter x:Uid="Setter_7" Property="FrameworkElement.Cursor" Value="SizeWE" />
+    <Setter x:Uid="Setter_8" Property="Template">
+      <Setter.Value>
+        <ControlTemplate x:Uid="ControlTemplate_1" TargetType="{x:Type Thumb}">
+          <Border x:Uid="Border_1" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" />
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+  <Style x:Key="Sdl.DataGridColumnHeader.GenericStyle" x:Uid="Style_3" TargetType="{x:Type DataGridColumnHeader}">
+    <Setter x:Uid="Setter_9" Property="Background" Value="{StaticResource HeaderBackgroundColor}" />
+    <Setter x:Uid="Setter_10" Property="FontSize" Value="11" />
+    <Setter x:Uid="Setter_11" Property="Padding" Value="5" />
+    <Setter x:Uid="Setter_12" Property="Foreground" Value="{StaticResource InformationTitleColor}" />
+    <Setter x:Uid="Setter_13" Property="FontWeight" Value="Bold" />
+    <Setter x:Uid="Setter_14" Property="BorderBrush" Value="{StaticResource InnerBorderColor}" />
+    <Setter x:Uid="Setter_15" Property="BorderThickness" Value="0 0 1 1" />
+    <Setter x:Uid="Setter_16" Property="Template">
+      <Setter.Value>
+        <ControlTemplate x:Uid="ControlTemplate_2" TargetType="{x:Type DataGridColumnHeader}">
+          <Grid x:Uid="Grid_1">
+            <themes:DataGridHeaderBorder x:Uid="themes:DataGridHeaderBorder_1" Border.BorderBrush="{TemplateBinding BorderBrush}" Border.BorderThickness="{TemplateBinding BorderThickness}" Border.Background="{TemplateBinding Background}" DataGridHeaderBorder.IsClickable="{TemplateBinding CanUserSort}" DataGridHeaderBorder.IsPressed="{TemplateBinding IsPressed}" DataGridHeaderBorder.IsHovered="{TemplateBinding IsMouseOver}" Border.Padding="{TemplateBinding Padding}" DataGridHeaderBorder.SortDirection="{TemplateBinding SortDirection}" DataGridHeaderBorder.SeparatorBrush="{TemplateBinding SeparatorBrush}" DataGridHeaderBorder.SeparatorVisibility="{TemplateBinding SeparatorVisibility}">
+              <DockPanel x:Uid="DockPanel_1">
+                <Path Name="SortArrow" x:Uid="SortArrow" DockPanel.Dock="Right" HorizontalAlignment="Right" VerticalAlignment="Center" Width="8" Height="6" Margin="2,0,5,0" Stretch="Fill" Opacity="0.5" Fill="#FF000000" RenderTransformOrigin="0.5,0.4" Visibility="Collapsed" Data="M0,0 L1,0 L0.5,1" />
+                <ContentPresenter x:Uid="ContentPresenter_1" RecognizesAccessKey="True" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+              </DockPanel>
+            </themes:DataGridHeaderBorder>
+            <Thumb Name="PART_LeftHeaderGripper" x:Uid="PART_LeftHeaderGripper" HorizontalAlignment="Left" Style="{StaticResource Sdl.DataGridColumnHeader.GripperStyle}" />
+            <Thumb Name="PART_RightHeaderGripper" x:Uid="PART_RightHeaderGripper" HorizontalAlignment="Right" Style="{StaticResource Sdl.DataGridColumnHeader.GripperStyle}" />
+          </Grid>
+          <ControlTemplate.Triggers>
+            <Trigger x:Uid="Trigger_1" Property="DataGridColumnHeader.SortDirection" Value="Ascending">
+              <Setter x:Uid="Setter_17" TargetName="SortArrow" Property="Visibility" Value="Visible" />
+              <Setter x:Uid="Setter_18" TargetName="SortArrow" Property="RenderTransform">
+                <Setter.Value>
+                  <RotateTransform x:Uid="RotateTransform_1" Angle="180" />
+                </Setter.Value>
+              </Setter>
+            </Trigger>
+            <Trigger x:Uid="Trigger_2" Property="DataGridColumnHeader.SortDirection" Value="Descending">
+              <Setter x:Uid="Setter_19" TargetName="SortArrow" Property="Visibility" Value="Visible" />
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+  <Style x:Key="Sdl.DataGrid.GenericStyle" x:Uid="Style_7" TargetType="{x:Type DataGrid}">
+    <Setter x:Uid="Setter_27" Property="DataGrid.AutoGenerateColumns" Value="False" />
+    <Setter x:Uid="Setter_28" Property="DataGrid.CanUserSortColumns" Value="False" />
+    <Setter x:Uid="Setter_29" Property="DataGrid.CanUserReorderColumns" Value="False" />
+    <Setter x:Uid="Setter_30" Property="DataGrid.CanUserAddRows" Value="False" />
+    <Setter x:Uid="Setter_31" Property="Background" Value="#00FFFFFF" />
+    <Setter x:Uid="Setter_32" Property="DataGrid.RowHeaderWidth" Value="0" />
+    <Setter x:Uid="Setter_33" Property="BorderThickness" Value="1" />
+    <Setter x:Uid="Setter_34" Property="BorderBrush" Value="{StaticResource OutterBorderColor}" />
+    <Setter x:Uid="Setter_35" Property="Foreground" Value="{StaticResource TextColor}" />
+    <Setter x:Uid="Setter_36" Property="DataGrid.VerticalGridLinesBrush" Value="{StaticResource InnerBorderColor}" />
+    <Setter x:Uid="Setter_37" Property="DataGrid.HorizontalGridLinesBrush" Value="{StaticResource InnerBorderColor}" />
+    <Setter x:Uid="Setter_38" Property="DataGrid.ColumnHeaderStyle" Value="{StaticResource Sdl.DataGridColumnHeader.GenericStyle}" />
+    <Setter x:Uid="Setter_39" Property="DataGrid.CellStyle" Value="{StaticResource Sdl.DataGridCell.GenericStyle}" />
+  </Style>
+</ResourceDictionary>

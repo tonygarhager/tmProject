@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" x:Uid="ResourceDictionary_1">
+  <SolidColorBrush x:Key="TitleColor" x:Uid="SolidColorBrush_1">#0096D6</SolidColorBrush>
+  <SolidColorBrush x:Key="InformationTitleColor" x:Uid="SolidColorBrush_2">#303030</SolidColorBrush>
+  <SolidColorBrush x:Key="TextColor" x:Uid="SolidColorBrush_3">#414141</SolidColorBrush>
+  <SolidColorBrush x:Key="DisableTextColor" x:Uid="SolidColorBrush_4">#A2A2A2</SolidColorBrush>
+  <FontFamily x:Key="FontFamily" x:Uid="FontFamily_1">Segoe UI</FontFamily>
+  <Style x:Key="Sdl.TextBlock.InformationTitleStyle" x:Uid="Style_3" TargetType="{x:Type TextBlock}">
+    <Setter x:Uid="Setter_11" Property="FontSize" Value="18" />
+    <Setter x:Uid="Setter_12" Property="FontStretch" Value="ExtraExpanded" />
+    <Setter x:Uid="Setter_13" Property="FontFamily" Value="{StaticResource FontFamily}" />
+    <Setter x:Uid="Setter_14" Property="Foreground" Value="{StaticResource InformationTitleColor}" />
+    <Setter x:Uid="Setter_16" Property="VerticalAlignment" Value="Center" />
+    <Setter x:Uid="Setter_26" Property="Foreground" Value="{StaticResource TextColor}" />
+  </Style>
+  <Style x:Key="Sdl.TextBlock.InformationTextStyle" x:Uid="Style_4" TargetType="{x:Type TextBlock}">
+    <Setter x:Uid="Setter_17" Property="FontSize" Value="14" />
+    <Setter x:Uid="Setter_18" Property="FontFamily" Value="{StaticResource FontFamily}" />
+    <Setter x:Uid="Setter_19" Property="Foreground" Value="{StaticResource TextColor}" />
+    <Setter x:Uid="Setter_20" Property="TextWrapping" Value="WrapWithOverflow" />
+    <Setter x:Uid="Setter_23" Property="TextBlock.TextAlignment" Value="Justify" />
+    <Style.Triggers>
+      <Trigger x:Uid="Trigger_1" Property="IsEnabled" Value="True">
+        <Setter x:Uid="Setter_24" Property="Foreground" Value="{StaticResource TextColor}" />
+      </Trigger>
+      <Trigger x:Uid="Trigger_2" Property="IsEnabled" Value="False">
+        <Setter x:Uid="Setter_25" Property="Foreground" Value="{StaticResource DisableTextColor}" />
+      </Trigger>
+    </Style.Triggers>
+  </Style>
+  <Style x:Key="FocusVisual" x:Uid="Style_5">
+    <Setter x:Uid="Setter_27" Property="Control.Template">
+      <Setter.Value>
+        <ControlTemplate x:Uid="ControlTemplate_1">
+          <Rectangle x:Uid="Rectangle_1" Margin="2" SnapsToDevicePixels="True" Stroke="{DynamicResource SystemColors.ControlTextBrushKey}" StrokeThickness="1" StrokeDashArray="1 2" />
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+  <SolidColorBrush x:Key="SdlSecondaryButton.Background" x:Uid="SolidColorBrush_5" Color="#E1E7EB" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.Border" x:Uid="SolidColorBrush_6" Color="#CACFD3" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.Foreground" x:Uid="SolidColorBrush_7" Color="#2A3B4C" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.MouseOver.Background" x:Uid="SolidColorBrush_8" Color="#FFCFD4D7" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.MouseOver.Border" x:Uid="SolidColorBrush_9" Color="#CACFD3" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.Pressed.Background" x:Uid="SolidColorBrush_10" Color="#FFCFD4D7" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.Pressed.Border" x:Uid="SolidColorBrush_11" Color="#CACFD3" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.Disabled.Background" x:Uid="SolidColorBrush_12" Color="#88E1E7EB" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.Disabled.Border" x:Uid="SolidColorBrush_13" Color="#88CACFD3" />
+  <SolidColorBrush x:Key="SdlSecondaryButton.Disabled.Foreground" x:Uid="SolidColorBrush_14" Color="#882A3B4C" />
+  <Style x:Key="Sdl.Button.SecondaryStyle" x:Uid="Style_6" TargetType="{x:Type Button}">
+    <Setter x:Uid="Setter_28" Property="FrameworkElement.FocusVisualStyle" Value="{StaticResource FocusVisual}" />
+    <Setter x:Uid="Setter_29" Property="Background" Value="{StaticResource SdlSecondaryButton.Background}" />
+    <Setter x:Uid="Setter_30" Property="BorderBrush" Value="{StaticResource SdlSecondaryButton.Border}" />
+    <Setter x:Uid="Setter_31" Property="Foreground" Value="{StaticResource SdlSecondaryButton.Foreground}" />
+    <Setter x:Uid="Setter_32" Property="BorderThickness" Value="0,0,0,2" />
+    <Setter x:Uid="Setter_33" Property="HorizontalContentAlignment" Value="Center" />
+    <Setter x:Uid="Setter_34" Property="VerticalContentAlignment" Value="Center" />
+    <Setter x:Uid="Setter_35" Property="HorizontalAlignment" Value="Center" />
+    <Setter x:Uid="Setter_36" Property="VerticalAlignment" Value="Center" />
+    <Setter x:Uid="Setter_37" Property="Padding" Value="15,5" />
+    <Setter x:Uid="Setter_38" Property="MinWidth" Value="70" />
+    <Setter x:Uid="Setter_39" Property="Height" Value="34" />
+    <Setter x:Uid="Setter_40" Property="FontSize" Value="13" />
+    <Setter x:Uid="Setter_41" Property="FontFamily" Value="{StaticResource FontFamily}" />
+    <Setter x:Uid="Setter_42" Property="Template">
+      <Setter.Value>
+        <ControlTemplate x:Uid="ControlTemplate_2" TargetType="{x:Type Button}">
+          <Border Name="border" x:Uid="border" CornerRadius="4" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+            <ContentPresenter Name="contentPresenter" x:Uid="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+          </Border>
+          <ControlTemplate.Triggers>
+            <Trigger x:Uid="Trigger_3" Property="Button.IsDefaulted" Value="True">
+              <Setter x:Uid="Setter_43" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.Border}" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_4" Property="UIElement.IsMouseOver" Value="True">
+              <Setter x:Uid="Setter_44" TargetName="border" Property="Border.Background" Value="{StaticResource SdlSecondaryButton.MouseOver.Background}" />
+              <Setter x:Uid="Setter_45" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.MouseOver.Border}" />
+              <Setter x:Uid="Setter_111" Property="FrameworkElement.Cursor" Value="Hand" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_5" Property="IsPressed" Value="True">
+              <Setter x:Uid="Setter_46" TargetName="border" Property="Border.Background" Value="{StaticResource SdlSecondaryButton.Pressed.Background}" />
+              <Setter x:Uid="Setter_47" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.Pressed.Border}" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_6" Property="IsEnabled" Value="False">
+              <Setter x:Uid="Setter_48" TargetName="border" Property="Border.Background" Value="{StaticResource SdlSecondaryButton.Disabled.Background}" />
+              <Setter x:Uid="Setter_49" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.Disabled.Border}" />
+              <Setter x:Uid="Setter_50" TargetName="contentPresenter" Property="TextElement.Foreground" Value="{StaticResource SdlSecondaryButton.Disabled.Foreground}" />
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+  <SolidColorBrush x:Key="HyperLinkButton.Static.Background" x:Uid="SolidColorBrush_15" Color="Transparent" />
+  <SolidColorBrush x:Key="HyperLinkButton.Static.Foreground" x:Uid="SolidColorBrush_16" Color="#0096D6" />
+  <SolidColorBrush x:Key="HyperLinkButton.MouseOver.Background" x:Uid="SolidColorBrush_17" Color="Transparent" />
+  <SolidColorBrush x:Key="HyperLinkButton.Pressed.Background" x:Uid="SolidColorBrush_18" Color="Transparent" />
+  <SolidColorBrush x:Key="HyperLinkButton.Disabled.Background" x:Uid="SolidColorBrush_19" Color="Transparent" />
+  <SolidColorBrush x:Key="HyperLinkButton.Disabled.Foreground" x:Uid="SolidColorBrush_20" Color="#0096D6" />
+  <Style x:Key="Sdl.Button.HyperLinkStyle" x:Uid="Style_7" TargetType="{x:Type Button}">
+    <Setter x:Uid="Setter_51" Property="Background" Value="{StaticResource HyperLinkButton.Static.Background}" />
+    <Setter x:Uid="Setter_52" Property="Foreground" Value="{StaticResource HyperLinkButton.Static.Foreground}" />
+    <Setter x:Uid="Setter_53" Property="BorderThickness" Value="0" />
+    <Setter x:Uid="Setter_54" Property="HorizontalContentAlignment" Value="Left" />
+    <Setter x:Uid="Setter_55" Property="VerticalContentAlignment" Value="Center" />
+    <Setter x:Uid="Setter_56" Property="FontSize" Value="13" />
+    <Setter x:Uid="Setter_57" Property="Template">
+      <Setter.Value>
+        <ControlTemplate x:Uid="ControlTemplate_3" TargetType="{x:Type Button}">
+          <StackPanel x:Uid="StackPanel_1">
+            <ContentPresenter Name="contentPresenter" x:Uid="ContentPresenter_1" Margin="1,0" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+            <Border Name="underline" x:Uid="underline" BorderThickness="0,1,0,0" Visibility="Hidden" BorderBrush="{StaticResource HyperLinkButton.Static.Foreground}" />
+          </StackPanel>
+          <ControlTemplate.Triggers>
+            <Trigger x:Uid="Trigger_7" Property="Button.IsDefaulted" Value="True">
+              <Setter x:Uid="Setter_58" Value="{DynamicResource SystemColors.HighlightBrushKey}" Property="BorderBrush" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_8" Property="UIElement.IsMouseOver" Value="True">
+              <Setter x:Uid="Setter_59" Property="Background" Value="{StaticResource HyperLinkButton.MouseOver.Background}" />
+              <Setter x:Uid="Setter_60" Property="FrameworkElement.Cursor" Value="Hand" />
+              <Setter x:Uid="Setter_61" TargetName="underline" Property="Visibility" Value="Visible" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_9" Property="IsPressed" Value="True">
+              <Setter x:Uid="Setter_62" Property="Background" Value="{StaticResource HyperLinkButton.Pressed.Background}" />
+              <Setter x:Uid="Setter_63" Property="FrameworkElement.Cursor" Value="Hand" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_10" Property="IsEnabled" Value="False">
+              <Setter x:Uid="Setter_64" Property="Background" Value="{StaticResource HyperLinkButton.Disabled.Background}" />
+              <Setter x:Uid="Setter_65" Property="TextElement.Foreground" Value="{StaticResource HyperLinkButton.Disabled.Foreground}" />
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+  <SolidColorBrush x:Key="ActionLinkButton.Static.Foreground" x:Uid="SolidColorBrush_21" Color="#25BD59" />
+  <Style x:Key="Sdl.Button.ActionLinkStyle" x:Uid="Style_8" TargetType="{x:Type Button}">
+    <Setter x:Uid="Setter_66" Property="Background" Value="{StaticResource HyperLinkButton.Static.Background}" />
+    <Setter x:Uid="Setter_67" Property="Foreground" Value="{StaticResource ActionLinkButton.Static.Foreground}" />
+    <Setter x:Uid="Setter_68" Property="BorderThickness" Value="0" />
+    <Setter x:Uid="Setter_69" Property="HorizontalContentAlignment" Value="Left" />
+    <Setter x:Uid="Setter_70" Property="VerticalContentAlignment" Value="Center" />
+    <Setter x:Uid="Setter_71" Property="FontSize" Value="13" />
+    <Setter x:Uid="Setter_72" Property="Template">
+      <Setter.Value>
+        <ControlTemplate x:Uid="ControlTemplate_4" TargetType="{x:Type Button}">
+          <StackPanel x:Uid="StackPanel_2">
+            <ContentPresenter Name="contentPresenter" x:Uid="ContentPresenter_2" Margin="1,0" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+            <Border Name="underline" x:Uid="Border_1" BorderThickness="0,1,0,0" Visibility="Hidden" BorderBrush="{StaticResource ActionLinkButton.Static.Foreground}" />
+          </StackPanel>
+          <ControlTemplate.Triggers>
+            <Trigger x:Uid="Trigger_11" Property="Button.IsDefaulted" Value="True">
+              <Setter x:Uid="Setter_73" Value="{DynamicResource SystemColors.HighlightBrushKey}" Property="BorderBrush" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_12" Property="UIElement.IsMouseOver" Value="True">
+              <Setter x:Uid="Setter_74" Property="Background" Value="{StaticResource HyperLinkButton.MouseOver.Background}" />
+              <Setter x:Uid="Setter_75" Property="FrameworkElement.Cursor" Value="Hand" />
+              <Setter x:Uid="Setter_76" TargetName="underline" Property="Visibility" Value="Visible" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_13" Property="IsPressed" Value="True">
+              <Setter x:Uid="Setter_77" Property="Background" Value="{StaticResource HyperLinkButton.Pressed.Background}" />
+              <Setter x:Uid="Setter_78" Property="FrameworkElement.Cursor" Value="Hand" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_14" Property="IsEnabled" Value="False">
+              <Setter x:Uid="Setter_79" Property="Background" Value="{StaticResource HyperLinkButton.Disabled.Background}" />
+              <Setter x:Uid="Setter_80" Property="TextElement.Foreground" Value="{StaticResource HyperLinkButton.Disabled.Foreground}" />
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+  <Style x:Key="IconButtonStyle" x:Uid="Style_9" TargetType="{x:Type Button}">
+    <Setter x:Uid="Setter_81" Property="Width" Value="24" />
+    <Setter x:Uid="Setter_82" Property="Height" Value="23" />
+    <Setter x:Uid="Setter_83" Property="BorderThickness" Value="0" />
+    <Setter x:Uid="Setter_84" Property="Background" Value="{StaticResource SdlSecondaryButton.Background}" />
+    <Setter x:Uid="Setter_85" Property="MaxHeight" Value="24" />
+    <Setter x:Uid="Setter_86" Property="MaxWidth" Value="24" />
+    <Setter x:Uid="Setter_87" Property="HorizontalAlignment" Value="Center" />
+    <Setter x:Uid="Setter_88" Property="VerticalAlignment" Value="Center" />
+    <Setter x:Uid="Setter_89" Property="Margin" Value="0,0,3,0" />
+    <Setter x:Uid="Setter_90" Property="UIElement.SnapsToDevicePixels" Value="True" />
+    <Setter x:Uid="Setter_91" Property="FrameworkElement.Cursor" Value="Hand" />
+    <Setter x:Uid="Setter_92" Property="Template">
+      <Setter.Value>
+        <ControlTemplate x:Uid="ControlTemplate_5" TargetType="{x:Type Button}">
+          <Border Name="border" x:Uid="Border_2" CornerRadius="4" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+            <ContentPresenter Name="contentPresenter" x:Uid="ContentPresenter_3" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}" />
+          </Border>
+          <ControlTemplate.Triggers>
+            <Trigger x:Uid="Trigger_15" Property="Button.IsDefaulted" Value="True">
+              <Setter x:Uid="Setter_93" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.Border}" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_16" Property="UIElement.IsMouseOver" Value="True">
+              <Setter x:Uid="Setter_94" TargetName="border" Property="Border.Background" Value="{StaticResource SdlSecondaryButton.MouseOver.Background}" />
+              <Setter x:Uid="Setter_95" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.MouseOver.Border}" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_17" Property="IsPressed" Value="True">
+              <Setter x:Uid="Setter_96" TargetName="border" Property="Border.Background" Value="{StaticResource SdlSecondaryButton.Pressed.Background}" />
+              <Setter x:Uid="Setter_97" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.Pressed.Border}" />
+            </Trigger>
+            <Trigger x:Uid="Trigger_18" Property="IsEnabled" Value="False">
+              <Setter x:Uid="Setter_98" TargetName="border" Property="Border.Background" Value="{StaticResource SdlSecondaryButton.Disabled.Background}" />
+              <Setter x:Uid="Setter_99" TargetName="border" Property="Border.BorderBrush" Value="{StaticResource SdlSecondaryButton.Disabled.Border}" />
+              <Setter x:Uid="Setter_100" TargetName="contentPresenter" Property="TextElement.Foreground" Value="{StaticResource SdlSecondaryButton.Disabled.Foreground}" />
+            </Trigger>
+          </ControlTemplate.Triggers>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+  </Style>
+  <Style x:Key="{x:Type TextBox}" x:Uid="TextBoxStyle" x:Name="TextBoxStyle" TargetType="{x:Type TextBox}">
+    <Setter x:Uid="Setter_101" Property="VerticalContentAlignment" Value="Center" />
+    <Setter x:Uid="Setter_102" Property="BorderBrush" Value="#B9C3CC" />
+    <Setter x:Uid="Setter_103" Property="Height" Value="23" />
+    <Style.Resources>
+      <ResourceDictionary>
+        <Style x:Key="{x:Type Border}" x:Uid="Style_10" TargetType="{x:Type Border}">
+          <Setter x:Uid="Setter_104" Property="Border.CornerRadius" Value="3" />
+          <Setter x:Uid="Setter_105" Property="BorderBrush" Value="#B9C3CC" />
+        </Style>
+      </ResourceDictionary>
+    </Style.Resources>
+  </Style>
+  <Style x:Key="{x:Type Image}" x:Uid="Style_11" TargetType="{x:Type Image}">
+    <Style.Triggers>
+      <Trigger x:Uid="Trigger_19" Property="IsEnabled" Value="False">
+        <Setter x:Uid="Setter_106" Property="UIElement.Opacity" Value="0.2" />
+      </Trigger>
+    </Style.Triggers>
+  </Style>
+  <Style x:Key="{x:Type TextBlock}" x:Uid="Style_12" TargetType="{x:Type TextBlock}">
+    <Style.Triggers>
+      <Trigger x:Uid="Trigger_20" Property="IsEnabled" Value="False">
+        <Setter x:Uid="Setter_107" Property="UIElement.Opacity" Value="0.2" />
+      </Trigger>
+    </Style.Triggers>
+  </Style>
+  <Style x:Key="{x:Type Label}" x:Uid="Style_15" TargetType="{x:Type Label}">
+    <Setter x:Uid="Setter_112" Property="Padding" Value="1" />
+    <Style.Triggers>
+      <Trigger x:Uid="Trigger_21" Property="IsEnabled" Value="False">
+        <Setter x:Uid="Setter_113" Property="UIElement.Opacity" Value="0.2" />
+      </Trigger>
+    </Style.Triggers>
+  </Style>
+  <Style x:Key="{x:Type CheckBox}" x:Uid="Style_13" TargetType="{x:Type CheckBox}">
+    <Setter x:Uid="Setter_108" Property="BorderBrush" Value="#B9C3CC" />
+    <Style.Resources>
+      <ResourceDictionary>
+        <Style x:Key="{x:Type Border}" x:Uid="Style_14" TargetType="{x:Type Border}">
+          <Setter x:Uid="Setter_109" Property="Border.CornerRadius" Value="2" />
+          <Setter x:Uid="Setter_110" Property="BorderBrush" Value="#B9C3CC" />
+        </Style>
+      </ResourceDictionary>
+    </Style.Resources>
+  </Style>
+</ResourceDictionary>

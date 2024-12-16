@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{83B16F20-96AA-4E0D-9EC7-F6814742CD14}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.Bcm.BcmModel</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Alignment\AlignmentData.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Alignment\LiftSpan.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Alignment\SpanPairNode.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Annotations\AnnotationContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Annotations\CommentContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Annotations\TerminologyAnnotationContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Collections\DictionaryEx.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Collections\FileCollection.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Collections\HashDictionaryInt.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Collections\KeyBasedCollection.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Collections\ParagraphUnitCollection.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Collections\SegmentPairCollection.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Common\BcmConst.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Common\BcmVisitor.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Common\DefaultTranslationOrigin.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Common\ICloneable.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Common\ModelExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Operations.Merge\ContainerCleaner.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Operations.Merge\ContainerMerger.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Operations.Merge\ContainerParentSplitter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Operations.Merge\OperationExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Operations\AdjacentTextMergerVisitor.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Operations\NormalizeSegmentExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Operations\SegmentSplitter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\FloatToIntConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\JsonCreationConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\MarkupDataCreator.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\MarkupDataMapping.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\SegmentElementJsonConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\SystemFieldsJsonConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\TokenCreator.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Serialization\TokenMapping.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\CommentDefinition.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\CommentSeverity.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\Context.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\ContextDefinition.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\FileSkeleton.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\FormattingGroup.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\IdGenerator.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\ITermAttributeContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\PlaceholderTagDefinition.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\SkeletonCollection.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\SkeletonCollectionKey.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\SkeletonItem.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\StructureTagDefinition.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\SubContentCollection.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\TagPairDefinition.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\Term.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\TerminologyData.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\TermOrigin.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Skeleton\TermTranslation.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\AbbreviationToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\AcronymToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\AlphanumericToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\CharSequenceToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\DateTimeToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\GeneralPunctuationToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\IPAdressToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\MeasureToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\NumberToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\TagToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\Token.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\URIToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\VariableToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\WhiteSpaceToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization.Tokens\WordToken.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\DateTimePatternType.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\NumericSeparator.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\PhysicalUnit.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\PhysicalUnitDescription.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\SegmentPosition.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\SegmentRange.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\Sign.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\Similarity.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\TagType.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\Unit.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\UnitSystem.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel.Tokenization\UnitType.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\ConfirmationLevel.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\ContextExtractorExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\DependencyFile.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\DependencyFileUsage.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\Document.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\DocumentExtractorExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\ExtensionDataContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\FeedbackContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\FeedbackType.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\File.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\FileMetaDataKeys.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\Fragment.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\FragmentExtractorExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\ISkeletonItemReference.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\LocalizableSubContent.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\LockedContentContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\MarkupData.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\MarkupDataContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\MetadataContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\Paragraph.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\ParagraphUnit.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\ParagraphUnitMetadataKeys.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\PlaceholderTag.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\RevisionContainer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\RevisionType.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\Segment.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\SegmentationHint.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\SegmentExtractorExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\SegmentMetaDataKeys.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\SegmentPair.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\StructureTag.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\TagPair.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\TagPairMetaDataKeys.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\TextContextMatchLevel.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\TextMarkup.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\TranslationOrigin.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmModel\TranslationOriginMetaData.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core\Sdl.FileTypeSupport.Framework.Core.csproj">
+      <Project>{3d2f8ef7-a42b-4be0-9355-4d5e82c47bf5}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.Core\Sdl.LanguagePlatform.Core.csproj">
+      <Project>{abb02d3b-4924-4f29-b13d-ac1e62696fc8}</Project>
+      <Name>Sdl.LanguagePlatform.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemory\Sdl.LanguagePlatform.TranslationMemory.csproj">
+      <Project>{97609707-ac19-4a2b-9c94-8a50ebbdff95}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

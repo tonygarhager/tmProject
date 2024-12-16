@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:LicensePageControlWPF x:Class="Sdl.Common.Licensing.Provider.Core.UI.WPFControls.LicenseStatusControl" x:ClassModifier="internal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Sdl.Common.Licensing.Provider.Core.UI.WPFControls" x:Uid="local:LicensePageControlWPF_1">
+  <FrameworkElement.Resources>
+    <ResourceDictionary x:Uid="ResourceDictionary_1">
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary x:Uid="ResourceDictionary_2" Source="WPFControlsStyle.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <DockPanel x:Uid="DockPanel_1">
+    <DockPanel x:Uid="DockPanel_2" Dock="Bottom" Margin="22,10">
+      <Button Name="SdlAccountButton" x:Uid="SdlAccountButton" Content="SDL Account" FontSize="14" Style="{StaticResource Sdl.Button.HyperLinkStyle}" VerticalAlignment="Center" AutomationProperties.AutomationId="LicenseStatus_Button_SDLAccount" ToolTip="Access your current licenses" Click="SdlAccountButton_Click" />
+      <StackPanel x:Uid="DockPanel_3" DockPanel.Dock="Right" HorizontalAlignment="Right" Orientation="Horizontal">
+        <Button Name="CancelButton" x:Uid="CancelButton" Style="{StaticResource Sdl.Button.SecondaryStyle}" VerticalAlignment="Center" HorizontalAlignment="Center" AutomationProperties.AutomationId="LicenseStatus_Button_Cancel" Click="CancelButton_Click" />
+        <Button Name="HelpButton" x:Uid="HelpButton" Content="_Help" Style="{StaticResource Sdl.Button.SecondaryStyle}" AutomationProperties.AutomationId="LicenseStatus_Button_Help" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="12 0 0 0" Click="HelpButton_Click" />
+      </StackPanel>
+    </DockPanel>
+    <Separator x:Uid="Separator_1" DockPanel.Dock="Bottom" IsManipulationEnabled="False" Background="#E1E7EB" />
+    <StackPanel x:Uid="StackPanel_1" Margin="22 0" DockPanel.Dock="Top" Orientation="Horizontal">
+      <Image Name="LicenseImage" x:Uid="LicenseImage" DockPanel.Dock="Left" HorizontalAlignment="Left" VerticalAlignment="Top" Height="64" Width="64" />
+      <DockPanel x:Uid="DockPanel_4" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="15 5 0 0">
+        <TextBlock Name="ActiveLicenseDescriptionTextBlock" x:Uid="ActiveLicenseDescriptionTextBlock" DockPanel.Dock="Top" FontWeight="DemiBold" MaxWidth="400" TextWrapping="Wrap" AutomationProperties.AutomationId="LicenseStatus_TextBlock_LicenseDescription" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" />
+        <StackPanel x:Uid="StackPanel_2" Orientation="Horizontal" DockPanel.Dock="Top" Margin="0 10 0 0">
+          <ProgressBar Name="TrialRemainingBar" x:Uid="TrialRemainingBar" Width="150" Height="23" AutomationProperties.AutomationId="LicenseStatus_ProgressBar_TrialProgressBar" Margin="0 0 7 0" />
+          <TextBlock Name="TrialRemainingTextBlock" x:Uid="TrialRemainingTextBlock" VerticalAlignment="Center" AutomationProperties.AutomationId="LicenseStatus_TextBlock_TrialRemaining" />
+        </StackPanel>
+        <StackPanel x:Uid="StackPanel_3" Orientation="Horizontal" DockPanel.Dock="Top" VerticalAlignment="Top" Margin="0 7 0 0">
+          <Button Name="ShowActivationCodeButton" x:Uid="ShowActivationCodeButton" Content="Show activation code" AutomationProperties.AutomationId="LicenseStatus_Button_ShowActivationCode" Style="{StaticResource Sdl.Button.HyperLinkStyle}" ToolTip="Shows the activation code used on this machine" Click="ShowActivationCodeButton_Click" />
+          <Button Name="DeactivateOfflineButton" x:Uid="DeactivateOfflineButton" Content="Deactivate Offline" Style="{StaticResource Sdl.Button.HyperLinkStyle}" Margin="15 0 0 0" AutomationProperties.AutomationId="LicenseStatus_Button_Deactivate" ToolTip="Deactivate the product without an Internet connection" Click="DeactivateOfflineButton_Click" />
+        </StackPanel>
+        <Button Name="ViewDeactivationCertificateButton" x:Uid="ViewDeactivationCertificateButton" Content="View certificate from last deactivation" Style="{StaticResource Sdl.Button.HyperLinkStyle}" DockPanel.Dock="Top" AutomationProperties.AutomationId="LicenseStatus_Button_ViewCertificate" HorizontalAlignment="Left" Margin="0 5" ToolTip="Return the deactivation certificate to SDL as proof that you have deactivated your license" Click="ViewDeactivationCertificateButton_Click" />
+        <TextBlock Name="FirstWarningTextBlock" x:Uid="FirstWarningTextBlock" DockPanel.Dock="Top" AutomationProperties.AutomationId="LicenseStatus_TextBlock_Warning1" Margin="0 5" MaxWidth="400" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" />
+        <TextBlock Name="SecondWarningTextBlock" x:Uid="SecondWarningTextBlock" DockPanel.Dock="Top" AutomationProperties.AutomationId="LicenseStatus_TextBlock_Warning2" Margin="0 5" MaxWidth="400" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" />
+        <StackPanel Name="MainButtonsStackPanel" x:Uid="MainButtonsStackPanel" Orientation="Horizontal" Margin="0 40">
+          <Button Name="ActivateDeactivateButton" x:Uid="ActivateDeactivateButton" Style="{StaticResource Sdl.Button.SecondaryStyle}" DockPanel.Dock="Top" AutomationProperties.AutomationId="LicenseStatus_Button_Activate" Height="40" Margin="0 0 30 0" Click="ActivateDeactivateButton_Click">
+            <StackPanel x:Uid="StackPanel_4" Orientation="Horizontal">
+              <Image Name="ActivateDeactivateButtonImage" x:Uid="ActivateDeactivateButtonImage" Margin="0 0 8 0" Height="20" Width="20" />
+              <Label Name="ActivateDeactivateButtonText" x:Uid="ActivateDeactivateButtonText" VerticalAlignment="Center" />
+            </StackPanel>
+          </Button>
+          <Button Name="PurchaseLicenseButton" x:Uid="PurchaseLicenseButton" Style="{StaticResource Sdl.Button.SecondaryStyle}" DockPanel.Dock="Top" AutomationProperties.AutomationId="LicenseStatus_Button_Purchase" VerticalAlignment="Top" Height="40" Click="PurchaseLicenseButton_Click">
+            <StackPanel x:Uid="StackPanel_5" Orientation="Horizontal">
+              <Image Name="PurchaseLicenseButtonImage" x:Uid="PurchaseLicenseButtonImage" Margin="0 0 8 0" Height="24" Width="24" />
+              <Label x:Uid="TextBlock_1" Content="_Purchase License" VerticalAlignment="Center" />
+            </StackPanel>
+          </Button>
+        </StackPanel>
+      </DockPanel>
+    </StackPanel>
+  </DockPanel>
+</local:LicensePageControlWPF>

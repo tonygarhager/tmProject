@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A2A441AA-5086-4286-B70B-CCE9C1A136EF}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.FileTypeSupport.Bilingual.SdlXliff</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MurmurHash">
+      <HintPath>..\libs\MurmurHash.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Oasis.Xliff12\alttrans.cs" />
+    <Compile Include="Oasis.Xliff12\AttrType_annotates.cs" />
+    <Compile Include="Oasis.Xliff12\AttrType_assoc.cs" />
+    <Compile Include="Oasis.Xliff12\AttrType_Position.cs" />
+    <Compile Include="Oasis.Xliff12\AttrType_Version.cs" />
+    <Compile Include="Oasis.Xliff12\AttrType_YesNo.cs" />
+    <Compile Include="Oasis.Xliff12\binsource.cs" />
+    <Compile Include="Oasis.Xliff12\bintarget.cs" />
+    <Compile Include="Oasis.Xliff12\binunit.cs" />
+    <Compile Include="Oasis.Xliff12\body.cs" />
+    <Compile Include="Oasis.Xliff12\bpt.cs" />
+    <Compile Include="Oasis.Xliff12\bx.cs" />
+    <Compile Include="Oasis.Xliff12\context.cs" />
+    <Compile Include="Oasis.Xliff12\contextgroup.cs" />
+    <Compile Include="Oasis.Xliff12\count.cs" />
+    <Compile Include="Oasis.Xliff12\countgroup.cs" />
+    <Compile Include="Oasis.Xliff12\ElemType_ExternalReference.cs" />
+    <Compile Include="Oasis.Xliff12\ept.cs" />
+    <Compile Include="Oasis.Xliff12\ex.cs" />
+    <Compile Include="Oasis.Xliff12\externalfile.cs" />
+    <Compile Include="Oasis.Xliff12\file.cs" />
+    <Compile Include="Oasis.Xliff12\g.cs" />
+    <Compile Include="Oasis.Xliff12\group.cs" />
+    <Compile Include="Oasis.Xliff12\header.cs" />
+    <Compile Include="Oasis.Xliff12\internalfile.cs" />
+    <Compile Include="Oasis.Xliff12\it.cs" />
+    <Compile Include="Oasis.Xliff12\ItemsChoiceType.cs" />
+    <Compile Include="Oasis.Xliff12\mrk.cs" />
+    <Compile Include="Oasis.Xliff12\note.cs" />
+    <Compile Include="Oasis.Xliff12\ph.cs" />
+    <Compile Include="Oasis.Xliff12\phase.cs" />
+    <Compile Include="Oasis.Xliff12\phasegroup.cs" />
+    <Compile Include="Oasis.Xliff12\segsource.cs" />
+    <Compile Include="Oasis.Xliff12\source.cs" />
+    <Compile Include="Oasis.Xliff12\sub.cs" />
+    <Compile Include="Oasis.Xliff12\target.cs" />
+    <Compile Include="Oasis.Xliff12\tool.cs" />
+    <Compile Include="Oasis.Xliff12\transunit.cs" />
+    <Compile Include="Oasis.Xliff12\x.cs" />
+    <Compile Include="Oasis.Xliff12\xliff.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Diagnostics\Timer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Preview\XliffPreviewResourceManager.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Preview\XliffPreviewXmlWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Preview\XliffXmlFormattingVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Util\CryptographicHelper.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Util\ResourceExtractor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\AbstractXmlContainer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlBuilderAttribute.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlBuilderContainer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlBuilderElement.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlBuilderNamespace.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlBuilderNode.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlBuilderNodeVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlBuilderXmlDeclaration.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\IXmlText.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\TreeGeneration.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlBuilderAttribute.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlBuilderElement.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlBuilderNamespace.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlBuilderNodeVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlBuilderText.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlBuilderXmlDeclaration.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.XmlNodeBuilder\XmlFinderNodeVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\AbstractParagraphUnitBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\AttributeNames.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\AttributeValues.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\DefaultValues.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\DependencyFileHandling.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\DocSkeleton.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\ElementNames.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\FileManager.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\FileSkeleton.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\FilterDefinitionReader.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\GenericStreamReader.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\ISdlXliffStreamContentHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\ITransUnitVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\LanguageReader.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\ParagraphBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\ParagraphDirectionCache.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\PathUtil.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\PluginResources.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffFeeder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffFileSniffer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffFilterComponentBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffFilterConstants.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffFilterSettingNames.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffGeneralSettings.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffNames.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffValidationEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffValidator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SdlXliffVersions.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\StringResources.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\TransUnitBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\TransUnitIterator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\TransUnitWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\WhitespacePreservingXmlTextReader.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XliffEncryptedException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XliffFileReader.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XliffFileWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XliffFormattingXmlTextWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XliffParseException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XliffWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XmlValidationLogEntry.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\XmlValidationLogger.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Preview\BilingualTransform.xslt" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Preview\PreviewStylesheet.css" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff.Preview\XliffPreviewHelper.js" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\PluginResources.resx" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\SDLXLIFF.ico" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\StringResources.resx" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\Xliff.sdl-FilterFramework2-1.0.xsd" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\Xliff.xliff-core-1.2-strict_20032007.xsd" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\Xliff.xliff-core-schema-1.2.xsd" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Bilingual.SdlXliff\Xliff.xml.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.Globalization\Sdl.Core.Globalization.csproj">
+      <Project>{94eee2c8-2673-4b10-a024-59ce35284060}</Project>
+      <Name>Sdl.Core.Globalization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.PluginFramework\Sdl.Core.PluginFramework.csproj">
+      <Project>{732b3798-5e2c-4234-b228-1671e69639c1}</Project>
+      <Name>Sdl.Core.PluginFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Settings\Sdl.Core.Settings.csproj">
+      <Project>{b9a1a97d-e8f6-4034-acee-164d62907021}</Project>
+      <Name>Sdl.Core.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core.Settings\Sdl.FileTypeSupport.Framework.Core.Settings.csproj">
+      <Project>{d5a8143c-698b-4b8d-88b8-47ce92476dce}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core.Utilities\Sdl.FileTypeSupport.Framework.Core.Utilities.csproj">
+      <Project>{22e469df-ff3c-4da2-91d7-c1f402b095ca}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core\Sdl.FileTypeSupport.Framework.Core.csproj">
+      <Project>{3d2f8ef7-a42b-4be0-9355-4d5e82c47bf5}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Implementation\Sdl.FileTypeSupport.Framework.Implementation.csproj">
+      <Project>{675467f5-b1d3-4b88-a826-90a8fa65ff88}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Implementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.PreviewControls\Sdl.FileTypeSupport.Framework.PreviewControls.csproj">
+      <Project>{75a9bf15-f016-420f-b7d6-d2760944cb25}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.PreviewControls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

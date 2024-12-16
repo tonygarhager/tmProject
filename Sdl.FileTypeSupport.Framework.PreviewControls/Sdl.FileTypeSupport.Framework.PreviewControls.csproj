@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{75A9BF15-F016-420F-B7D6-D2760944CB25}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.FileTypeSupport.Framework.PreviewControls</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\AbstractNativePreviewFileWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\AbstractPreviewControl.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\DualBrowserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\GenericExteralPreviewApplication.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\GenericInternalWebBrowserPreviewControl.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\GenericSideBySideWebBrowserPreviewControl.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\ITempFileProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\MsOfficeExternalPreviewApplication.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\NavigableDualBrowserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\SideBySideNavigableWebBrowserPreviewController.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\SideBySideRealtimeWebBrowserPreviewController.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\StringResources.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\TempFileProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.PreviewControls\TempFileUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Framework.PreviewControls\StringResources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core\Sdl.FileTypeSupport.Framework.Core.csproj">
+      <Project>{3d2f8ef7-a42b-4be0-9355-4d5e82c47bf5}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{D9703430-DFAA-47FF-9FB5-8CD183529FE4}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.Bcm.BcmConverters</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\libs\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.IO.Compression\v4.0_4.0.0.0__b77a5c561934e089\System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.IO.Compression.FileSystem\v4.0_4.0.0.0__b77a5c561934e089\System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\BcmTuConversionEventArgs.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\CommonConstants.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\CommonDelegates.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\ContextInfoPair.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\ContextPropertiesItem.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\ContextTable.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\DefaultBuilder.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\DependencyFileHelper.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\DependencyFileType.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\FileSegmentPair.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\ParagraphUnitEventArgs.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\QuickInsertHelper.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\SniffInfo.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\StructureInfoPair.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\StructureInfoWithParent.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\TransUnitConversionSettings.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\TransUnitConversionType.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Common\TuConversionEventArgs.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Extensions\FragmentExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Extensions\SegmentExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.Fields\FieldsConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi.Extensions\ConverterExtensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi.Helpers\FormattingGroupHelper.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi.Helpers\IdGenerator.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi.Helpers\MarkupDataConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi\BcmExtractionSettings.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi\CommentMarkerConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi\ContextHierarchy.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi\FilePropertiesBuilder.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi\MarkupDataContainerVisitor.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi\MarkupDataContainerVisitorData.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.FromBilingualApi\TagDefinitionBuilder.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.Extensions\Extensions.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\CommentContainerConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\DependencyFileConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\FeedbackConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\FormattingGroupConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\LockedContentConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\MarkupDataConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\MarkupDataConverterFactory.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\PlaceholderTagConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\RevisionConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\SegmentConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\StructureTagConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\SubcontentConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\TagPairConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi.MarkupDataConverters\TextMarkupConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi\BcmReader.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi\BcmReaderUtil.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi\BcmToBilingualConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi\ContextInfoPairIdComparer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.ToBilingualApi\StructureInfoPairIdComparer.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaAlignmentSupport\BcmToLinguaAlignmentHelper.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\BcmTokenConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\BcmTokenHelper.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\DateTimeBcmTokenConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\IBcmToLinguaConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\MeasureBcmTokenConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\NumberBcmTokenConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\SimpleBcmTokenConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\TagBcmTokenConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.BcmToLinguaTokenSupport\WordBcmTokenConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.Lingua\BcmTextCollector.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.Lingua\BcmToSegmentElementVisitor.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.Lingua\SegmentElementVisitor.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.Lingua\SegmentElementVisitorWithTagMatching.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters.Lingua\SegmentTokenVisitor.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters\BcmToBilingual.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters\BcmToLingua.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters\ITranslationUnitToBcm.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters\LinguaToBcmMap.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters.TranslationUnitConverters\TranslationUnitToBilingualBcm.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\ApplyTranslationFromTu.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\BcmExtractor.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\BcmParser.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\BcmToFileConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\BcmToTransUnitConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\FileToBcmConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\LinguaToBcmConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\SegmentExtension.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\TextInjector.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\TextToBcmConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\TransUnitToBcmConverter.cs" />
+    <Compile Include="Sdl.Core.Bcm.BcmConverters\WordCountProcessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.Bcm.BcmModel\Sdl.Core.Bcm.BcmModel.csproj">
+      <Project>{83b16f20-96aa-4e0d-9ec7-f6814742cd14}</Project>
+      <Name>Sdl.Core.Bcm.BcmModel</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.FineGrainedAlignment.Core\Sdl.Core.FineGrainedAlignment.Core.csproj">
+      <Project>{caab255f-da30-4615-ab66-2ba16c271ad1}</Project>
+      <Name>Sdl.Core.FineGrainedAlignment.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Globalization\Sdl.Core.Globalization.csproj">
+      <Project>{94eee2c8-2673-4b10-a024-59ce35284060}</Project>
+      <Name>Sdl.Core.Globalization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.LanguageProcessing\Sdl.Core.LanguageProcessing.csproj">
+      <Project>{ae93324e-1ba4-40f2-bf0b-756c1fc42c01}</Project>
+      <Name>Sdl.Core.LanguageProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Settings\Sdl.Core.Settings.csproj">
+      <Project>{b9a1a97d-e8f6-4034-acee-164d62907021}</Project>
+      <Name>Sdl.Core.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Bilingual.SdlXliff\Sdl.FileTypeSupport.Bilingual.SdlXliff.csproj">
+      <Project>{a2a441aa-5086-4286-b70b-cce9c1a136ef}</Project>
+      <Name>Sdl.FileTypeSupport.Bilingual.SdlXliff</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core.Utilities\Sdl.FileTypeSupport.Framework.Core.Utilities.csproj">
+      <Project>{22e469df-ff3c-4da2-91d7-c1f402b095ca}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core\Sdl.FileTypeSupport.Framework.Core.csproj">
+      <Project>{3d2f8ef7-a42b-4be0-9355-4d5e82c47bf5}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Implementation\Sdl.FileTypeSupport.Framework.Implementation.csproj">
+      <Project>{675467f5-b1d3-4b88-a826-90a8fa65ff88}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Implementation</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.Core\Sdl.LanguagePlatform.Core.csproj">
+      <Project>{abb02d3b-4924-4f29-b13d-ac1e62696fc8}</Project>
+      <Name>Sdl.LanguagePlatform.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemoryTools\Sdl.LanguagePlatform.TranslationMemoryTools.csproj">
+      <Project>{41babcec-0a4a-4bf6-8a95-54acb507b8fe}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemoryTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemory\Sdl.LanguagePlatform.TranslationMemory.csproj">
+      <Project>{97609707-ac19-4a2b-9c94-8a50ebbdff95}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

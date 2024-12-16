@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="ConnectionSettingsControl_Error_NoInternetConnection"><value>You are not currently connected to the internet.</value></data>
+  <data name="OnlineActivationFailureSubMessage"><value>Click 'No' to activate offline.</value></data>
+  <data name="DesktopLicensing_Status_Leased_LimitedUses"><value>Leased (Limited Uses)</value></data>
+  <data name="LicenseServerConfigControl_Server_Connect_Error"><value>Cannot connect to the license server. Check that you have entered the correct license server name and that you have network access. 
+Error Details: {0}</value></data>
+  <data name="DesktopLicensing_MessageBox_Title_Error"><value>Error</value></data>
+  <data name="Error_LicenseExpired"><value>License expiration date has reached.</value></data>
+  <data name="LicenseServerConfigControl_SubTitle"><value>Use a network license from a license server.</value></data>
+  <data name="PropertyValueNotDefined"><value>Property {0} value not defined.</value></data>
+  <data name="ViewDeactivationCertificateControl_SubTitle"><value>Shows the deactivation certificate previously generated on this machine.</value></data>
+  <data name="LicenseStatusControl_Deactivate"><value>_Deactivate</value></data>
+  <data name="ServerDoesNotExist"><value>The server name is not correct.</value></data>
+  <data name="LicenseStatusServerControl_Error_General"><value>An error occurred while requesting a license. 
+Click Retry to try again.</value></data>
+  <data name="LicenseStatusControl_EulaPenaltiesWarning1"><value>Licensing governed by end-user license agreement.</value></data>
+  <data name="LicenseStatusControl_EulaPenaltiesWarning2"><value>Unauthorized use of this program may result in severe civil and criminal penalties.</value></data>
+  <data name="OnlineActivationControl_MainTitle"><value>Online Activation</value></data>
+  <data name="OnlineActivationControl_SubTitle"><value>Activate the product over the Internet.</value></data>
+  <data name="LicenseStatusServerControl_Error_NetworkError_LicenseAlreadyBorrowed"><value>The license is already borrowed on this system.</value></data>
+  <data name="OnlineDeactivationFailureSubMessage"><value>Click 'No' to deactivate offline.</value></data>
+  <data name="DesktopLicensing_ButtonText_Cancel"><value>Cancel</value></data>
+  <data name="BorrowLicenseStatusServerControl_ConfirmReturnLicense_Title"><value>Confirm License Return</value></data>
+  <data name="DesktopLicensing_Status_LicenseMustBeReauthorized"><value>License must be reauthorized</value></data>
+  <data name="ViewDeactivationCertificateControl_MainTitle"><value>View Deactivation Certificate</value></data>
+  <data name="ConnectionSettingsControl_InternetConnectionTest_Successful"><value>Internet connectivity check succeeded.</value></data>
+  <data name="NoConnection"><value>No Connection</value></data>
+  <data name="LicenseStatusControl_ConfirmDeactivateProduct_Title"><value>Confirm Deactivation</value></data>
+  <data name="DesktopLicensing_Status_EvaluationExpired"><value>Evaluation Expired</value></data>
+  <data name="LicenseStatusServerControl_CouldNotGetLic"><value>Could not obtain a license from the server.
+Click Retry to try again.</value></data>
+  <data name="OfflineDeactivationControl_DeactivatedLocally"><value>The product is now deactivated locally, but you must enter the deactivation certificate into your SDL Account as proof of deactivation.</value></data>
+  <data name="ConnectionSettingsControl_SubTitle"><value>Modify connection settings if you are having problems connecting to the Internet.</value></data>
+  <data name="LicenseServerConfigControl_MainTitle"><value>Configure a License Server</value></data>
+  <data name="DesktopLicensing_Activation_MessageBox_Title"><value>Product Activation</value></data>
+  <data name="LicensingProviderManager_ControlProviderFactoryNotFound"><value>Could not find any licensing control provider factory '{0}'.</value></data>
+  <data name="DesktopLicensing_Status_NotLicensed"><value>Not Licensed</value></data>
+  <data name="ServerStatusControl_RetrievingLicense"><value>Retrieving License ...</value></data>
+  <data name="DesktopLicensing_Status_Leased"><value>Leased</value></data>
+  <data name="LicenseServerConfigControl_InvalidWithTerminalServices"><value>The application can only be activated using a License Server when Remote Desktop Services Service is installed.</value></data>
+  <data name="DesktopLicensing_Status_IndeterminateLicenseStatus"><value>Indeterminate License Status</value></data>
+  <data name="ConnectionSettingsControl_InternetConnectionTest_Failed"><value>Internet connectivity check failed.</value></data>
+  <data name="LicenseStatusControl_MultipleInstancesRunning"><value>There are multiple instances of this application running. 
+Close the other instances before deactivating the license.</value></data>
+  <data name="Diagnostics_SubTitle"><value>Allows you to perform simple license diagnostics in the event of a licensing problem.</value></data>
+  <data name="LicenseStatusControl_ProductDeactivation_Title"><value>Product Deactivation</value></data>
+  <data name="BorrowLicenseStatusServerControl_BorrowedFromServer"><value>(Borrowed from '{0}')</value></data>
+  <data name="LicenseStatusServerControl_Error_Cannot_Connect"><value>Could not connect to license server.</value></data>
+  <data name="ServerNameNetBiosError"><value>The server name should not contain the following characters  \ / : * ? " ; | +</value></data>
+  <data name="DesktopLicensing_ReturningBorrowedLicense_MessageBox_Title"><value>Borrowing Licenses</value></data>
+  <data name="LicenseStatusServerControl_Retry"><value>_Retry</value></data>
+  <data name="OfflineDeactivationControl_MainTitle"><value>Offline Deactivation</value></data>
+  <data name="OnlineActionFailWouldYouLikeToCheckConnectionSettings"><value>Would you like to check your connection settings?</value></data>
+  <data name="LicenseStatusControl_LicErrorDetails"><value>An error occurred while retrieving your license.
+
+Error Details:
+{0}</value></data>
+  <data name="DesktopLicensing_Status_LicenseRemoved"><value>License Removed</value></data>
+  <data name="OfflineDeactivationControl_DeactivationFailed"><value>Offline deactivation failed.</value></data>
+  <data name="NoConnectionTo"><value>No connection to </value></data>
+  <data name="ConnectionSettingsControl_Error_InvalidPortNumber"><value>Enter a port number.</value></data>
+  <data name="OfflineActivationControl_SubTitle"><value>Allows you to activate the product without requiring an Internet connection.</value></data>
+  <data name="LicenseStatusControl_Activate"><value>_Activate</value></data>
+  <data name="StatusControl_Ok"><value>_OK</value></data>
+  <data name="NetworkLicenseExpired"><value>Network license expired on server {0}.</value></data>
+  <data name="PerFeatureNotImplemented"><value>Per feature property not implemented yet.</value></data>
+  <data name="AlternativeActivationOptionsControl_SubTitle"><value>Select an alternative activation option to activate the product.</value></data>
+  <data name="OnlineDeactivationControl_SubTitle"><value>Deactivate the product over the Internet, using the same code that was used to activate the product.</value></data>
+  <data name="DesktopLicensing_Status_EvaluationMinutesMode"><value>Evaluation Minutes Mode</value></data>
+  <data name="StatusControl_ContinueTrial"><value>_Continue Trial</value></data>
+  <data name="ActivationCode"><value>Activation code</value></data>
+  <data name="LicenseStatusServerControl_Disconnect"><value>_Disconnect</value></data>
+  <data name="LicenseStatusServerControl_Error_No_Seats"><value>No more seats available on this server.</value></data>
+  <data name="ConnectionSettingsControl_Error_ObtainingProxySettings"><value>Error obtaining proxy settings</value></data>
+  <data name="DesktopLicensing_MessageBox_Title_Warning"><value>Warning</value></data>
+  <data name="LicenseServerActivationTitleBar"><value>License Server Activation</value></data>
+  <data name="LicenseStatusServerControl_Error_LicenseRevoked"><value>The license has already been revoked.</value></data>
+  <data name="DesktopLicensing_Status_Licensed_NoUsesLeft"><value>Licensed (No Uses Left)</value></data>
+  <data name="LicenseStatusControl_LicErrorDetailsRetry"><value>An error occurred while retrieving your license.
+
+Error Details:
+{0}
+
+Restart the application.</value></data>
+  <data name="DesktopLicensing_Status_Licensed"><value>Licensed</value></data>
+  <data name="DesktopLicensing_Error_InvalidActivationCertificate"><value>Enter a valid activation certificate.</value></data>
+  <data name="ConnectionSettings_ProxyPortTitle"><value>Proxy Port</value></data>
+  <data name="ConnectionSettings_ProxyPortRange"><value>Proxy port number can only be a number in the range 1-65535</value></data>
+  <data name="DesktopLicensing_ButtonText_Confirm"><value>Confirm</value></data>
+  <data name="LicenseStatusServerControl_BorrowedLicenseHasExpired"><value>Please return your license.</value></data>
+  <data name="DesktopLicensing_Deactivation_Error_UnableToObtainActivationCode"><value>Cannot not get your activation code. Deactivate by entering the code manually.</value></data>
+  <data name="DesktopLicensing_ReturningBorrowedLicense_Failed"><value>Could not return the license to the license server. Check if you have connection to it.</value></data>
+  <data name="LicenseStatusControl_LicError"><value>An error occurred while retrieving your license.</value></data>
+  <data name="DesktopLicensing_GenericError"><value>An error occurred and the operation can't complete.</value></data>
+  <data name="DesktopLicensing_Status_EvaluationMode"><value>Evaluation Mode</value></data>
+  <data name="LicenseManagerForm_DeactivationSuccessful"><value>Deactivation successful.</value></data>
+  <data name="ConnectionSettingsControl_Title"><value>Connection Settings</value></data>
+  <data name="DesktopLicensing_Activation_Successful"><value>Activation successful.</value></data>
+  <data name="DesktopLicensing_ReturningBorrowedLicense_Successful"><value>The license has been returned to the server.</value></data>
+  <data name="LicenseStatusServerControl_Error_NetworkError_MultipleInstances"><value>This license does not allow running multiple instances on the same computer.</value></data>
+  <data name="OfflineActivationControl_ActivationFailed_General"><value>Failed to validate offline. The specified activation certificate may not be valid. Validate your activation certificate against the certificate in your SDL Account.</value></data>
+  <data name="LicenseStatusControl_ConfirmDeactivateProduct"><value>Are you sure you want to deactivate the product?</value></data>
+  <data name="BorrowLicenseStatusServerControl_ConfirmReturnLicense"><value>Are you sure you want to return the license?</value></data>
+  <data name="LicenseStatusControl_DaysRemaining"><value>{0} day(s) remaining</value></data>
+  <data name="RemoteDesktopMessage"><value>This product will not run when connecting via Remote Desktop.</value></data>
+  <data name="RequireElevationForChangingTheServerName"><value>Cannot retrieve license details from the specified server. Check that the license server has a valid license for this application, or run this application as administrator again to specify the license server name.</value></data>
+  <data name="ConnectionSettingsControl_FailedToConnectToInternet"><value>Failed to test Internet connection. Check your proxy settings and try again.</value></data>
+  <data name="DesktopLicensing_Status_Licensed_LimitedUses"><value>Licensed (Limited Uses)</value></data>
+  <data name="DesktopLicensing_LicenseServerConfig_WaitPromptLabel"><value>Connecting to license server.</value></data>
+  <data name="DesktopLicensing_Status_ServerLicense"><value>Server License</value></data>
+  <data name="LicenseTypeNotFound"><value>No license type found.</value></data>
+  <data name="ProductStatusActivation"><value>Product Status Activation</value></data>
+  <data name="OfflineActivationControl_ActivationFailed"><value>Offline activation failed.</value></data>
+  <data name="Diagnostics_MainTitle"><value>Licensing Diagnostics</value></data>
+  <data name="DesktopLicensing_Status_LicenseWasReturnedToServer"><value>License was returned to the server</value></data>
+  <data name="LicenseStatusServerControl_DaysRemaining"><value>{0} day(s) remaining</value></data>
+  <data name="Error_NoLicenseAvailable"><value>No valid license is available.</value></data>
+  <data name="OfflineActivationControl_MainTitle"><value>Offline Activation</value></data>
+  <data name="LicenseStatusServerControl_NoLicenseAvailable"><value>No license available on the license server.
+Contact the license server administrator.</value></data>
+  <data name="LicenseStatusControl_PreviousVersionWarning2"><value>Deactivate license and activate a valid license for this product.</value></data>
+  <data name="LicenseStatusControl_PreviousVersionWarning1"><value>The active license does not support this version of the product.</value></data>
+  <data name="DesktopLicensing_Status_LeaseExpired"><value>Lease Expired</value></data>
+  <data name="LicenseManagerForm_DeactivationFailed"><value>Deactivation failed.</value></data>
+  <data name="LicenseStatusServerControl_Return"><value>_Return</value></data>
+  <data name="LicensingProviderManager_FactoryNotFound"><value>Could not find any licensing provider factory '{0}'.</value></data>
+  <data name="NoNetworkLicenseFound"><value>No network licensing server available on host {0}.</value></data>
+  <data name="LicenseStatusServerControl_Error_NetworkError_LicenseNotBorrowable"><value>This license does not support borrowing.</value></data>
+  <data name="LicenseServerConfigControl_AdminMessage"><value>To enter license server details, you must be logged in as an administrator on this computer.</value></data>
+  <data name="YourActivationCode"><value>The activation code used on this machine is: {0}</value></data>
+  <data name="OnlineDeactivationControl_MainTitle"><value>Online Deactivation</value></data>
+  <data name="OfflineDeactivationControl_SubTitle"><value>Deactivate the product without an Internet connection.</value></data>
+  <data name="DesktopLicensing_MessageBox_Title_Information"><value>Information</value></data>
+  <data name="ErrorFlexNetKey"><value>You have entered an old activation code. This is probably for the 2007 or 2009 product version.</value></data>
+  <data name="LicensingDiagnostics_Running"><value>Running Licensing Diagnostics - {0} {1}{1}</value></data>
+  <data name="LicenseManagerForm_ActivationFailed"><value>Activation failed.</value></data>
+  <data name="DesktopLicensing_Error_InvalidActivationCode"><value>The activation code is not valid. Enter your activation code.</value></data>
+  <data name="LicenseStatusServerControl_Error_LicenseTamperingDetected"><value>The license information is invalid or has been tampered with.</value></data>
+  <data name="DesktopLicensing_ReturningBorrowedLicense_WaitPromptLabel"><value>Returning license to license server.</value></data>
+  <data name="ConnectionSettingsControl_InternetConnectionTest_Title"><value>Success</value></data>
+  <data name="LicenseServerConfigControl_AdminRequiredTooltip"><value>To change the license server, you must be logged in as an administrator on this computer.</value></data>
+  <data name="AlternativeActivationOptionsControl_MainTitle"><value>Alternative Activation Options</value></data>
+  <data name="StatusControl_Close"><value>_Close</value></data>
+  </root>

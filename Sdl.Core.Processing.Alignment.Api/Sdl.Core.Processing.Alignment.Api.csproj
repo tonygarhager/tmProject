@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A53EE968-F004-4312-A15B-44A82F6A3D3C}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.Processing.Alignment.Api</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentApiHelper.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentFileFormat.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentFilePair.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentFilePosition.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentProgressEventArgs.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentResults.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\AlignmentService.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ContentSource.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\FileTypeManagerUtilities.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\GenerateAlignedSdlxliffPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ImportSdlAlignPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ImportSdlRetrofitPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ProcessSdlAlignPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ProgressReporter.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\RealignSdlAlignPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ReverseAlignmentPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ReverseAlignmentProgressEventArgs.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\ReverseAlignmentUpdateResults.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\SdlAlignPackageProgressEventArgs.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\UpdateSdlAlignPhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\UpdateSdlRetrofitPackagePhase.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Api\UpdateSdlxliffPhase.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.Globalization\Sdl.Core.Globalization.csproj">
+      <Project>{94eee2c8-2673-4b10-a024-59ce35284060}</Project>
+      <Name>Sdl.Core.Globalization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.LanguageProcessing\Sdl.Core.LanguageProcessing.csproj">
+      <Project>{ae93324e-1ba4-40f2-bf0b-756c1fc42c01}</Project>
+      <Name>Sdl.Core.LanguageProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Processing.Alignment.Common\Sdl.Core.Processing.Alignment.Common.csproj">
+      <Project>{ac50bed8-f3da-4399-bc0e-c8f43060be31}</Project>
+      <Name>Sdl.Core.Processing.Alignment.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Processing.Alignment\Sdl.Core.Processing.Alignment.csproj">
+      <Project>{ebb3d14c-b471-4c9e-9bbb-83b115eb0991}</Project>
+      <Name>Sdl.Core.Processing.Alignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Processing.Processors.Storage\Sdl.Core.Processing.Processors.Storage.csproj">
+      <Project>{8d08fad8-609a-4aa2-8632-8cbf2f92295a}</Project>
+      <Name>Sdl.Core.Processing.Processors.Storage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Settings\Sdl.Core.Settings.csproj">
+      <Project>{b9a1a97d-e8f6-4034-acee-164d62907021}</Project>
+      <Name>Sdl.Core.Settings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core.Utilities\Sdl.FileTypeSupport.Framework.Core.Utilities.csproj">
+      <Project>{22e469df-ff3c-4da2-91d7-c1f402b095ca}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core\Sdl.FileTypeSupport.Framework.Core.csproj">
+      <Project>{3d2f8ef7-a42b-4be0-9355-4d5e82c47bf5}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.Core\Sdl.LanguagePlatform.Core.csproj">
+      <Project>{abb02d3b-4924-4f29-b13d-ac1e62696fc8}</Project>
+      <Name>Sdl.LanguagePlatform.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.IO\Sdl.LanguagePlatform.IO.csproj">
+      <Project>{FB6CA7C2-5FEC-4843-9A92-F15769083223}</Project>
+      <Name>Sdl.LanguagePlatform.IO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

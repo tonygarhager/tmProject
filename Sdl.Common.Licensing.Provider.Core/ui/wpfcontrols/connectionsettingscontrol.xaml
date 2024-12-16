@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:LicensePageControlWPF x:Class="Sdl.Common.Licensing.Provider.Core.UI.WPFControls.ConnectionSettingsControl" x:ClassModifier="internal" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:local="clr-namespace:Sdl.Common.Licensing.Provider.Core.UI.WPFControls" x:Uid="local:LicensePageControlWPF_1">
+  <FrameworkElement.Resources>
+    <ResourceDictionary x:Uid="ResourceDictionary_1">
+      <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary x:Uid="ResourceDictionary_2" Source="WPFControlsStyle.xaml" />
+        <ResourceDictionary x:Uid="ResourceDictionary_3" Source="NumericUpDownStyle.xaml" />
+      </ResourceDictionary.MergedDictionaries>
+    </ResourceDictionary>
+  </FrameworkElement.Resources>
+  <UIElement.InputBindings>
+    <KeyBinding x:Uid="EscapeCommand" Key="Esc" x:Name="EscapeCommand" />
+  </UIElement.InputBindings>
+  <DockPanel x:Uid="DockPanel_1">
+    <DockPanel x:Uid="DockPanel_2" Dock="Bottom" LastChildFill="False" Margin="22,10">
+      <UniformGrid x:Uid="UniformGrid_1" Columns="2" DockPanel.Dock="Right">
+        <Button Name="CancelButton" x:Uid="CancelButton" Content="_Cancel" HorizontalAlignment="Center" Style="{StaticResource Sdl.Button.SecondaryStyle}" AutomationProperties.AutomationId="ConnectionSettings_Button_Cancel" VerticalAlignment="Center" Click="CancelButton_Click" />
+        <Button Name="HelpButton" x:Uid="HelpButton" Content="_Help" Margin="12 0 0 0" HorizontalAlignment="Center" AutomationProperties.AutomationId="ConnectionSettings_Button_Help" Style="{StaticResource Sdl.Button.SecondaryStyle}" VerticalAlignment="Center" Click="HelpButton_Click" />
+      </UniformGrid>
+    </DockPanel>
+    <Separator x:Uid="Separator_1" DockPanel.Dock="Bottom" IsManipulationEnabled="False" Background="#E1E7EB" />
+    <DockPanel x:Uid="DockPanel_3" Margin="22 0">
+      <CheckBox Name="UseProxySettingsCheckBox" x:Uid="UseProxySettingsCheckBox" DockPanel.Dock="Top" VerticalContentAlignment="Center" AutomationProperties.AutomationId="ConnectionSettings_CheckBox_UseProxy" Margin="0 0 0 15" Checked="UseProxySettingsCheckBox_Checked" Unchecked="UseProxySettingsCheckBox_Checked">
+        <TextBlock x:Uid="TextBlock_1" Text="Use Proxy Settings" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" FontSize="13" VerticalAlignment="Center" />
+      </CheckBox>
+      <TextBlock Name="ActiveTextBlock" x:Uid="ActiveTextBlock" Text="Active" DockPanel.Dock="Top" Margin="0 0 0 5" FontWeight="Bold" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" />
+      <TextBox Name="AddressTextBox" x:Uid="AddressTextBox" DockPanel.Dock="Top" HorizontalAlignment="Stretch" AutomationProperties.AutomationId="ConnectionSettings_TextBox_Address" Margin="0 0 0 15" />
+      <TextBlock Name="PortTextBlock" x:Uid="PortTextBlock" Text="Port" DockPanel.Dock="Top" Margin="0 0 0 5" FontWeight="Bold" Style="{StaticResource Sdl.TextBlock.InformationTextStyle}" />
+      <local:NumericUpDown x:Name="PortNumericUpDown" ValueChanged="PortNumericUpDown_ValueChanged" x:Uid="PortNumericUpDown" DockPanel.Dock="Top" HorizontalAlignment="Left" Style="{StaticResource Sdl.NumericUpDown.Generic}" Margin="0 0 0 10" Value="1" AutomationProperties.AutomationId="ConnectionSettings_NumericUpDown_Port" Minimum="1" />
+      <Button Name="RefreshSettingsButton" x:Uid="RefreshSettingsButton" Content="_Refresh Settings" DockPanel.Dock="Top" HorizontalAlignment="Left" Margin="0 10" AutomationProperties.AutomationId="ConnectionSettings_Button_Refresh" Style="{StaticResource Sdl.Button.SecondaryStyle}" Click="RefreshSettingsButton_Click" />
+      <Button Name="TestInternetConnection" x:Uid="TestInternetConnection" Style="{StaticResource Sdl.Button.SecondaryStyle}" VerticalAlignment="Bottom" HorizontalAlignment="Center" AutomationProperties.AutomationId="ConnectionSettings_Button_TestConnection" Margin="0 0 0 50" Click="TestInternetConnection_Click">
+        <StackPanel x:Uid="StackPanel_1" Orientation="Horizontal">
+          <Image Name="TestConnectionImage" x:Uid="TestConnectionImage" Width="20" Height="20" Margin="0 0 4 0" />
+          <Label x:Uid="TextBlock_2" Content="_Test Internet Connection" VerticalAlignment="Center" />
+        </StackPanel>
+      </Button>
+    </DockPanel>
+  </DockPanel>
+</local:LicensePageControlWPF>
