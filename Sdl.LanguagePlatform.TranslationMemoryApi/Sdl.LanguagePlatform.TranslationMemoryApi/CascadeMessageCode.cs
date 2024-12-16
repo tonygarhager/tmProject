@@ -1,0 +1,16 @@
+namespace Sdl.LanguagePlatform.TranslationMemoryApi
+{
+	public enum CascadeMessageCode
+	{
+		TranslationProviderThrewException,
+		TranslationProviderDoesNotSupportConcordanceSearch,
+		TranslationProviderDoesNotSupportDocumentSearch,
+		TranslationProviderDoesNotSupportTranslation,
+		TranslationProviderDoesNotSupportSourceConcordanceSearch,
+		TranslationProviderDoesNotSupportTargetConcordanceSearch,
+		TranslationProviderDoesNotSupportSearchForTranslationUnits,
+		TranslationProviderIsReadOnly,
+		TranslationProviderDoesNotSupportUpdate,
+		TranslationProviderNeedsUpgrade
+	}
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{395E5C8D-7402-4671-93D0-E0E0699DB66F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Desktop.IntegrationApi.Extensions</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\AbstractController.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\AbstractLocation.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\ActionProperties.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\ActionPropertyChangedEventArgs.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\ActionStyle.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\BindActionAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\BindControllerAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\IAction.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\IBindedController.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions.Internal\PluginTargetCommandBarSiteType.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\AbstractCommandBarItemAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\AbstractLayoutAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\AbstractLayoutConfiguration.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ActionAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ActionLayoutAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ApplicationInitializerAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\DisplayType.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\DockType.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\GroupStyle.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ILocationAware.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\RibbonGroupAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\RibbonGroupLayoutAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ShortcutAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ViewAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ViewPartAttribute.cs" />
+    <Compile Include="Sdl.Desktop.IntegrationApi.Extensions\ViewPartLayoutAttribute.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.PluginFramework\Sdl.Core.PluginFramework.csproj">
+      <Project>{732b3798-5e2c-4234-b228-1671e69639c1}</Project>
+      <Name>Sdl.Core.PluginFramework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{5FE0E95E-8DB9-404C-A2F6-2C7CC12CC6DE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\ContainerEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\DatabaseServerAuthenticationType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\DatabaseServerEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\DatabaseServerType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\ExportEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\FieldEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\FieldGroupTemplateEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\ImportEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\ImportExportEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\LanguageDirectionEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\LanguageDirectionIdentity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\LanguageResourceEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\LanguageResourceTemplateEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\LicensingInformationEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\LicensingRestrictionsEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\PagedTranslationMemoryEntities.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\PicklistItemEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\RecomputeStatisticsResult.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\ResourceBaseEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\ScheduledOperationEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\TMSequenceRef.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\TranslationMemoryEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\TranslationMemoryEntityQuery.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\TranslationMemoryEntityQueryFilters.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\TranslationSequenceEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Entities\TranslationSequenceItemEntity.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Services\ITranslationMemoryAdministration.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.Services\ITranslationMemoryAdministration2014.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\BackgroundTask.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\FieldGroupChangeSet.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\LanguageResourceGroupChangeSet.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\LanguageResourceUpdate.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\LanguageResourceUpdateType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\TranslationMemoryBackgroundTasks.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\TranslationXsd.cs" />
+    <Compile Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\WellknownTaskParameter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.Api\Sdl.Core.Api.csproj">
+      <Project>{9a1bdd78-1a30-464d-a019-83b4fc5ed36d}</Project>
+      <Name>Sdl.Core.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Enterprise2.Platform.Contracts\Sdl.Enterprise2.Platform.Contracts.csproj">
+      <Project>{a530f3f0-02e3-4029-9c2f-10adc950119d}</Project>
+      <Name>Sdl.Enterprise2.Platform.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.Core\Sdl.LanguagePlatform.Core.csproj">
+      <Project>{abb02d3b-4924-4f29-b13d-ac1e62696fc8}</Project>
+      <Name>Sdl.LanguagePlatform.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemory\Sdl.LanguagePlatform.TranslationMemory.csproj">
+      <Project>{97609707-ac19-4a2b-9c94-8a50ebbdff95}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

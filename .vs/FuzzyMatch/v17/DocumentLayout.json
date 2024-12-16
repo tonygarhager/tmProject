@@ -1,0 +1,498 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\tmProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|E:\\work\\tmProject\\fuzzymatch\\filebasedtmhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|solutionrelative:fuzzymatch\\filebasedtmhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|FuzzyMatch||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|e:\\work\\tmproject\\fuzzymatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|solutionrelative:fuzzymatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Sdl.Core.PluginFramework||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675467F5-B1D3-4B88-A826-90A8FA65FF88}|Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Implementation.csproj|E:\\work\\tmProject\\sdl.filetypesupport.framework.implementation\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675467F5-B1D3-4B88-A826-90A8FA65FF88}|Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Implementation.csproj|solutionrelative:sdl.filetypesupport.framework.implementation\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{675467F5-B1D3-4B88-A826-90A8FA65FF88}|Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Implementation.csproj|E:\\work\\tmProject\\sdl.filetypesupport.framework.implementation\\sdl.filetypesupport.framework.integration\\pocofiltermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{675467F5-B1D3-4B88-A826-90A8FA65FF88}|Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Implementation.csproj|solutionrelative:sdl.filetypesupport.framework.implementation\\sdl.filetypesupport.framework.integration\\pocofiltermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedtranslationmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedtranslationmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedlanguageresourcestemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedlanguageresourcestemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledservertranslationmemoryimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledservertranslationmemoryimport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedtranslationmemorylanguagedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedtranslationmemorylanguagedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudbasedtranslationmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudbasedtranslationmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedfieldstemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\serverbasedfieldstemplate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledservertranslationmemoryexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledservertranslationmemoryexport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledreindexoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledreindexoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledrecomputestatisticsoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledrecomputestatisticsoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledlanguageresourcesapplyoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledlanguageresourcesapplyoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledfieldapplyoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\scheduledfieldapplyoperation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemorycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemorycontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemoryimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemoryimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\databaseserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\databaseserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudtranslationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudtranslationprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudbasedtranslationmemorylanguagedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudbasedtranslationmemorylanguagedirection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationproviderserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationproviderserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemoryadminstrationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemoryadminstrationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\importexportoperationbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\importexportoperationbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemoryadministrationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\translationmemoryadministrationclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\fielddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\fielddefinition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudbasedtranslationmemorylanguagedirectioncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\cloudbasedtranslationmemorylanguagedirectioncollection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|E:\\work\\tmProject\\sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\abstractlocaltranslationmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71AA88BA-0536-4446-85E6-BCD43DC0D372}|Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi.csproj|solutionrelative:sdl.languageplatform.translationmemoryapi\\sdl.languageplatform.translationmemoryapi\\abstractlocaltranslationmemory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{732B3798-5E2C-4234-B228-1671E69639C1}|Sdl.Core.PluginFramework\\Sdl.Core.PluginFramework.csproj|e:\\work\\tmproject\\sdl.core.pluginframework\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|e:\\work\\tmproject\\fuzzymatch\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|6185191f-1008-4fb2-a715-3a4e4f27e610"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FuzzyMatch",
+              "DocumentMoniker": "E:\\work\\tmProject\\FuzzyMatch\\FuzzyMatch.csproj",
+              "RelativeDocumentMoniker": "FuzzyMatch\\FuzzyMatch.csproj",
+              "ToolTip": "E:\\work\\tmProject\\FuzzyMatch\\FuzzyMatch.csproj",
+              "RelativeToolTip": "FuzzyMatch\\FuzzyMatch.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T13:00:24.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Sdl.Core.PluginFramework",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.PluginFramework\\Sdl.Core.PluginFramework.csproj",
+              "RelativeDocumentMoniker": "Sdl.Core.PluginFramework\\Sdl.Core.PluginFramework.csproj",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.PluginFramework\\Sdl.Core.PluginFramework.csproj",
+              "RelativeToolTip": "Sdl.Core.PluginFramework\\Sdl.Core.PluginFramework.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T13:00:39.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PocoFilterManager.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Integration\\PocoFilterManager.cs",
+              "RelativeDocumentMoniker": "Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Integration\\PocoFilterManager.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Integration\\PocoFilterManager.cs",
+              "RelativeToolTip": "Sdl.FileTypeSupport.Framework.Implementation\\Sdl.FileTypeSupport.Framework.Integration\\PocoFilterManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:45:03.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ServerBasedTranslationMemory.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemory.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemory.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemory.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemory.cs",
+              "ViewState": "AgIAANgDAAAAAAAAAAAMwOMDAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:18:44.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileBasedTMHelper.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\FuzzyMatch\\FileBasedTMHelper.cs",
+              "RelativeDocumentMoniker": "FuzzyMatch\\FileBasedTMHelper.cs",
+              "ToolTip": "E:\\work\\tmProject\\FuzzyMatch\\FileBasedTMHelper.cs",
+              "RelativeToolTip": "FuzzyMatch\\FileBasedTMHelper.cs",
+              "ViewState": "AgIAABIBAAAAAAAAAAAvwBsBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T11:46:34.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\FuzzyMatch\\Program.cs",
+              "RelativeDocumentMoniker": "FuzzyMatch\\Program.cs",
+              "ToolTip": "E:\\work\\tmProject\\FuzzyMatch\\Program.cs",
+              "RelativeToolTip": "FuzzyMatch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:01:00.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.FileTypeSupport.Framework.Implementation\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.FileTypeSupport.Framework.Implementation\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.FileTypeSupport.Framework.Implementation\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.FileTypeSupport.Framework.Implementation\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:55:32.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServerBasedLanguageResourcesTemplate.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedLanguageResourcesTemplate.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedLanguageResourcesTemplate.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedLanguageResourcesTemplate.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedLanguageResourcesTemplate.cs",
+              "ViewState": "AgIAAF0BAAAAAAAAAAArwF4BAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:37:42.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ScheduledServerTranslationMemoryImport.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryImport.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryImport.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryImport.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryImport.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAjwIMAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:37:12.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServerBasedTranslationMemoryLanguageDirection.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemoryLanguageDirection.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemoryLanguageDirection.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemoryLanguageDirection.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedTranslationMemoryLanguageDirection.cs",
+              "ViewState": "AgIAAMIBAAAAAAAAAAAiwNMBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:33:19.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ServerBasedFieldsTemplate.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedFieldsTemplate.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedFieldsTemplate.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedFieldsTemplate.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ServerBasedFieldsTemplate.cs",
+              "ViewState": "AgIAADkBAAAAAAAAAAAWwEgBAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:32:08.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ScheduledServerTranslationMemoryExport.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryExport.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryExport.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryExport.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledServerTranslationMemoryExport.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAcwIAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:30:54.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CloudBasedTranslationMemory.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemory.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemory.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemory.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemory.cs",
+              "ViewState": "AgIAAEsBAAAAAAAAAIA8wFcBAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:09:30.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ScheduledReindexOperation.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledReindexOperation.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledReindexOperation.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledReindexOperation.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledReindexOperation.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAIA6wCIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:30:43.946Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ScheduledRecomputeStatisticsOperation.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledRecomputeStatisticsOperation.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledRecomputeStatisticsOperation.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledRecomputeStatisticsOperation.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledRecomputeStatisticsOperation.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAArwCIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:30:29.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ScheduledLanguageResourcesApplyOperation.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledLanguageResourcesApplyOperation.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledLanguageResourcesApplyOperation.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledLanguageResourcesApplyOperation.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledLanguageResourcesApplyOperation.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:30:23.923Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ScheduledFieldApplyOperation.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledFieldApplyOperation.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledFieldApplyOperation.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledFieldApplyOperation.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ScheduledFieldApplyOperation.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAWwCAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:30:09.277Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TranslationMemoryContainer.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryContainer.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryContainer.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryContainer.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryContainer.cs",
+              "ViewState": "AgIAAKsBAAAAAAAAAADgv7UBAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:28:57.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TranslationMemoryImporter.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryImporter.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryImporter.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryImporter.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryImporter.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAIAywHEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:28:42.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DatabaseServer.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\DatabaseServer.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\DatabaseServer.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\DatabaseServer.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\DatabaseServer.cs",
+              "ViewState": "AgIAAG8BAAAAAAAAAIA3wIABAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:28:11.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CloudBasedTranslationMemoryLanguageDirection.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirection.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirection.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirection.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirection.cs",
+              "ViewState": "AgIAAGwBAAAAAAAAAIA0wHgBAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:09:34.394Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CloudTranslationProvider.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudTranslationProvider.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudTranslationProvider.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudTranslationProvider.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudTranslationProvider.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAD4v3MAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:09:42.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TranslationProviderServer.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationProviderServer.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationProviderServer.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationProviderServer.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationProviderServer.cs",
+              "ViewState": "AgIAAGgCAAAAAAAAAAD4v3gCAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:19:02.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TranslationMemoryAdminstrationFactory.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdminstrationFactory.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdminstrationFactory.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdminstrationFactory.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdminstrationFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:18:47.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ImportExportOperationBase.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ImportExportOperationBase.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ImportExportOperationBase.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ImportExportOperationBase.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\ImportExportOperationBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:18:41.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "TranslationMemoryAdministrationClient.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdministrationClient.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdministrationClient.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdministrationClient.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\TranslationMemoryAdministrationClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:15:42.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FieldDefinition.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\FieldDefinition.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\FieldDefinition.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\FieldDefinition.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\FieldDefinition.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAwwEEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:10:50.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "CloudBasedTranslationMemoryLanguageDirectionCollection.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirectionCollection.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirectionCollection.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirectionCollection.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\CloudBasedTranslationMemoryLanguageDirectionCollection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:09:40.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AbstractLocalTranslationMemory.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\AbstractLocalTranslationMemory.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\AbstractLocalTranslationMemory.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\AbstractLocalTranslationMemory.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryApi\\Sdl.LanguagePlatform.TranslationMemoryApi\\AbstractLocalTranslationMemory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T12:09:27.487Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

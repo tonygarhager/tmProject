@@ -39,6 +39,7 @@ namespace concordance_search
                 jsonResult.targetTU = result.MemoryTranslationUnit.TargetSegment.ToPlain();
                 jsonResults.Add(jsonResult);
             }
+            
             string jsonString = new JavaScriptSerializer().Serialize(jsonResults);
             Console.Write(jsonString);
 

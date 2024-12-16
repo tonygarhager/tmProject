@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{71AA88BA-0536-4446-85E6-BCD43DC0D372}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.LanguagePlatform.TranslationMemoryApi</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.ServerBasedTranslationMemory.Client">
+      <HintPath>E:\work\Trados SDK Fuzzy Matching\1. Trados SDK Fuzzy Matching Instructions\Fuzzy_Match_SDK\Fuzzy_Match_SDK\Fuzzy_Match_SDK\bin\Release\Sdl.LanguagePlatform.ServerBasedTranslationMemory.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.ComponentModel.DataAnnotations\v4.0_4.0.0.0__31bf3856ad364e35\System.ComponentModel.DataAnnotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Helpers\FileBasedTMSettingsCloner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\AbstractTranslationMemoryCreator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\BaseTranslationMemoryMigrationManager.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\FieldsMerger.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\FileBasedTranslationMemoryCreator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IBaseTranslationMemoryMigrationManager.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IExportableLegacyTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IFieldIdentifierMappings.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IFieldIdentifierMappingsCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IFileBasedTranslationMemoryCreator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IInputLanguageDirectionData.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IInputLanguageDirectionDataCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IInputTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IInputTranslationMemoryCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IItemCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ILegacyLanguageDirectionData.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ILegacyLanguageResources.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ILegacyTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ILegacyTranslationMemorySetup.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IMigrationProject.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\InputFieldIdentifierMappings.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\InputFieldIdentifierMappingsCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\InputLanguagePair.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\InputLanguagePairCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\InputTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\InputTranslationMemoryCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IOutputTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\IOutputTranslationMemoryCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ItemCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ItemCollectionAddedEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ItemCollectionEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ItemCollectionRemovedEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ITmxLegacyTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ITranslationMemoryCreator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ITranslationMemoryExporter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ITranslationMemorySetupOptions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\LegacyLanguage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\LegacyLanguagePair.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\LegacyTranslationMemoryLanguageResources.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\LegacyTranslationMemorySetup.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\MigrationProject.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\OutputTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\OutputTranslationMemoryCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\ProgressEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\TmxFileStatus.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\TmxLegacyTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi.Upgrade\TranslationMemorySetupOptions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\AbstractLocalTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\AbstractMachineTranslationProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\AbstractMachineTranslationProviderLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\AlignmentTMBilingualProcessor.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\BatchExportedEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\BatchImportedEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\Cascade.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CascadeEntry.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CascadeException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CascadeMessage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CascadeMessageCode.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ClientObjectBuilder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ClientObjectKey.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CloudBasedTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CloudBasedTranslationMemoryLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CloudBasedTranslationMemoryLanguageDirectionCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\CloudTranslationProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ContainerProperties.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\DatabaseServer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\DatabaseServerAuthenticationType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\DatabaseServerPermissions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\DatabaseServerProperties.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\DatabaseServerType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\DefaultLanguageResourceProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FieldDefinition.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FieldDefinitionCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FieldsTemplateProperties.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FileBasedLanguageResourcesTemplate.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FileBasedTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FileBasedTranslationMemoryFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FileBasedTranslationMemoryLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\FileTransferEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\GenericCredentials.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IAdvancedContextTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IAdvancedContextTranslationMemoryLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IAlignableTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IdentityInfoCacheCredentialStore.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IFieldsTemplate.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IFileBasedTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ILanguageResourcesTemplate.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ILocalTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ImportExportOperationBase.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ImportExportResponse.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\InMemoryTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\InMemoryTranslationMemoryDescriptor.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IPermissionCheck.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\IReindexableTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ISubsegmentTranslationMemoryLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationMemory2015.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationMemoryDescriptor.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationMemoryLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationProviderCredentialStore.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationProviderFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationProviderLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationProviderLanguageDirectionWithDelete.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationProviderSummaryFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ITranslationProviderWinFormsUI.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\LanguageDirectionProperties.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\LanguageResourceBundle.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\LanguageResourceBundleCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\LanguageResourceEntityCollectionDataAccessor.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\LanguageResourcesTemplateProperties.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\LicensingStatusInformation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\NamespaceDoc.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\NullPropertyException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ObjectDeletedException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ObjectDoesNotExistException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ObjectNotSavedException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\PagedTranslationMemories.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\PermissionConverter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\PicklistItemDefinition.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\PicklistItemDefinitionCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\PropertyValueValidator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ProviderStatusInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\RecognizerFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\RecomputeStatisticsHelper.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\RegexConstants.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\RemoteTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledFieldApplyOperation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledLanguageResourcesApplyOperation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledOperation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledOperationStatus.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledRecomputeStatisticsOperation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledReindexOperation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledServerTranslationMemoryExport.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ScheduledServerTranslationMemoryImport.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerBasedFieldsTemplate.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerBasedLanguageResourcesTemplate.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerBasedTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerBasedTranslationMemoryFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerBasedTranslationMemoryLanguageDirection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerBasedTranslationMemoryLanguageDirectionCollection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerBasedTranslationMemoryVersion.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\ServerImportStatus.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\StringResources.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\SystemFieldDefinitions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TMFieldUpdater.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TMLanguageResourceUpdater.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryAdministrationClient.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryAdminstrationFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryContainer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryContainerPermissions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryExporter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryFieldsPermissions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryFileAccessMode.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryImporter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryLanguageDirectionImportExport.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryLanguageResourcePermissions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryPermissions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryProperties.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryQuery.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryQueryFilters.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemorySearchResultConverters.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMemoryUpgradeUtil.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationMethod.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderAuthenticationException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderCascadePermissions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderCredential.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderCredentialStore.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderDisplayInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderFactoryAttribute.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderManager.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderServer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderUriBuilder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationProviderWinFormsUiAttribute.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationSequenceProperties.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryApi\TranslationUnitPermissions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.LanguagePlatform.TranslationMemoryApi\StringResources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.Api\Sdl.Core.Api.csproj">
+      <Project>{9a1bdd78-1a30-464d-a019-83b4fc5ed36d}</Project>
+      <Name>Sdl.Core.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.FineGrainedAlignment\Sdl.Core.FineGrainedAlignment.csproj">
+      <Project>{b968761c-4c11-447a-aa7c-fc21e132f2c8}</Project>
+      <Name>Sdl.Core.FineGrainedAlignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Globalization\Sdl.Core.Globalization.csproj">
+      <Project>{94eee2c8-2673-4b10-a024-59ce35284060}</Project>
+      <Name>Sdl.Core.Globalization</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.LanguageProcessing\Sdl.Core.LanguageProcessing.csproj">
+      <Project>{ae93324e-1ba4-40f2-bf0b-756c1fc42c01}</Project>
+      <Name>Sdl.Core.LanguageProcessing</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.PluginFramework\Sdl.Core.PluginFramework.csproj">
+      <Project>{732b3798-5e2c-4234-b228-1671e69639c1}</Project>
+      <Name>Sdl.Core.PluginFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Processing.Alignment.Api\Sdl.Core.Processing.Alignment.Api.csproj">
+      <Project>{a53ee968-f004-4312-a15b-44a82f6a3d3c}</Project>
+      <Name>Sdl.Core.Processing.Alignment.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Processing.Alignment\Sdl.Core.Processing.Alignment.csproj">
+      <Project>{ebb3d14c-b471-4c9e-9bbb-83b115eb0991}</Project>
+      <Name>Sdl.Core.Processing.Alignment</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.TM.ImportExport\Sdl.Core.TM.ImportExport.csproj">
+      <Project>{978e617e-0a66-404d-b40e-89cb02425d58}</Project>
+      <Name>Sdl.Core.TM.ImportExport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Enterprise2.Platform.Contracts\Sdl.Enterprise2.Platform.Contracts.csproj">
+      <Project>{a530f3f0-02e3-4029-9c2f-10adc950119d}</Project>
+      <Name>Sdl.Enterprise2.Platform.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Enterprise2.Studio.Platform.Client\Sdl.Enterprise2.Studio.Platform.Client.csproj">
+      <Project>{2c8507a8-88ba-4825-beec-e1e03ac4ca0c}</Project>
+      <Name>Sdl.Enterprise2.Studio.Platform.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core\Sdl.FileTypeSupport.Framework.Core.csproj">
+      <Project>{3d2f8ef7-a42b-4be0-9355-4d5e82c47bf5}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.Core\Sdl.LanguagePlatform.Core.csproj">
+      <Project>{abb02d3b-4924-4f29-b13d-ac1e62696fc8}</Project>
+      <Name>Sdl.LanguagePlatform.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.IO\Sdl.LanguagePlatform.IO.csproj">
+      <Project>{fb6ca7c2-5fec-4843-9a92-f15769083223}</Project>
+      <Name>Sdl.LanguagePlatform.IO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.csproj">
+      <Project>{5fe0e95e-8db9-404c-a2f6-2c7cc12cc6de}</Project>
+      <Name>Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemoryImpl\Sdl.LanguagePlatform.TranslationMemoryImpl.csproj">
+      <Project>{1b9d3b74-0c71-40c5-b3cf-cf2282ca85ee}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemoryImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemoryTools\Sdl.LanguagePlatform.TranslationMemoryTools.csproj">
+      <Project>{41babcec-0a4a-4bf6-8a95-54acb507b8fe}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemoryTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemory\Sdl.LanguagePlatform.TranslationMemory.csproj">
+      <Project>{97609707-ac19-4a2b-9c94-8a50ebbdff95}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemory</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

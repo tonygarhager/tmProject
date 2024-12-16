@@ -210,6 +210,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.FileTypeSupport.Framewo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Core.Bcm.BcmConverters", "Sdl.Core.Bcm.BcmConverters\Sdl.Core.Bcm.BcmConverters.csproj", "{D9703430-DFAA-47FF-9FB5-8CD183529FE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Desktop.IntegrationApi.Extensions", "Sdl.Desktop.IntegrationApi.Extensions\Sdl.Desktop.IntegrationApi.Extensions.csproj", "{395E5C8D-7402-4671-93D0-E0E0699DB66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Versioning", "Sdl.Versioning\Sdl.Versioning.csproj", "{B9C1653F-7B50-448D-A41A-7FE750126854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.Desktop.Logger", "Sdl.Desktop.Logger\Sdl.Desktop.Logger.csproj", "{F8EFA13B-E99E-4DD6-AAEC-FBD13F558CE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.LanguagePlatform.TranslationMemoryApi", "Sdl.LanguagePlatform.TranslationMemoryApi\Sdl.LanguagePlatform.TranslationMemoryApi.csproj", "{71AA88BA-0536-4446-85E6-BCD43DC0D372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts", "Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts\Sdl.LanguagePlatform.ServerBasedTranslationMemory.Contracts.csproj", "{5FE0E95E-8DB9-404C-A2F6-2C7CC12CC6DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -352,6 +362,26 @@ Global
 		{D9703430-DFAA-47FF-9FB5-8CD183529FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9703430-DFAA-47FF-9FB5-8CD183529FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9703430-DFAA-47FF-9FB5-8CD183529FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{395E5C8D-7402-4671-93D0-E0E0699DB66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{395E5C8D-7402-4671-93D0-E0E0699DB66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{395E5C8D-7402-4671-93D0-E0E0699DB66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{395E5C8D-7402-4671-93D0-E0E0699DB66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9C1653F-7B50-448D-A41A-7FE750126854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9C1653F-7B50-448D-A41A-7FE750126854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9C1653F-7B50-448D-A41A-7FE750126854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9C1653F-7B50-448D-A41A-7FE750126854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EFA13B-E99E-4DD6-AAEC-FBD13F558CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EFA13B-E99E-4DD6-AAEC-FBD13F558CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EFA13B-E99E-4DD6-AAEC-FBD13F558CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EFA13B-E99E-4DD6-AAEC-FBD13F558CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71AA88BA-0536-4446-85E6-BCD43DC0D372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71AA88BA-0536-4446-85E6-BCD43DC0D372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71AA88BA-0536-4446-85E6-BCD43DC0D372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71AA88BA-0536-4446-85E6-BCD43DC0D372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FE0E95E-8DB9-404C-A2F6-2C7CC12CC6DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FE0E95E-8DB9-404C-A2F6-2C7CC12CC6DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FE0E95E-8DB9-404C-A2F6-2C7CC12CC6DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FE0E95E-8DB9-404C-A2F6-2C7CC12CC6DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
