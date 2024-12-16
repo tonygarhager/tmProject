@@ -1,0 +1,39 @@
+{
+  "code": "ro",
+  "sets": [
+    {
+      "ranges": [
+        {
+          "lower": 0,
+          "upper": 0
+        },
+        {
+          "transforms": [
+            {
+              "op": 2,
+              "arg": 100
+            }
+          ],
+          "lower": 2,
+          "upper": 19
+        }
+      ],
+      "floatranges": [],
+      "ID": "PluralZeroSmallOrFloat"
+    },
+    {
+      "ranges": [
+        {
+          "lower": 1,
+          "upper": 1
+        }
+      ],
+      "ID": "One"
+    },
+    {
+      "ranges": [],
+      "ID": "Other"
+    }
+  ]
+}
+  

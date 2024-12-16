@@ -1,0 +1,888 @@
+﻿{
+  "UnitDefinitions": [
+    {
+      "key": "Mmm",
+      "type": "Length"
+    },
+    {
+      "key": "Mcm",
+      "type": "Length"
+    },
+    {
+      "key": "Mdm",
+      "type": "Length"
+    },
+    {
+      "key": "Mm",
+      "type": "Length"
+    },
+    {
+      "key": "Mkm",
+      "type": "Length"
+    },
+    {
+      "key": "Mmm2",
+      "type": "Area"
+    },
+    {
+      "key": "Mcm2",
+      "type": "Area"
+    },
+    {
+      "key": "Mm2",
+      "type": "Area"
+    },
+    {
+      "key": "Ma",
+      "type": "Area"
+    },
+    {
+      "key": "Mha",
+      "type": "Area"
+    },
+    {
+      "key": "Mkm2",
+      "type": "Area"
+    },
+    {
+      "key": "Mmg",
+      "type": "Mass"
+    },
+    {
+      "key": "Mg",
+      "type": "Mass"
+    },
+    {
+      "key": "Mkg",
+      "type": "Mass"
+    },
+    {
+      "key": "Mt",
+      "type": "Mass"
+    },
+    {
+      "key": "Mml",
+      "type": "Capacity"
+    },
+    {
+      "key": "Mcm3",
+      "type": "Capacity"
+    },
+    {
+      "key": "Mcl",
+      "type": "Capacity"
+    },
+    {
+      "key": "Mdl",
+      "type": "Capacity"
+    },
+    {
+      "key": "Ml",
+      "type": "Capacity"
+    },
+    {
+      "key": "Mm3",
+      "type": "Capacity"
+    },
+    {
+      "key": "Mcentigrade",
+      "type": "Temperature"
+    },
+    {
+      "key": "Mfahrenheit",
+      "type": "Temperature"
+    },
+    {
+      "key": "Mkelvin",
+      "type": "Temperature"
+    },
+    {
+      "key": "Mpercent",
+      "type": null
+    },
+    {
+      "key": "Mdegree",
+      "type": null
+    },
+    {
+      "key": "BISin",
+      "type": "Length"
+    },
+    {
+      "key": "BISft",
+      "type": "Length"
+    },
+    {
+      "key": "BISyd",
+      "type": "Length"
+    },
+    {
+      "key": "BISfurlong",
+      "type": "Length"
+    },
+    {
+      "key": "BISmi",
+      "type": "Length"
+    },
+    {
+      "key": "BISin2",
+      "type": "Area"
+    },
+    {
+      "key": "BISft2",
+      "type": "Area"
+    },
+    {
+      "key": "BISyd2",
+      "type": "Area"
+    },
+    {
+      "key": "BISacre",
+      "type": "Area"
+    },
+    {
+      "key": "BISmi2",
+      "type": "Area"
+    },
+    {
+      "key": "BISoz",
+      "type": "Mass"
+    },
+    {
+      "key": "BISlb",
+      "type": "Mass"
+    },
+    {
+      "key": "BISshortHW",
+      "type": "Mass"
+    },
+    {
+      "key": "BISlongHW",
+      "type": "Mass"
+    },
+    {
+      "key": "BISflozUK",
+      "type": "Capacity"
+    },
+    {
+      "key": "BISptUK",
+      "type": "Capacity"
+    },
+    {
+      "key": "BISqtUK",
+      "type": "Capacity"
+    },
+    {
+      "key": "BISbuUK",
+      "type": "Capacity"
+    },
+    {
+      "key": "BISgalUK",
+      "type": "Capacity"
+    },
+    {
+      "key": "kcal/g",
+      "type": "1"
+    },
+    {
+      "key": "l/kg",
+      "type": "1"
+    },
+    {
+      "key": "ml/kg",
+      "type": "1"
+    },
+    {
+      "key": "ml/min",
+      "type": "1"
+    },
+    {
+      "key": "min",
+      "type": "1"
+    },
+    {
+      "key": "mm³",
+      "type": "1"
+    },
+    {
+      "key": "mg/l",
+      "type": "1"
+    },
+    {
+      "key": "mg/ml",
+      "type": "1"
+    },
+    {
+      "key": "mol/l",
+      "type": "2"
+    },
+    {
+      "key": "mmol/l",
+      "type": "2"
+    },
+    {
+      "key": "µmol/l",
+      "type": "2"
+    },
+    {
+      "key": "nmol/l",
+      "type": "2"
+    },
+    {
+      "key": "pmol/l",
+      "type": "2"
+    },
+    {
+      "key": "mol/L",
+      "type": "2"
+    },
+    {
+      "key": "mmol/L",
+      "type": "2"
+    },
+    {
+      "key": "µmol/L",
+      "type": "2"
+    },
+    {
+      "key": "nmol/L",
+      "type": "2"
+    },
+    {
+      "key": "pmol/L",
+      "type": "2"
+    },
+    {
+      "key": "mol/dl",
+      "type": "2"
+    },
+    {
+      "key": "mmol/dl",
+      "type": "2"
+    },
+    {
+      "key": "µmol/dl",
+      "type": "2"
+    },
+    {
+      "key": "nmol/dl",
+      "type": "2"
+    },
+    {
+      "key": "pmol/dl",
+      "type": "2"
+    },
+    {
+      "key": "µg",
+      "type": "Mass"
+    },
+    {
+      "key": "ng",
+      "type": "Mass"
+    },
+    {
+      "key": "pg",
+      "type": "Mass"
+    },
+    {
+      "key": "mol",
+      "type": "4"
+    },
+    {
+      "key": "mmol",
+      "type": "4"
+    },
+    {
+      "key": "µmol",
+      "type": "4"
+    },
+    {
+      "key": "nmol",
+      "type": "4"
+    },
+    {
+      "key": "pmol",
+      "type": "4"
+    },
+    {
+      "key": "KB",
+      "type": "5"
+    },
+    {
+      "key": "MB",
+      "type": "5"
+    },
+    {
+      "key": "GB",
+      "type": "5"
+    },
+    {
+      "key": "TB",
+      "type": "5"
+    },
+    {
+      "key": "V",
+      "type": "6"
+    },
+    {
+      "key": "mV",
+      "type": "6"
+    },
+    {
+      "key": "MV",
+      "type": "6"
+    },
+    {
+      "key": "kV",
+      "type": "6"
+    },
+    {
+      "key": "KV",
+      "type": "6"
+    },
+    {
+      "key": "GV",
+      "type": "6"
+    },
+    {
+      "key": "Hz",
+      "type": "7"
+    },
+    {
+      "key": "mHz",
+      "type": "7"
+    },
+    {
+      "key": "MHz",
+      "type": "7"
+    },
+    {
+      "key": "kHz",
+      "type": "7"
+    },
+    {
+      "key": "KHz",
+      "type": "7"
+    },
+    {
+      "key": "GHz",
+      "type": "7"
+    },
+    {
+      "key": "A",
+      "type": "8"
+    },
+    {
+      "key": "mA",
+      "type": "8"
+    },
+    {
+      "key": "µA",
+      "type": "8"
+    },
+    {
+      "key": "MA",
+      "type": "8"
+    },
+    {
+      "key": "kA",
+      "type": "8"
+    },
+    {
+      "key": "KA",
+      "type": "8"
+    },
+    {
+      "key": "GA",
+      "type": "8"
+    },
+    {
+      "key": "J",
+      "type": "9"
+    },
+    {
+      "key": "mJ",
+      "type": "9"
+    },
+    {
+      "key": "MJ",
+      "type": "9"
+    },
+    {
+      "key": "kJ",
+      "type": "9"
+    },
+    {
+      "key": "KJ",
+      "type": "9"
+    },
+    {
+      "key": "GJ",
+      "type": "9"
+    },
+    {
+      "key": "PS",
+      "type": "10"
+    },
+    {
+      "key": "mPS",
+      "type": "10"
+    },
+    {
+      "key": "MPS",
+      "type": "10"
+    },
+    {
+      "key": "kPS",
+      "type": "10"
+    },
+    {
+      "key": "KPS",
+      "type": "10"
+    },
+    {
+      "key": "GPS",
+      "type": "10"
+    },
+    {
+      "key": "N",
+      "type": "11"
+    },
+    {
+      "key": "mN",
+      "type": "11"
+    },
+    {
+      "key": "MN",
+      "type": "11"
+    },
+    {
+      "key": "kN",
+      "type": "11"
+    },
+    {
+      "key": "KN",
+      "type": "11"
+    },
+    {
+      "key": "GN",
+      "type": "11"
+    },
+    {
+      "key": "Nm",
+      "type": "12"
+    },
+    {
+      "key": "mNm",
+      "type": "12"
+    },
+    {
+      "key": "MNm",
+      "type": "12"
+    },
+    {
+      "key": "kNm",
+      "type": "12"
+    },
+    {
+      "key": "KNm",
+      "type": "12"
+    },
+    {
+      "key": "GNm",
+      "type": "12"
+    },
+    {
+      "key": "mK",
+      "type": "Temperature"
+    },
+    {
+      "key": "MK",
+      "type": "Temperature"
+    },
+    {
+      "key": "kK",
+      "type": "Temperature"
+    },
+    {
+      "key": "KK",
+      "type": "Temperature"
+    },
+    {
+      "key": "GK",
+      "type": "Temperature"
+    },
+    {
+      "key": "cal",
+      "type": "14"
+    },
+    {
+      "key": "mcal",
+      "type": "14"
+    },
+    {
+      "key": "Mcal",
+      "type": "14"
+    },
+    {
+      "key": "kcal",
+      "type": "14"
+    },
+    {
+      "key": "Gcal",
+      "type": "14"
+    },
+    {
+      "key": "B",
+      "type": "15"
+    },
+    {
+      "key": "mB",
+      "type": "15"
+    },
+    {
+      "key": "kB",
+      "type": "15"
+    },
+    {
+      "key": "W",
+      "type": "16"
+    },
+    {
+      "key": "mW",
+      "type": "16"
+    },
+    {
+      "key": "MW",
+      "type": "16"
+    },
+    {
+      "key": "kW",
+      "type": "16"
+    },
+    {
+      "key": "KW",
+      "type": "16"
+    },
+    {
+      "key": "GW",
+      "type": "16"
+    },
+    {
+      "key": "g/dl",
+      "type": "17"
+    },
+    {
+      "key": "mg/dl",
+      "type": "17"
+    },
+    {
+      "key": "µg/dl",
+      "type": "17"
+    },
+    {
+      "key": "ng/dl",
+      "type": "17"
+    },
+    {
+      "key": "pg/dl",
+      "type": "17"
+    },
+    {
+      "key": "kg/dl",
+      "type": "17"
+    },
+    {
+      "key": "g/kg",
+      "type": "18"
+    },
+    {
+      "key": "mg/kg",
+      "type": "18"
+    },
+    {
+      "key": "µg/kg",
+      "type": "18"
+    },
+    {
+      "key": "ng/kg",
+      "type": "18"
+    },
+    {
+      "key": "pg/kg",
+      "type": "18"
+    },
+    {
+      "key": "kg/kg",
+      "type": "18"
+    },
+    {
+      "key": "g/l",
+      "type": "19"
+    },
+    {
+      "key": "µg/l",
+      "type": "19"
+    },
+    {
+      "key": "ng/l",
+      "type": "19"
+    },
+    {
+      "key": "pg/l",
+      "type": "19"
+    },
+    {
+      "key": "kg/l",
+      "type": "19"
+    },
+    {
+      "key": "g/m²",
+      "type": "20"
+    },
+    {
+      "key": "mg/m²",
+      "type": "20"
+    },
+    {
+      "key": "µg/m²",
+      "type": "20"
+    },
+    {
+      "key": "ng/m²",
+      "type": "20"
+    },
+    {
+      "key": "pg/m²",
+      "type": "20"
+    },
+    {
+      "key": "kg/m²",
+      "type": "20"
+    },
+    {
+      "key": "g/ml",
+      "type": "21"
+    },
+    {
+      "key": "µg/ml",
+      "type": "21"
+    },
+    {
+      "key": "ng/ml",
+      "type": "21"
+    },
+    {
+      "key": "pg/ml",
+      "type": "21"
+    },
+    {
+      "key": "kg/ml",
+      "type": "21"
+    },
+    {
+      "key": "ms",
+      "type": "22"
+    },
+    {
+      "key": "µs",
+      "type": "22"
+    },
+    {
+      "key": "ns",
+      "type": "22"
+    },
+    {
+      "key": "cd",
+      "type": "23"
+    },
+    {
+      "key": "m/s",
+      "type": "Velocity"
+    },
+    {
+      "key": "m/s²",
+      "type": "Acceleration"
+    },
+    {
+      "key": "kg/m³",
+      "type": "24"
+    },
+    {
+      "key": "m³/kg",
+      "type": "25"
+    },
+    {
+      "key": "A/m²",
+      "type": "26"
+    },
+    {
+      "key": "A/m",
+      "type": "27"
+    },
+    {
+      "key": "mol/m³",
+      "type": "28"
+    },
+    {
+      "key": "cd/m²",
+      "type": "29"
+    },
+    {
+      "key": "rad",
+      "type": "30"
+    },
+    {
+      "key": "sr",
+      "type": "31"
+    },
+    {
+      "key": "Pa",
+      "type": "32"
+    },
+    {
+      "key": "Ω",
+      "type": "33"
+    },
+    {
+      "key": "Wb",
+      "type": "34"
+    },
+    {
+      "key": "T",
+      "type": "35"
+    },
+    {
+      "key": "lm",
+      "type": "36"
+    },
+    {
+      "key": "lx",
+      "type": "37"
+    },
+    {
+      "key": "Bq",
+      "type": "38"
+    },
+    {
+      "key": "Gy",
+      "type": "39"
+    },
+    {
+      "key": "Sv",
+      "type": "40"
+    },
+    {
+      "key": "kat",
+      "type": "41"
+    },
+    {
+      "key": "Pa s",
+      "type": "42"
+    },
+    {
+      "key": "N/m",
+      "type": "43"
+    },
+    {
+      "key": "rad/s",
+      "type": "44"
+    },
+    {
+      "key": "rad/s²",
+      "type": "52"
+    },
+    {
+      "key": "W/m²",
+      "type": "53"
+    },
+    {
+      "key": "J/K",
+      "type": "54"
+    },
+    {
+      "key": "J/(kg K)",
+      "type": "55"
+    },
+    {
+      "key": "J/kg",
+      "type": "56"
+    },
+    {
+      "key": "W/(m K)",
+      "type": "57"
+    },
+    {
+      "key": "J/m³",
+      "type": "58"
+    },
+    {
+      "key": "V/m",
+      "type": "59"
+    },
+    {
+      "key": "C/m³",
+      "type": "60"
+    },
+    {
+      "key": "C/m²",
+      "type": "61"
+    },
+    {
+      "key": "F/m",
+      "type": "62"
+    },
+    {
+      "key": "H/m",
+      "type": "63"
+    },
+    {
+      "key": "J/mol",
+      "type": "64"
+    },
+    {
+      "key": "J/(mol K)",
+      "type": "65"
+    },
+    {
+      "key": "C/kg",
+      "type": "66"
+    },
+    {
+      "key": "Gy/s",
+      "type": "67"
+    },
+    {
+      "key": "W/sr",
+      "type": "68"
+    },
+    {
+      "key": "W/(m² sr)",
+      "type": "69"
+    },
+    {
+      "key": "kat/m³",
+      "type": "70"
+    },
+    {
+      "key": "Np",
+      "type": "76"
+    },
+    {
+      "key": "dB",
+      "type": "77"
+    },
+    {
+      "key": "eV",
+      "type": "78"
+    },
+    {
+      "key": "u",
+      "type": "79"
+    },
+    {
+      "key": "ua",
+      "type": "80"
+    }
+  ]
+}

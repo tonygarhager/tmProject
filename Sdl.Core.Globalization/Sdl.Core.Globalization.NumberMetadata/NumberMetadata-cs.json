@@ -1,0 +1,33 @@
+    {
+      "code": "cs",
+      "sets": [
+        {
+          "ranges": [
+            {
+              "lower": 0,
+              "upper": 1
+            }
+          ],
+          "ID": "ZeroOrOne"
+        },
+        {
+          "ranges": [
+            {
+              "lower": 2,
+              "upper": 4
+            }
+          ],
+          "ID": "TwoToFour"
+        },
+        {
+          "ranges": [
+            {
+              "lower": 5,
+              "upper": null
+            }
+          ],
+          "floatranges": [],
+          "ID": "FiveOrMoreOrFloat"
+        }
+      ]
+    }

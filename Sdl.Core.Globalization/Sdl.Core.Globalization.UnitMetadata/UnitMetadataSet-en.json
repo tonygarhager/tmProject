@@ -1,0 +1,34 @@
+{
+  "UnitMetadataList": [
+    {
+      "key": "Mmm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "One",
+              "label": "millimeter"
+            },
+            {
+              "rangeid": "PluralOrZeroOrFloat",
+              "label": "millimeters"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "rangeid": "One",
+              "label": "millimetre"
+            },
+            {
+              "rangeid": "PluralOrZeroOrFloat",
+              "label": "millimetres"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "en"
+}

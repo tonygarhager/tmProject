@@ -1,0 +1,22 @@
+﻿{
+  "UnitMetadataList": [
+    {
+      "key": "BISmi",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "One",
+              "label": "Meile"
+            },
+            {
+              "rangeid": "PluralOrZeroOrFloat",
+              "label": "Meilen"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "de"
+}

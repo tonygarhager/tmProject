@@ -1,0 +1,2 @@
+E:\work\tmProject\FuzzyMatch\obj\Debug\FuzzyMatch.csproj.AssemblyReference.cache
+E:\work\tmProject\FuzzyMatch\obj\Debug\FuzzyMatch.csproj.CoreCompileInputs.cache

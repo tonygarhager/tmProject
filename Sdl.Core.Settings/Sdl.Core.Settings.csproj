@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B9A1A97D-E8F6-4034-ACEE-164D62907021}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.Settings</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\Microsoft.CSharp\v4.0_4.0.0.0__b03f5f7f11d50a3a\Microsoft.CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Json\JsonSettingImpl.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Json\JsonSettingsBundle.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Json\JsonSettingsGroup.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Xml\Setting.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Xml\SettingsBundle.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Xml\SettingsGroup.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Xml\SettingsXsd.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation.Xml\XmlSettingImpl.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\AbstractSettingsBundleAware.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\ArraySetting.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\ByteArraySetting.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\DataContractSerializableSetting.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\GenericSettingsGroup.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\GuidConverter.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\LanguageSetting.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\NamespaceDoc.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\RemoveControlCharactersXmlWriter.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\SettingFactory.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\SettingsBundle.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\SettingsGroupTypeDescriptionProvider.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\SettingsGroupTypeDescriptor.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\SimpleSetting.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\TypeConverterUtil.cs" />
+    <Compile Include="Sdl.Core.Settings.Implementation\XmlSerializableSetting.cs" />
+    <Compile Include="Sdl.Core.Settings\AbstractSettingsGroupBase.cs" />
+    <Compile Include="Sdl.Core.Settings\AbstractSettingsPage.cs" />
+    <Compile Include="Sdl.Core.Settings\ISettingsBundle.cs" />
+    <Compile Include="Sdl.Core.Settings\ISettingsBundleAware.cs" />
+    <Compile Include="Sdl.Core.Settings\ISettingsGroup.cs" />
+    <Compile Include="Sdl.Core.Settings\ISettingsPage.cs" />
+    <Compile Include="Sdl.Core.Settings\NamespaceDoc.cs" />
+    <Compile Include="Sdl.Core.Settings\Setting.cs" />
+    <Compile Include="Sdl.Core.Settings\SettingsChangedEventArgs.cs" />
+    <Compile Include="Sdl.Core.Settings\SettingsGroup.cs" />
+    <Compile Include="Sdl.Core.Settings\SettingsUtil.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

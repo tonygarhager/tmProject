@@ -1,0 +1,76 @@
+    {
+      "code": "ru",
+      "sets": [
+        {
+          "ranges": [
+            {
+              "lower": 0,
+              "upper": 0
+            },
+            {
+              "transforms": [
+                {
+                  "op": 2,
+                  "arg": 100
+                }
+              ],
+              "lower": 5,
+              "upper": 20
+            },
+            {
+              "transforms": [
+                {
+                  "op": 2,
+                  "arg": 10
+                }
+              ],
+              "lower": 5,
+              "upper": 9
+            },
+            {
+              "transforms": [
+                {
+                  "op": 2,
+                  "arg": 10
+                }
+              ],
+              "lower": 0,
+              "upper": 0
+            }
+
+          ],
+          "ID": "m"
+        },
+        {
+          "ranges": [
+            {
+              "transforms": [
+                {
+                  "op": 2,
+                  "arg": 10
+                }
+              ],
+              "lower": 1,
+              "upper": 1
+            }
+          ],
+          "ID": "o"
+        },
+        {
+          "ranges": [
+            {
+              "transforms": [
+                {
+                  "op": 2,
+                  "arg": 10
+                }
+              ],
+              "lower": 2,
+              "upper": 4
+            }
+          ],
+          "floatranges": [],
+          "ID": "f"
+        }
+      ]
+    }

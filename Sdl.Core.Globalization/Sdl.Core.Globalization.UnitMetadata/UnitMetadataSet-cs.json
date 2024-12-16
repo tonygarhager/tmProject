@@ -1,0 +1,27 @@
+{
+  "UnitMetadataList": [
+    {
+      "key": "Mm",
+      
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "ZeroOrOne",
+              "label": "metr"
+            },
+            {
+              "rangeid": "TwoToFour",
+              "label": "metry"
+            },
+            {
+              "rangeid": "FiveOrMoreOrFloat",
+              "label": "metrů"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "cs-CZ"
+}

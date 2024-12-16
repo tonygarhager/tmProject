@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{732B3798-5E2C-4234-B228-1671E69639C1}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.PluginFramework</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Xml.Linq\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.PluginFramework.PackageSupport">
+      <HintPath>..\Sdl.Core.PluginFramework.PackageSupport\bin\Debug\Sdl.Core.PluginFramework.PackageSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation.Validation\ExtensionAttributeInfo.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\Extension.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\ExtensionPoint.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\FilterableList.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\IFilteredList.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\IListFilter.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\Plugin.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\PluginDeserializer.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\PluginRegistry.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\PluginResourceManager.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\PluginXmlUtils.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Implementation\TypeLoaderUtil.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ExtensionArguments.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ExtensionBuilderAttribute.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ExtensionBuilderCatalog.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ExtensionBuilderFactory.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ExtensionsFactory.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ExtensionsRepository.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ExtensionStoreItem.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\IExtensionBuilder.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\IExtensionFactory.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Integration\ValuePairTypeInstance.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Util\ExtensionSorter.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Util\ITopologicalSortable.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Util\SortableExtensionAttribute.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Util\SortedObjectRegistry.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Util\TopologicalExtensions.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Util\TopologicalSort.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Util\TopologicalSorter.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Validation\IExtensionAttributeInfo.cs" />
+    <Compile Include="Sdl.Core.PluginFramework.Validation\IExtensionValidationContext.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\AuxiliaryExtensionAttribute.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\AuxiliaryExtensionAttributeCollection.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\DefaultObjectResolver.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\DefaultPluginLocator.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\DefaultPluginTypeLoader.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ExtensionAttribute.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ExtensionCollection.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ExtensionEventArgs.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ExtensionPointBehavior.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ExtensionPointCollection.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ExtensionPointInfoAttribute.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\FileBasedPluginDescriptor.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\FileBasedThirdPartyPluginDescriptor.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IExtension.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IExtensionAware.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IExtensionPoint.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\InitializePluginCompletedEventArgs.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\InitializePluginProgressChangedEventArgs.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\InvalidSdlAssemblyReference.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IObjectResolver.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPlugin.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginCache.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginDescriptor.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginFilter.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginInitializer.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginLocator.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginRegistry.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginStateHandler.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IPluginTypeLoader.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\IThirdPartyPluginDescriptor.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ObjectFactory.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ObjectRegistry.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginAttribute.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginCollection.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginFrameworkException.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginId.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginInitializationResult.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginInitializationResultsEventArgs.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginInitializedCallback.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginLoadExceptionEventArgs.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginManager.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginManifest.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginResourceAttribute.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginState.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\PluginStatus.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\SdlAssemblyReferenceError.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\StringResources.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\ValidatingPluginLocator.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\XmlPluginCache.cs" />
+    <Compile Include="Sdl.Core.PluginFramework\XmlPluginConfig.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.Core.PluginFramework\OpenXCert.cer" />
+    <EmbeddedResource Include="Sdl.Core.PluginFramework\SecureModeCert.cer" />
+    <EmbeddedResource Include="Sdl.Core.PluginFramework\StringResources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

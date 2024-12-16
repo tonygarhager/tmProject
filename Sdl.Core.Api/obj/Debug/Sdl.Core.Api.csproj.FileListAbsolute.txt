@@ -1,0 +1,10 @@
+E:\work\tmProject\Sdl.Core.Api\bin\Debug\Sdl.Core.Api.dll
+E:\work\tmProject\Sdl.Core.Api\bin\Debug\Sdl.Core.Api.pdb
+E:\work\tmProject\Sdl.Core.Api\bin\Debug\System.Runtime.Serialization.dll
+E:\work\tmProject\Sdl.Core.Api\bin\Debug\System.ServiceModel.dll
+E:\work\tmProject\Sdl.Core.Api\bin\Debug\System.Xml.dll
+E:\work\tmProject\Sdl.Core.Api\obj\Debug\Sdl.Core.Api.csproj.AssemblyReference.cache
+E:\work\tmProject\Sdl.Core.Api\obj\Debug\Sdl.Core.Api.csproj.CoreCompileInputs.cache
+E:\work\tmProject\Sdl.Core.Api\obj\Debug\Sdl.Core.37FDB32E.Up2Date
+E:\work\tmProject\Sdl.Core.Api\obj\Debug\Sdl.Core.Api.dll
+E:\work\tmProject\Sdl.Core.Api\obj\Debug\Sdl.Core.Api.pdb

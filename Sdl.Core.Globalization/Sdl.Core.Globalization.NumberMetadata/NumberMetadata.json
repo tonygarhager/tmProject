@@ -1,0 +1,29 @@
+{
+  "code": "",
+  "sets": [
+    {
+      "ranges": [
+        {
+          "lower": 0,
+          "upper": 0
+        },
+        {
+          "lower": 2,
+          "upper": null
+        }
+      ],
+      "floatranges": [],
+      "ID": "PluralOrZeroOrFloat"
+    },
+    {
+      "ranges": [
+        {
+          "lower": 1,
+          "upper": 1
+        }
+      ],
+      "ID": "One"
+    }
+  ]
+}
+  

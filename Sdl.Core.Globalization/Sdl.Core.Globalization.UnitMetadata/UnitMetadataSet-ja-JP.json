@@ -1,0 +1,3224 @@
+{
+  "UnitMetadataList": [
+    {
+      "key": "Mmm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ミリメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾐﾘﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎜"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "センチメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｾﾝﾁﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎝"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "デシメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾃﾞｼﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌥"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍍"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｍ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎞"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方ミリメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ﾐﾘﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎣"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方センチメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ｾﾝﾁﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎤"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎡"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ma",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "アール"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｱｰﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌃"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mha",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ヘクタール"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾍｸﾀｰﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌶"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方キロメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ｷﾛﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方キロ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ｷﾛ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎢"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ミリグラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾐﾘｸﾞﾗﾑ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎎"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "グラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｸﾞﾗﾑ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌘"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "マイクログラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾏｲｸﾛｸﾞﾗﾑ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎍"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍃"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ナノグラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾅﾉｸﾞﾗﾑ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌨"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キログラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛｸﾞﾗﾑ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎏"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mt",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メートルトン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｰﾄﾙﾄﾝ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "トン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾄﾝ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌧"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mml",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ミリリットル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾐﾘﾘｯﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm3",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "立方センチメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "立方ｾﾝﾁﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎤"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏄"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｃｃ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "cc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcl",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "センチリットル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｾﾝﾁﾘｯﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdl",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "デシリットル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾃﾞｼﾘｯﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎗"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ml",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "リットル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾘｯﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍑"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ℓ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm3",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "立方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "立方ﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎥"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcentigrade",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "摂氏温度"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "セ氏温度"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｾ氏温度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mfahrenheit",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "華氏温度"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "カ氏温度"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｶ氏温度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkelvin",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ケルビン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｹﾙﾋﾞﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mpercent",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "パーセント"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾊﾟｰｾﾝﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "％"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌫"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdegree",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "度"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "°"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "インチ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｲﾝﾁ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌅"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "フィート"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾌｨｰﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌳"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ヤード"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾔｰﾄﾞ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍎"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISfurlong",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ファーロング"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾌｧｰﾛﾝｸﾞ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "マイル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾏｲﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍄"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏕"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方インチ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ｲﾝﾁ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方フィート"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ﾌｨｰﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方ヤード"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ﾔｰﾄﾞ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISacre",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "エーカー"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｴｰｶｰ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌈"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方マイル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方ﾏｲﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISoz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "オンス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｵﾝｽ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "常衡オンス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "常衡ｵﾝｽ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "常用オンス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "常用ｵﾝｽ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlb",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ポンド"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾎﾟﾝﾄﾞ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "常衡ポンド"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "常衡ﾎﾟﾝﾄﾞ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍀"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISshortHW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ショートハンドレッドウェイト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼｮｰﾄﾊﾝﾄﾞﾚｯﾄﾞｳｪｲﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlongHW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ロングハンドレッドウェイト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾛﾝｸﾞﾊﾝﾄﾞﾚｯﾄﾞｳｪｲﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "大百重"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISflozUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英国式液量オンス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "英国式液量ｵﾝｽ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "液量オンス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "液量ｵﾝｽ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式液量オンス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式液量ｵﾝｽ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米液量オンス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米液量ｵﾝｽ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISptUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英国式パイント"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "英国式ﾊﾟｲﾝﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "パイント"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾊﾟｲﾝﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米液量パイント"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米液量ﾊﾟｲﾝﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式液量パイント"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式液量ﾊﾟｲﾝﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式乾燥パイント"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式乾燥ﾊﾟｲﾝﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米乾燥パイント"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米乾燥ﾊﾟｲﾝﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISqtUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英国式クォート"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "英国式ｸｫｰﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "クォート"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｸｫｰﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISbuUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英国式ブッシェル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "英国式ﾌﾞｯｼｪﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ブッシェル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾌﾟｯｼｪﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌴"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾌﾞｯｼｪﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "プッシェル"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISgalUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英国式ガロン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "英国式ｶﾞﾛﾝ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ガロン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｶﾞﾛﾝ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌎"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米液量ガロン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米液量ｶﾞﾛﾝ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式液量ガロン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米国式液量ｶﾞﾛﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ms",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ミリ秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾐﾘ秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µs",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "マイクロ秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾏｲｸﾛ秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "マイクロセカンド"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾏｲｸﾛｾｶﾝﾄﾞ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ns",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ナノ秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾅﾉ秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ナノセカンド"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾅﾉｾｶﾝﾄﾞ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "アンペア"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｱﾝﾍﾟｱ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌂"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mA",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ミリアンペア"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾐﾘｱﾝﾍﾟｱ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µA",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "マイクロアンペア"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾏｲｸﾛｱﾝﾍﾟｱ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "モル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾓﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏖"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ミリモル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾐﾘﾓﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "マイクロモル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾏｲｸﾛﾓﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ナノモル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾅﾉﾓﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ピコモル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾋﾟｺﾓﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "カンデラ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｶﾝﾃﾞﾗ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メートル毎秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｰﾄﾙ毎秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メートル毎秒毎秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｰﾄﾙ毎秒毎秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キログラム毎立方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛｸﾞﾗﾑ毎立方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m³/kg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "立方メートル毎キログラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "立方ﾒｰﾄﾙ毎ｷﾛｸﾞﾗﾑ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "アンペア毎平方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｱﾝﾍﾟｱ毎平方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "アンペア毎メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｱﾝﾍﾟｱ毎ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "モル毎立方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾓﾙ毎立方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "カンデラ毎平方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｶﾝﾃﾞﾗ毎平方ﾒｰﾄﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "平方米燭光"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ラジアン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾗｼﾞｱﾝ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎭"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sr",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ステラジアン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｽﾃﾗｼﾞｱﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Hz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ヘルツ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾍﾙﾂ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌹"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メガヘルツ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｶﾞﾍﾙﾂ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メガヘルツ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｶﾞﾍﾙﾂ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロヘルツ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛﾍﾙﾂ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロヘルツ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛﾍﾙﾂ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ギガヘルツ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾞｶﾞﾍﾙﾂ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ニュートン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾆｭｰﾄﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "パスカル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾊﾟｽｶﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎩"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ジュール"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼﾞｭｰﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KJ",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロジュール"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛｼﾞｭｰﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ワット"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾜｯﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㍗"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロワット"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛﾜｯﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロワット"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛﾜｯﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メガワット"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｶﾞﾜｯﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ギガワット"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾞｶﾞﾜｯﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ボルト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾎﾞﾙﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌾"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mV",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メガボルト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｶﾞﾎﾞﾙﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ω",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "オーム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｵｰﾑ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌊"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Wb",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ウェーバー"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｳｪｰﾊﾞｰ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "T",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "テスラ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾃｽﾗ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ルーメン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾙｰﾒﾝ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏐"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lx",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ルクス"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾙｸｽ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏓"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Bq",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ベクレル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾍﾞｸﾚﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏃"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "グレイ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｸﾞﾚｲ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Sv",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "シーベルト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼｰﾍﾞﾙﾄ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏜"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "カタール"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｶﾀｰﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "パスカル秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾊﾟｽｶﾙ秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Nm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ニュートンメートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾆｭｰﾄﾝﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ニュートン毎メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾆｭｰﾄﾝ毎ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ラジアン毎秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾗｼﾞｱﾝ毎秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ラジアン毎秒毎秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾗｼﾞｱﾝ毎秒毎秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ワット毎平方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾜｯﾄ毎平方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/K",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ジュール毎ケルビン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼﾞｭｰﾙ毎ｹﾙﾋﾞﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(kg K)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ジュール毎キログラム毎ケルビン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼﾞｭｰﾙ毎ｷﾛｸﾞﾗﾑ毎ｹﾙﾋﾞﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/kg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ジュール毎キログラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼﾞｭｰﾙ毎ｷﾛｸﾞﾗﾑ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m K)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ワット毎メートル毎ケルビン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾜｯﾄ毎ﾒｰﾄﾙ毎ｹﾙﾋﾞﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ジュール毎立方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼﾞｭｰﾙ毎立方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ボルト毎メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾎﾞﾙﾄ毎ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "クーロン毎立方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｸｰﾛﾝ毎立方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "クーロン毎平方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｸｰﾛﾝ毎平方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ファラド毎メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾌｧﾗﾄﾞ毎ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "H/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ヘンリー毎メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾍﾝﾘｰ毎ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/mol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ジュール毎モル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼﾞｭｰﾙ毎ﾓﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(mol K)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ジュール毎モル毎ケルビン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｼﾞｭｰﾙ毎ﾓﾙ毎ｹﾙﾋﾞﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/kg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "クーロン毎キログラム"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｸｰﾛﾝ毎ｷﾛｸﾞﾗﾑ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy/s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "グレイ毎秒"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｸﾞﾚｲ毎秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/sr",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ワット毎ステラジアン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾜｯﾄ毎ｽﾃﾗｼﾞｱﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m² sr)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ワット毎平方メートル毎ステラジアン"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾜｯﾄ毎平方ﾒｰﾄﾙ毎ｽﾃﾗｼﾞｱﾝ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "カタール毎立方メートル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｶﾀｰﾙ毎立方ﾒｰﾄﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Np",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ネーパー"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾈｰﾊﾟｰ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ベル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾍﾞﾙ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "デシベル"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾃﾞｼﾍﾞﾙ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㏈"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "eV",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "電子ボルト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "電子ﾎﾞﾙﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "u",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "統一原子質量単位"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ua",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": " 天文単位"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "　天文単位"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロバイト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛﾊﾞｲﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "メガバイト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾒｶﾞﾊﾞｲﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "ギガバイト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾞｶﾞﾊﾞｲﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "TB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "テラバイト"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ﾃﾗﾊﾞｲﾄ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cal",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "カロリー"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｶﾛﾘｰ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㌍"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kcal",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "キロカロリー"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "ｷﾛｶﾛﾘｰ"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "㎉"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "ja-JP"
+}

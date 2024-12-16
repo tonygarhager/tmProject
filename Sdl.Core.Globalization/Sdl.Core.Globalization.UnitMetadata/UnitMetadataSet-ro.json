@@ -1,0 +1,26 @@
+﻿{
+  "UnitMetadataList": [
+    {
+      "key": "BISmi",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "One",
+              "label": "milă"
+            },
+            {
+              "rangeid": "PluralZeroSmallOrFloat",
+              "label": "mile"
+            },
+            {
+              "rangeid": "Other",
+              "label": "de mile"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "ro"
+}

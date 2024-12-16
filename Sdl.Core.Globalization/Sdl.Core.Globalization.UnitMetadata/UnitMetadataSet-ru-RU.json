@@ -1,0 +1,2076 @@
+{
+  "UnitMetadataList": [
+    {
+      "key": "Mmm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мм"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "см"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "дм"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "м"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "км"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мм²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "кв. мм."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "см²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "кв. см."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "м²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "кв. м."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ma",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "ар"
+            },
+            {
+              "rangeid": "f",
+              "label": "ара"
+            },
+            {
+              "rangeid": "m",
+              "label": "аров"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mha",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "га"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "км²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "кв. км."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мг"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "г"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мкг"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "нг"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кг"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mt",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "т"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мл"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm3",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "см³"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "куб. см."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "сантилитр"
+            },
+            {
+              "rangeid": "f",
+              "label": "сантилитра"
+            },
+            {
+              "rangeid": "m",
+              "label": "сантилитров"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "децилитр"
+            },
+            {
+              "rangeid": "f",
+              "label": "децилитра"
+            },
+            {
+              "rangeid": "m",
+              "label": "децилитров"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "л"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm3",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "м³"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "куб. м."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcentigrade",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "градус Цельсия"
+            },
+            {
+              "rangeid": "f",
+              "label": "градуса Цельсия"
+            },
+            {
+              "rangeid": "m",
+              "label": "градусов Цельсия"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mfahrenheit",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "градус Фаренгейта"
+            },
+            {
+              "rangeid": "f",
+              "label": "градуса Фаренгейта"
+            },
+            {
+              "rangeid": "m",
+              "label": "градусов Фаренгейта"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkelvin",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "градус Кельвина"
+            },
+            {
+              "rangeid": "f",
+              "label": "градуса Кельвина"
+            },
+            {
+              "rangeid": "m",
+              "label": "градусов Кельвина"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mpercent",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "процент"
+            },
+            {
+              "rangeid": "f",
+              "label": "процента"
+            },
+            {
+              "rangeid": "m",
+              "label": "процентов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdegree",
+      "sets": [
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "градус"
+            },
+            {
+              "rangeid": "f",
+              "label": "градуса"
+            },
+            {
+              "rangeid": "m",
+              "label": "градусов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "дюйм"
+            },
+            {
+              "rangeid": "f",
+              "label": "дюйма"
+            },
+            {
+              "rangeid": "m",
+              "label": "дюймов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "фут"
+            },
+            {
+              "rangeid": "f",
+              "label": "фута"
+            },
+            {
+              "rangeid": "m",
+              "label": "футов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "ярд"
+            },
+            {
+              "rangeid": "f",
+              "label": "ярда"
+            },
+            {
+              "rangeid": "m",
+              "label": "ярдов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISfurlong",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "фарлонг"
+            },
+            {
+              "rangeid": "f",
+              "label": "фарлонга"
+            },
+            {
+              "rangeid": "m",
+              "label": "фарлонгов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "миля"
+            },
+            {
+              "rangeid": "f",
+              "label": "мили"
+            },
+            {
+              "rangeid": "m",
+              "label": "миль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "кв. дюйм"
+            },
+            {
+              "rangeid": "f",
+              "label": "кв. дюйма"
+            },
+            {
+              "rangeid": "m",
+              "label": "кв. дюймов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "кв. фут"
+            },
+            {
+              "rangeid": "f",
+              "label": "кв. фута"
+            },
+            {
+              "rangeid": "m",
+              "label": "кв. футов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "кв. ярд"
+            },
+            {
+              "rangeid": "f",
+              "label": "кв. ярда"
+            },
+            {
+              "rangeid": "m",
+              "label": "кв. ярдов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISacre",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "акр"
+            },
+            {
+              "rangeid": "f",
+              "label": "акра"
+            },
+            {
+              "rangeid": "m",
+              "label": "акров"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "кв. миля"
+            },
+            {
+              "rangeid": "f",
+              "label": "кв. мили"
+            },
+            {
+              "rangeid": "m",
+              "label": "кв. миль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISoz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "унция"
+            },
+            {
+              "rangeid": "f",
+              "label": "унции"
+            },
+            {
+              "rangeid": "m",
+              "label": "унций"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlb",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "фунт"
+            },
+            {
+              "rangeid": "f",
+              "label": "фунта"
+            },
+            {
+              "rangeid": "m",
+              "label": "фунтов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISshortHW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "амер. центнер"
+            },
+            {
+              "rangeid": "f",
+              "label": "амер. центнера"
+            },
+            {
+              "rangeid": "m",
+              "label": "амер. центнеров"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlongHW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "брит. центнер"
+            },
+            {
+              "rangeid": "f",
+              "label": "брит. центнера"
+            },
+            {
+              "rangeid": "m",
+              "label": "брит. центнеров"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISflozUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "жид. унция"
+            },
+            {
+              "rangeid": "f",
+              "label": "жид. унции"
+            },
+            {
+              "rangeid": "m",
+              "label": "жид. унций"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "жид. унция"
+            },
+            {
+              "rangeid": "f",
+              "label": "жид. унции"
+            },
+            {
+              "rangeid": "m",
+              "label": "жид. унций"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISptUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "пинта"
+            },
+            {
+              "rangeid": "f",
+              "label": "пинты"
+            },
+            {
+              "rangeid": "m",
+              "label": "пинт"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "пинта"
+            },
+            {
+              "rangeid": "f",
+              "label": "пинты"
+            },
+            {
+              "rangeid": "m",
+              "label": "пинт"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "пинта"
+            },
+            {
+              "rangeid": "f",
+              "label": "пинты"
+            },
+            {
+              "rangeid": "m",
+              "label": "пинт"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISqtUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "кварта"
+            },
+            {
+              "rangeid": "f",
+              "label": "кварты"
+            },
+            {
+              "rangeid": "m",
+              "label": "кварт"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISbuUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "бушель"
+            },
+            {
+              "rangeid": "f",
+              "label": "бушеля"
+            },
+            {
+              "rangeid": "m",
+              "label": "бушелей"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "бушель"
+            },
+            {
+              "rangeid": "f",
+              "label": "бушеля"
+            },
+            {
+              "rangeid": "m",
+              "label": "бушелей"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISgalUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "галлон"
+            },
+            {
+              "rangeid": "f",
+              "label": "галлона"
+            },
+            {
+              "rangeid": "m",
+              "label": "галлонов"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "rangeid": "o",
+              "label": "галлон"
+            },
+            {
+              "rangeid": "f",
+              "label": "галлона"
+            },
+            {
+              "rangeid": "m",
+              "label": "галлонов"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ms",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мс"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "мсек"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µs",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мкс"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "мксек"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ns",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "нс"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "нсек"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "А"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мА"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мкА"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "моль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ммоль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мкмоль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "нмоль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "пмоль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кд"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "м/с"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "м/с²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кг/м³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m³/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "м³/кг"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "А/м²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "А/м"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "моль/м³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кд/м²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "рад"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sr",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ср"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Hz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Гц"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мГц"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "МГц"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кГц"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кГц"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ГГц"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Н"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Па"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Дж"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KJ",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кДж"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Вт"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кВт"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кВт"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "МВт"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ГВт"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "В"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "мВ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ω",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Ом"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Wb",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Вб"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "T",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Тл"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "лм"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lx",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "лк"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Bq",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Бк"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Гр"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Sv",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Зв"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кат"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Па⋅с"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Nm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Н⋅м"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Н/м"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "рад/с"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "рад/с²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Вт/м²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/K",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Дж/К"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(kg K)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Дж/(кг⋅К)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Дж/кг"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m K)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Вт/(м⋅К)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Дж/м³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "В/м"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Кл/м³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Кл/м²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Ф/м"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "H/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Гн/м"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/mol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Дж/моль"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(mol K)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Дж/(моль⋅К)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Кл/кг"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy/s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Гр/с"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/sr",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Вт/ср"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m² sr)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Вт/(м²⋅ср)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кат/м³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Np",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Нп"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Б"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "дБ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "eV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "эВ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "u",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "а.е.м."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ua",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "а.е."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кБ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "МБ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ГБ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "TB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ТБ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cal",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "кал"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kcal",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ккал"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "ru-RU"
+}

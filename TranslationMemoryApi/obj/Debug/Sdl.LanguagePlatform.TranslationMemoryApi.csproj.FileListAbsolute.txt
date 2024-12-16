@@ -1,4 +1,0 @@
-E:\work\Trados SDK Fuzzy Matching\tmProject\TranslationMemoryApi\obj\Debug\Sdl.LanguagePlatform.TranslationMemoryApi.csproj.AssemblyReference.cache
-E:\work\Trados SDK Fuzzy Matching\tmProject\TranslationMemoryApi\obj\Debug\Sdl.LanguagePlatform.TranslationMemoryApi.StringResources.resources
-E:\work\Trados SDK Fuzzy Matching\tmProject\TranslationMemoryApi\obj\Debug\Sdl.LanguagePlatform.TranslationMemoryApi.csproj.GenerateResource.cache
-E:\work\Trados SDK Fuzzy Matching\tmProject\TranslationMemoryApi\obj\Debug\Sdl.LanguagePlatform.TranslationMemoryApi.csproj.CoreCompileInputs.cache

@@ -1,0 +1,3039 @@
+﻿{
+  "UnitMetadataList": [
+    {
+      "key": "Mmm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "cm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "dm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "km"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mm²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "cm²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ma",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mha",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "km²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mt",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "t"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm3",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "cm³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "cl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm3",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "m³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcentigrade",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "°C"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "℃"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mfahrenheit",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "°F"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "℉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkelvin",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "°K"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "K"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mpercent",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "%"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "٪"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "﹪"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "％"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdegree",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "°"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "inches"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "inch"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ft"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "feet"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "foot"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "yd"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "yard"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "yards"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISfurlong",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "furlong"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mi"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "mile"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "miles"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "in²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "sq in"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ft²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "sq ft"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "yd²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "sq yd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISacre",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "acres"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "acre"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi2",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mi²"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "sq mi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISoz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "oz"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "oz avdp"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlb",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "lb"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "lb avdp"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "#"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISshortHW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "short cwt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlongHW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "long cwt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISflozUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "fl oz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISptUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISqtUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "qt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISbuUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "bu"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISgalUK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "gal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kcal/g",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kcal/g"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "l/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "l/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ml/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ml/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ml/min",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ml/min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "min",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "min"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mm³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mm³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mg/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mg/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mg/ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mg/ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mol/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mmol/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mmol/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µmol/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µmol/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nmol/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "nmol/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmol/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pmol/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol/L",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mol/L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mmol/L",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mmol/L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µmol/L",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µmol/L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nmol/L",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "nmol/L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmol/L",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pmol/L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mol/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mmol/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mmol/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µmol/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µmol/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nmol/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "nmol/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmol/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pmol/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ng"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mmol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µmol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "nmol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pmol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "TB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "TB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "V"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Hz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Hz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mHz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MHz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kHz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KHz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GHz",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GHz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "A"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GA",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GA"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "J"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mJ",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MJ",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kJ",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KJ",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GJ",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GJ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "PS",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "PS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mPS",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mPS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MPS",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MPS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kPS",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kPS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KPS",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KPS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GPS",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GPS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "N"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mN",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MN",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kN",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KN",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GN",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GN"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Nm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Nm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mNm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mNm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MNm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MNm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kNm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kNm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KNm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KNm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GNm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GNm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GK",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GK"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cal",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "cal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mcal",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mcal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcal",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Mcal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kcal",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kcal"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "Kcal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gcal",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Gcal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "W"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "MW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "KW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GW",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "GW"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "g/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "g/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mg/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mg/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µg/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ng/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pg/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pg/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/dl",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kg/dl"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "g/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "g/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mg/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mg/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µg/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ng/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pg/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pg/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kg/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "g/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "g/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µg/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ng/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pg/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pg/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/l",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kg/l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "g/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "g/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mg/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mg/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µg/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ng/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pg/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pg/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kg/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "g/ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "g/ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg/ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µg/ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng/ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ng/ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pg/ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "pg/ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/ml",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kg/ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ms",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ms"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µs",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "µs"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ns",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ns"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "cd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "m/s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "m/s²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kg/m³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m³/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "m³/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "A/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "A/m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "mol/m³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "cd/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "rad"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sr",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "sr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Pa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ω",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Ω"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Wb",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Wb"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "T",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "T"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lm",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "lm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lx",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "lx"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Bq",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Bq"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Gy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Sv",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Sv"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kat"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Pa s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "N/m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "rad/s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "rad/s²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "W/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/K",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "J/K"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(kg K)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "J/(kg K)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "J/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m K)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "W/(m K)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "J/m³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "V/m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "C/m³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m²",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "C/m²"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "F/m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "H/m",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "H/m"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/mol",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "J/mol"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(mol K)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "J/(mol K)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/kg",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "C/kg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy/s",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Gy/s"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/sr",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "W/sr"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m² sr)",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "W/(m² sr)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat/m³",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "kat/m³"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Np",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "Np"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dB",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "dB"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "eV",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "eV"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "u",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "u"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ua",
+      "sets": [
+        {
+          "pref": true,
+          "labels": [
+            {
+              "label": "ua"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": ""
+}

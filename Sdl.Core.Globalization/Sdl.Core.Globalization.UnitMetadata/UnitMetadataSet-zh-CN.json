@@ -1,0 +1,1626 @@
+{
+  "UnitMetadataList": [
+    {
+      "key": "Mmm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "毫米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "厘米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "分米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "公里"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方毫米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方厘米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ma",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "公亩"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mha",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "公顷"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkm2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方公里"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mmg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "毫克"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "克"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "微克"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ng",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "纳克"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "公斤"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mt",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "公吨"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mml",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "毫升"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcm3",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "立方厘米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcl",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "厘升"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdl",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "分升"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ml",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "公升"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mm3",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "立方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mcentigrade",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "摄氏度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mfahrenheit",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "华氏度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mkelvin",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "开尔文度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mpercent",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "百分之"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Mdegree",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英寸"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英尺"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "码"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISfurlong",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "弗隆"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英里"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISin2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方英寸"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISft2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方英尺"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISyd2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方码"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISacre",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英亩"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISmi2",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "平方英里"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISoz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "盎司"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlb",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "磅"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISshortHW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "短担"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISlongHW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "长担"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISflozUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英制液量盎司"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "美制液量盎司"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISptUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英制品脱"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "美制品脱"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "美制干品脱"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISqtUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英制夸脱"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISbuUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英制蒲式耳"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "美制干蒲式耳"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "BISgalUK",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "英制加仑"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "美制加仑"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ms",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "毫秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µs",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "微秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ns",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "纳秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "安培"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mA",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "毫安"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µA",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "微安"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "摩尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "毫摩尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "µmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "微摩尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "nmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "纳摩尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "pmol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "皮摩尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "坎德拉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "米每秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m/s²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "米/秒平方"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "米／秒平方"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kg/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千克每立方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "m³/kg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "立方米/千克"
+            }
+          ]
+        },
+        {
+          "labels": [
+            {
+              "label": "立方米／千克"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "安培每平方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "A/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "安培每米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mol/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "摩尔每立方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cd/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "坎德拉每平方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "弧度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "sr",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "球面度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Hz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "赫兹"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "兆赫"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "兆赫"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千赫兹"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千赫兹"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GHz",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "吉赫"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "牛顿"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "帕斯卡"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "焦耳"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KJ",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千焦"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "瓦特"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千瓦"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千瓦"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "兆瓦"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GW",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "十亿瓦特"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "伏特"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "mV",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "毫伏"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Ω",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "欧姆"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Wb",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "韦伯"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "T",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "特斯拉"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "流明"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "lx",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "勒克斯"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Bq",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "贝克勒尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "戈瑞"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Sv",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "希沃特"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "卡塔尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Pa s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "帕秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Nm",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "牛米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "N/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "牛每米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "弧度每秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "rad/s²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "每平方秒弧度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "瓦每平方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/K",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "焦耳每开尔文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(kg K)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "焦耳每千克开尔文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/kg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "焦耳每千克"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m K)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "瓦特每米开尔文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "焦耳每立方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "V/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "伏每米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "库每立方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/m²",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "库仑每平方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "F/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "法每米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "H/m",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "亨每米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/mol",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "焦耳每摩尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "J/(mol K)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "焦耳每摩尔开尔文"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "C/kg",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "库仑每千克"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Gy/s",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "戈每秒"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/sr",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "瓦特每球面度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "W/(m² sr)",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "瓦特每平方米球面度"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kat/m³",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "卡塔尔每立方米"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "min",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "分"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "Np",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "奈培"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "B",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "贝尔"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "dB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "分贝"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "eV",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "电子伏特"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "u",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "原子质量单位"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "ua",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "天文单位"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "KB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千字节"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "MB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "兆字节"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "GB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "吉字节"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "TB",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "太字节"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "cal",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "卡路里"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "kcal",
+      "sets": [
+        {
+          "labels": [
+            {
+              "label": "千卡"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "code": "zh-CN"
+}

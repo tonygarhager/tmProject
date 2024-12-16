@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="syr_SY"><value>Syriac (Syria)</value></data>
+  <data name="sah_RU"><value>Yakut (Russia)</value></data>
+  <data name="sms_FI"><value>Sami, Skolt (Finland)</value></data>
+  <data name="smj_NO"><value>Sami, Lule (Norway)</value></data>
+  <data name="smj_SE"><value>Sami, Lule (Sweden)</value></data>
+  <data name="smn_FI"><value>Sami, Inari (Finland)</value></data>
+  <data name="sma_NO"><value>Sami, Southern (Norway)</value></data>
+  <data name="sma_SE"><value>Sami, Southern (Sweden)</value></data>
+  <data name="tzm_Latn_DZ"><value>Tamazight (Latin, Algeria)</value></data>
+  <data name="ha_Latn_NG"><value>Hausa (Latin, Nigeria)</value></data>
+  <data name="az_Latn_AZ"><value>Azeri (Latin, Azerbaijan)</value></data>
+  <data name="uz_Latn_UZ"><value>Uzbek (Latin, Uzbekistan)</value></data>
+  <data name="mn_Mong_CN"><value>Mongolian (Traditional Mongolian, PRC)</value></data>
+  <data name="sr_Latn_RS"><value>Serbian (Latin, Serbia)</value></data>
+  <data name="sr_Latn_BA"><value>Serbian (Latin, Bosnia and Herzegovina)</value></data>
+  <data name="sr_Latn_CS"><value>Serbian (Latin, Serbia and Montenegro (Former))</value></data>
+  <data name="sr_Latn_ME"><value>Serbian (Latin, Montenegro)</value></data>
+  <data name="da_DK"><value>Danish (Denmark)</value></data>
+  <data name="de_LU"><value>German (Luxembourg)</value></data>
+  <data name="de_LI"><value>German (Liechtenstein)</value></data>
+  <data name="de_CH"><value>German (Switzerland)</value></data>
+  <data name="de_AT"><value>German (Austria)</value></data>
+  <data name="de_DE"><value>German (Germany)</value></data>
+  <data name="dv_MV"><value>Divehi (Maldives)</value></data>
+  <data name="en_SG"><value>English (Singapore)</value></data>
+  <data name="en_PH"><value>English (Republic of the Philippines)</value></data>
+  <data name="en_US"><value>English (United States)</value></data>
+  <data name="en_TT"><value>English (Trinidad and Tobago)</value></data>
+  <data name="en_ZA"><value>English (South Africa)</value></data>
+  <data name="en_ZW"><value>English (Zimbabwe)</value></data>
+  <data name="en_CA"><value>English (Canada)</value></data>
+  <data name="en_BZ"><value>English (Belize)</value></data>
+  <data name="en_AU"><value>English (Australia)</value></data>
+  <data name="en_GB"><value>English (United Kingdom)</value></data>
+  <data name="en_JM"><value>English (Jamaica)</value></data>
+  <data name="en_IN"><value>English (India)</value></data>
+  <data name="en_IE"><value>English (Ireland)</value></data>
+  <data name="en_NZ"><value>English (New Zealand)</value></data>
+  <data name="en_MY"><value>English (Malaysia)</value></data>
+  <data name="el_GR"><value>Greek (Greece)</value></data>
+  <data name="eu_ES"><value>Basque (Basque)</value></data>
+  <data name="es_NI"><value>Spanish (Nicaragua)</value></data>
+  <data name="es_MX"><value>Spanish (Mexico)</value></data>
+  <data name="es_HN"><value>Spanish (Honduras)</value></data>
+  <data name="es_GT"><value>Spanish (Guatemala)</value></data>
+  <data name="es_DO"><value>Spanish (Dominican Republic)</value></data>
+  <data name="es_EC"><value>Spanish (Ecuador)</value></data>
+  <data name="es_ES"><value>Spanish (Spain)</value></data>
+  <data name="es_BO"><value>Spanish (Bolivia)</value></data>
+  <data name="es_CO"><value>Spanish (Colombia)</value></data>
+  <data name="es_CL"><value>Spanish (Chile)</value></data>
+  <data name="es_CR"><value>Spanish (Costa Rica)</value></data>
+  <data name="es_AR"><value>Spanish (Argentina)</value></data>
+  <data name="es_VE"><value>Spanish (Venezuela)</value></data>
+  <data name="es_UY"><value>Spanish (Uruguay)</value></data>
+  <data name="es_US"><value>Spanish (United States)</value></data>
+  <data name="es_SV"><value>Spanish (El Salvador)</value></data>
+  <data name="es_PY"><value>Spanish (Paraguay)</value></data>
+  <data name="es_PR"><value>Spanish (Puerto Rico)</value></data>
+  <data name="es_PE"><value>Spanish (Peru)</value></data>
+  <data name="es_PA"><value>Spanish (Panama)</value></data>
+  <data name="et_EE"><value>Estonian (Estonia)</value></data>
+  <data name="af_ZA"><value>Afrikaans (South Africa)</value></data>
+  <data name="am_ET"><value>Amharic (Ethiopia)</value></data>
+  <data name="ar_KW"><value>Arabic (Kuwait)</value></data>
+  <data name="ar_JO"><value>Arabic (Jordan)</value></data>
+  <data name="ar_IQ"><value>Arabic (Iraq)</value></data>
+  <data name="ar_OM"><value>Arabic (Oman)</value></data>
+  <data name="ar_MA"><value>Arabic (Morocco)</value></data>
+  <data name="ar_LB"><value>Arabic (Lebanon)</value></data>
+  <data name="ar_LY"><value>Arabic (Libya)</value></data>
+  <data name="ar_BH"><value>Arabic (Bahrain)</value></data>
+  <data name="ar_AE"><value>Arabic (U.A.E.)</value></data>
+  <data name="ar_EG"><value>Arabic (Egypt)</value></data>
+  <data name="ar_DZ"><value>Arabic (Algeria)</value></data>
+  <data name="ar_YE"><value>Arabic (Yemen)</value></data>
+  <data name="ar_SY"><value>Arabic (Syria)</value></data>
+  <data name="ar_SA"><value>Arabic (Saudi Arabia)</value></data>
+  <data name="ar_QA"><value>Arabic (Qatar)</value></data>
+  <data name="ar_TN"><value>Arabic (Tunisia)</value></data>
+  <data name="as_IN"><value>Assamese (India)</value></data>
+  <data name="fa_IR"><value>Persian (Iran)</value></data>
+  <data name="fo_FO"><value>Faroese (Faroe Islands)</value></data>
+  <data name="fi_FI"><value>Finnish (Finland)</value></data>
+  <data name="fr_LU"><value>French (Luxembourg)</value></data>
+  <data name="fr_MC"><value>French (Principality of Monaco)</value></data>
+  <data name="fr_FR"><value>French (France)</value></data>
+  <data name="fr_CH"><value>French (Switzerland)</value></data>
+  <data name="fr_CA"><value>French (Canada)</value></data>
+  <data name="fr_BE"><value>French (Belgium)</value></data>
+  <data name="fy_NL"><value>Frisian (Netherlands)</value></data>
+  <data name="ga_IE"><value>Irish (Ireland)</value></data>
+  <data name="gd_GB"><value>Scottish Gaelic (United Kingdom)</value></data>
+  <data name="gl_ES"><value>Galician (Galician)</value></data>
+  <data name="gu_IN"><value>Gujarati (India)</value></data>
+  <data name="lo_LA"><value>Lao (Lao P.D.R.)</value></data>
+  <data name="lb_LU"><value>Luxembourgish (Luxembourg)</value></data>
+  <data name="lv_LV"><value>Latvian (Latvia)</value></data>
+  <data name="lt_LT"><value>Lithuanian (Lithuania)</value></data>
+  <data name="mi_NZ"><value>Maori (New Zealand)</value></data>
+  <data name="mn_MN"><value>Mongolian (Cyrillic, Mongolia)</value></data>
+  <data name="mk_MK"><value>Macedonian (Former Yugoslav Republic of Macedonia)</value></data>
+  <data name="ml_IN"><value>Malayalam (India)</value></data>
+  <data name="mr_IN"><value>Marathi (India)</value></data>
+  <data name="ms_BN"><value>Malay (Brunei Darussalam)</value></data>
+  <data name="ms_MY"><value>Malay (Malaysia)</value></data>
+  <data name="mt_MT"><value>Maltese (Malta)</value></data>
+  <data name="bg_BG"><value>Bulgarian (Bulgaria)</value></data>
+  <data name="be_BY"><value>Belarusian (Belarus)</value></data>
+  <data name="bo_CN"><value>Tibetan (PRC)</value></data>
+  <data name="bn_BD"><value>Bengali (Bangladesh)</value></data>
+  <data name="bn_IN"><value>Bengali (India)</value></data>
+  <data name="ba_RU"><value>Bashkir (Russia)</value></data>
+  <data name="br_FR"><value>Breton (France)</value></data>
+  <data name="ca_ES"><value>Catalan (Catalan)</value></data>
+  <data name="co_FR"><value>Corsican (France)</value></data>
+  <data name="cs_CZ"><value>Czech (Czech Republic)</value></data>
+  <data name="cy_GB"><value>Welsh (United Kingdom)</value></data>
+  <data name="hi_IN"><value>Hindi (India)</value></data>
+  <data name="he_IL"><value>Hebrew (Israel)</value></data>
+  <data name="hy_AM"><value>Armenian (Armenia)</value></data>
+  <data name="hu_HU"><value>Hungarian (Hungary)</value></data>
+  <data name="hr_BA"><value>Croatian (Latin, Bosnia and Herzegovina)</value></data>
+  <data name="hr_HR"><value>Croatian (Croatia)</value></data>
+  <data name="ii_CN"><value>Yi (PRC)</value></data>
+  <data name="id_ID"><value>Indonesian (Indonesia)</value></data>
+  <data name="ig_NG"><value>Igbo (Nigeria)</value></data>
+  <data name="it_CH"><value>Italian (Switzerland)</value></data>
+  <data name="it_IT"><value>Italian (Italy)</value></data>
+  <data name="is_IS"><value>Icelandic (Iceland)</value></data>
+  <data name="nn_NO"><value>Norwegian, Nynorsk (Norway)</value></data>
+  <data name="nb_NO"><value>Norwegian, Bokmål (Norway)</value></data>
+  <data name="nl_NL"><value>Dutch (Netherlands)</value></data>
+  <data name="nl_BE"><value>Dutch (Belgium)</value></data>
+  <data name="ne_NP"><value>Nepali (Nepal)</value></data>
+  <data name="ns_ZA"><value>Northern Sotho (South Africa)</value></data>
+  <data name="oc_FR"><value>Occitan (France)</value></data>
+  <data name="or_IN"><value>Oriya (India)</value></data>
+  <data name="tr_TR"><value>Turkish (Turkey)</value></data>
+  <data name="tt_RU"><value>Tatar (Russia)</value></data>
+  <data name="ta_IN"><value>Tamil (India)</value></data>
+  <data name="te_IN"><value>Telugu (India)</value></data>
+  <data name="tk_TM"><value>Turkmen (Turkmenistan)</value></data>
+  <data name="th_TH"><value>Thai (Thailand)</value></data>
+  <data name="tn_ZA"><value>Setswana (South Africa)</value></data>
+  <data name="ur_PK"><value>Urdu (Islamic Republic of Pakistan)</value></data>
+  <data name="ug_CN"><value>Uyghur (PRC)</value></data>
+  <data name="uk_UA"><value>Ukrainian (Ukraine)</value></data>
+  <data name="ja_JP"><value>Japanese (Japan)</value></data>
+  <data name="kn_IN"><value>Kannada (India)</value></data>
+  <data name="km_KH"><value>Khmer (Cambodia)</value></data>
+  <data name="ko_KR"><value>Korean (Korea)</value></data>
+  <data name="kl_GL"><value>Greenlandic (Greenland)</value></data>
+  <data name="kk_KZ"><value>Kazakh (Kazakhstan)</value></data>
+  <data name="ka_GE"><value>Georgian (Georgia)</value></data>
+  <data name="ky_KG"><value>Kyrgyz (Kyrgyzstan)</value></data>
+  <data name="pt_PT"><value>Portuguese (Portugal)</value></data>
+  <data name="pt_BR"><value>Portuguese (Brazil)</value></data>
+  <data name="ps_AF"><value>Pashto (Afghanistan)</value></data>
+  <data name="pa_IN"><value>Punjabi (India)</value></data>
+  <data name="pl_PL"><value>Polish (Poland)</value></data>
+  <data name="vi_VN"><value>Vietnamese (Vietnam)</value></data>
+  <data name="wo_SN"><value>Wolof (Senegal)</value></data>
+  <data name="rw_RW"><value>Kinyarwanda (Rwanda)</value></data>
+  <data name="ru_RU"><value>Russian (Russia)</value></data>
+  <data name="ro_RO"><value>Romanian (Romania)</value></data>
+  <data name="rm_CH"><value>Romansh (Switzerland)</value></data>
+  <data name="sv_SE"><value>Swedish (Sweden)</value></data>
+  <data name="sv_FI"><value>Swedish (Finland)</value></data>
+  <data name="sw_KE"><value>Kiswahili (Kenya)</value></data>
+  <data name="sq_AL"><value>Albanian (Albania)</value></data>
+  <data name="se_NO"><value>Sami, Northern (Norway)</value></data>
+  <data name="se_FI"><value>Sami, Northern (Finland)</value></data>
+  <data name="se_SE"><value>Sami, Northern (Sweden)</value></data>
+  <data name="sa_IN"><value>Sanskrit (India)</value></data>
+  <data name="sl_SI"><value>Slovenian (Slovenia)</value></data>
+  <data name="si_LK"><value>Sinhala (Sri Lanka)</value></data>
+  <data name="sk_SK"><value>Slovak (Slovakia)</value></data>
+  <data name="xh_ZA"><value>isiXhosa (South Africa)</value></data>
+  <data name="yo_NG"><value>Yoruba (Nigeria)</value></data>
+  <data name="zu_ZA"><value>isiZulu (South Africa)</value></data>
+  <data name="zh_HK"><value>Chinese (Hong Kong S.A.R.)</value></data>
+  <data name="zh_MO"><value>Chinese (Macao S.A.R.)</value></data>
+  <data name="zh_CN"><value>Chinese (People's Republic of China)</value></data>
+  <data name="zh_SG"><value>Chinese (Singapore)</value></data>
+  <data name="zh_TW"><value>Chinese (Taiwan)</value></data>
+  <data name="bs_Cyrl_BA"><value>Bosnian (Cyrillic, Bosnia and Herzegovina)</value></data>
+  <data name="az_Cyrl_AZ"><value>Azeri (Cyrillic, Azerbaijan)</value></data>
+  <data name="dsb_DE"><value>Lower Sorbian (Germany)</value></data>
+  <data name="en_029"><value>English (Caribbean)</value></data>
+  <data name="bs_Latn_BA"><value>Bosnian (Latin, Bosnia and Herzegovina)</value></data>
+  <data name="iu_Latn_CA"><value>Inuktitut (Latin, Canada)</value></data>
+  <data name="arn_CL"><value>Mapudungun (Chile)</value></data>
+  <data name="iu_Cans_CA"><value>Inuktitut (Syllabics, Canada)</value></data>
+  <data name="fil_PH"><value>Filipino (Philippines)</value></data>
+  <data name="gsw_FR"><value>Alsatian (France)</value></data>
+  <data name="moh_CA"><value>Mohawk (Mohawk)</value></data>
+  <data name="tg_Cyrl_TJ"><value>Tajik (Cyrillic, Tajikistan)</value></data>
+  <data name="hsb_DE"><value>Upper Sorbian (Germany)</value></data>
+  <data name="nso_ZA"><value>Sesotho sa Leboa (South Africa)</value></data>
+  <data name="uz_Cyrl_UZ"><value>Uzbek (Cyrillic, Uzbekistan)</value></data>
+  <data name="kok_IN"><value>Konkani (India)</value></data>
+  <data name="prs_AF"><value>Dari (Afghanistan)</value></data>
+  <data name="qut_GT"><value>K'iche (Guatemala)</value></data>
+  <data name="quz_EC"><value>Quechua (Ecuador)</value></data>
+  <data name="quz_BO"><value>Quechua (Bolivia)</value></data>
+  <data name="quz_PE"><value>Quechua (Peru)</value></data>
+  <data name="sr_Cyrl_BA"><value>Serbian (Cyrillic, Bosnia and Herzegovina)</value></data>
+  <data name="sr_Cyrl_CS"><value>Serbian (Cyrillic, Serbia and Montenegro (Former))</value></data>
+  <data name="sr_Cyrl_ME"><value>Serbian (Cyrillic, Montenegro)</value></data>
+  <data name="sr_Cyrl_RS"><value>Serbian (Cyrillic, Serbia)</value></data>
+  </root>

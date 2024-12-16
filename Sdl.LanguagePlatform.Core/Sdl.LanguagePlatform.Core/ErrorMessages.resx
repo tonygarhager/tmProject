@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="EMSG_StorageFieldAlreadyExists"><value>The new field already exists.</value></data>
+  <data name="EMSG_TMCannotInitializeTMInCascade"><value>An element in the TM Cascade could not be initialized.</value></data>
+  <data name="EMSG_DataConnectionUnknownProvider"><value>The specified data provider type is unknown.</value></data>
+  <data name="EMSG_EDIT_SearchPatternNullOrEmpty"><value>The search pattern for a search/replace cannot be empty.</value></data>
+  <data name="EMSG_ConfigurationOtherError"><value>An unspecified error occurred in the configuration.</value></data>
+  <data name="EMSG_ConfigurationAbstractType"><value>A type referenced in the configuration is abstract and cannot be instantiated.</value></data>
+  <data name="EMSG_DATMDoesNotExist"><value>The requested translation memory could not be found.</value></data>
+  <data name="EMSG_SQLITE_SQLiteNotADatabase"><value>The specified file is not a valid translation memory.</value></data>
+  <data name="EMSG_TMToolsNoTM"><value>No translation memory was provided for the current task.</value></data>
+  <data name="EMSG_NoTextInSegment"><value>The segment does not contain any translatable text.</value></data>
+  <data name="EMSG_TMUndefinedCascadeElement"><value>An element in the TM Cascade is undefined or empty.</value></data>
+  <data name="EMSG_TMTULimitExceeded"><value>Access denied (TM Size Limit exceeded).</value></data>
+  <data name="EMSG_TMNotFound"><value>The translation memory could not be found or retrieved.</value></data>
+  <data name="EMSG_TMXUnknownTMXAttribute"><value>The TMX file cannot be processed since an unknown TMX attribute was encountered.</value></data>
+  <data name="EMSG_InvalidTagAnchor"><value>A tag anchor is empty, invalid, or not set.</value></data>
+  <data name="EMSG_ConfigurationUnknownProviderType"><value>A provider type specified in the configuration is unknown.</value></data>
+  <data name="EMSG_ConfigurationCannotResolveResourceProviderType"><value>The resource provider type cannot be resolved.</value></data>
+  <data name="EMSG_NoTranslatableContentInFile"><value>The file cannot be processed since it does not contain any translatable content.</value></data>
+  <data name="EMSG_InvalidSegment"><value>The segment is invalid.</value></data>
+  <data name="EMSG_TagAnchorAlreadyUsed"><value>An opening tag was found for a tag which was already open.</value></data>
+  <data name="EMSG_DATMTargetLanguageInvalid"><value>The target language for the translation memory is invalid.</value></data>
+  <data name="EMSG_StorageTMAlreadyExists"><value>The specified translation memory already exists.</value></data>
+  <data name="EMSG_UndefinedOrInvalidLanguage"><value>The language is null, undefined, or not valid for this operation.</value></data>
+  <data name="EMSG_DAInvalidSegment"><value>The segment is invalid. It could not be stored.</value></data>
+  <data name="EMSG_NoContentInFile"><value>The file cannot be processed since it does not contain any processable content.</value></data>
+  <data name="EMSG_CorruptData"><value>The data in an input file is corrupt and cannot be used.</value></data>
+  <data name="EMSG_NotImplemented"><value>Some required functionality has not yet been implemented.</value></data>
+  <data name="EMSG_EDIT_FieldNameEmpty"><value>The field name cannot be null or empty.</value></data>
+  <data name="EMSG_EDIT_IncompatibleFieldValueTypes"><value>The action cannot be performed since the field value types are incompatible.</value></data>
+  <data name="EMSG_Filter_UnbalancedParenthesis"><value>Unbalanced parentheses.</value></data>
+  <data name="EMSG_Filter_PrematureEndOfInput"><value>Premature end of input.</value></data>
+  <data name="EMSG_ConfigurationCannotResolveType"><value>A type referenced in the configuration could not be resolved.</value></data>
+  <data name="EMSG_TranslationMemoryNotFound"><value>The translation memory with the specified name could not be found.</value></data>
+  <data name="EMSG_ConfigurationCannotLoad"><value>The configuration could not be loaded.</value></data>
+  <data name="EMSG_EmptySegment"><value>The segment is empty.</value></data>
+  <data name="EMSG_EDIT_IncompatibleField"><value>The action cannot be performed on this field.</value></data>
+  <data name="EMSG_SegmentationSRXUnsupportedVersion"><value>Unsupported SRX version</value></data>
+  <data name="EMSG_InternalError"><value>An internal error occurred.</value></data>
+  <data name="EMSG_Filter_PicklistItemNotFound"><value>The picklist field does not contain the picklist value.</value></data>
+  <data name="EMSG_ConfigurationCannotInstantiateOrCastType"><value>A type referenced in the configuration could not be instantiated or casted.</value></data>
+  <data name="EMSG_TokenizerInvalidNumericFormat"><value>An invalid numeric format occurred in a number token.</value></data>
+  <data name="EMSG_TMInvalidTMName"><value>The name of the translation memory is invalid.</value></data>
+  <data name="EMSG_TMXInternalParserError"><value>The TMX file cannot be processed since an internal parser error occurred.</value></data>
+  <data name="EMSG_TMUninitializedCascadeElement"><value>An element in the TM Cascade is not initialized.</value></data>
+  <data name="EMSG_XmlError"><value>An error occurred while reading or generating XML data.</value></data>
+  <data name="EMSG_Filter_IllegalInputSymbol"><value>Illegal input symbol.</value></data>
+  <data name="EMSG_ConfigurationAbstractResourceProviderType"><value>The resource provider is abstract and cannot be instantiated.</value></data>
+  <data name="EMSG_TMExceededCopyrightFieldLimit"><value>The maximum length of the copyright field has been exceeded.</value></data>
+  <data name="EMSG_TMIncompatibleFieldTypes"><value>The field types are incompatible.</value></data>
+  <data name="EMSG_ResourceNotAvailable"><value>The requested language resource cannot be loaded for the specified culture.</value></data>
+  <data name="EMSG_ConfigurationCannotInstantiateResourceProvider"><value>The resource provider could not be instantiated.</value></data>
+  <data name="EMSG_TagAnchorAlreadyClosed"><value>A closing tag was found for a tag which is already closed.</value></data>
+  <data name="EMSG_Filter_UnknownField"><value>Unknown field.</value></data>
+  <data name="EMSG_TMInvalidSortSpecification"><value>The sort specification is invalid.</value></data>
+  <data name="EMSG_SegmentationIllegalContinuation"><value>The segmentation rule could not be parsed due to an invalid continuation specifier.</value></data>
+  <data name="EMSG_SQLITE_SQLiteCorrupt"><value>The translation memory data file is corrupt.</value></data>
+  <data name="EMSG_ConfigurationInvalidType"><value>A type referenced in the configuration is invalid for the desired operation.</value></data>
+  <data name="EMSG_TMXNoSegmentOpen"><value>The TMX file cannot be processed since no segment is currently open.</value></data>
+  <data name="EMSG_TMExceededTextFieldValueLimit"><value>The maximum length of the text field value has been exceeded.</value></data>
+  <data name="EMSG_SegmentationSRXParseError"><value>Error during parsing SRX document</value></data>
+  <data name="EMSG_TMCannotModifyFuzzyIndices"><value>The fuzzy indexes cannot be modified after the TM has been created.</value></data>
+  <data name="EMSG_DATMSourceLanguageInvalid"><value>The source language for the translation memory is invalid.</value></data>
+  <data name="EMSG_StorageParameterNotFound"><value>A requested database parameter could not be retrieved.</value></data>
+  <data name="EMSG_TMUndefinedTMInCascade"><value>An eleemnt in the TM Cascade is undefined.</value></data>
+  <data name="EMSG_TMExceededFieldNameLimit"><value>The maximum length of the field name has been exceeded.</value></data>
+  <data name="EMSG_SegmentationCannotObtainSegmentor"><value>The system could not obtain a segmentor for the specified language.</value></data>
+  <data name="EMSG_DAIndexDuplicateKey"><value>The index contained a duplicate key.</value></data>
+  <data name="EMSG_SegmentationEmptyRuleSet"><value>The segmentation rules are empty.</value></data>
+  <data name="EMSG_StorageDataOutdated"><value>The database contains data in an outdated format (v{0}) which cannot be automatically migrated to the current schema (v{1}). Please contact technical support.</value></data>
+  <data name="EMSG_StorageSchemaDoesntExist"><value>The database schema does not exist.</value></data>
+  <data name="EMSG_TMPicklistValueAlreadyExists"><value>A picklist value with the specified name already exists.</value></data>
+  <data name="EMSG_AuthInvalidUser"><value>The calling user is invalid.</value></data>
+  <data name="EMSG_EDIT_InvalidOperationForFieldValueType"><value>The requested operation cannot be performed on a field of this value type.</value></data>
+  <data name="EMSG_Filter_FieldRequiresIntegerValue"><value>The field requires an integer value.</value></data>
+  <data name="EMSG_StorageDataFileNotFound"><value>The requested data file could not be located.</value></data>
+  <data name="EMSG_InvalidTMSourceLanguage"><value>The tranlsation memory's source language is not valid. No region-neutral languages can be used.</value></data>
+  <data name="EMSG_EmptyOrInvalidLanguage"><value>The segment's or translation unit's language is invalid or not set.</value></data>
+  <data name="EMSG_NeutralLanguage"><value>The segment's culture is neutral (it does not have a region specifier).</value></data>
+  <data name="EMSG_TMTargetLanguageMismatch"><value>The target language is not compatible with the TM's target language.</value></data>
+  <data name="EMSG_TMXMissingVersion"><value>The TMX file cannot be processed since no TMX version information was found.</value></data>
+  <data name="EMSG_TMImportIncompatibleFieldTypes"><value>An existing TM field is incompatible with an imported TM field.</value></data>
+  <data name="EMSG_SegmentationTWBUnsupportedExceptionConstraints"><value>Too many exception constraints detected in TWB rule (unsupported)</value></data>
+  <data name="EMSG_AuthInsufficientPermissions"><value>You don't have sufficient permissions to execute this method.</value></data>
+  <data name="EMSG_TagCountLimitExceeded"><value>The tag count limit has been exceeded by at least one segment of the TU.</value></data>
+  <data name="EMSG_StorageVersionDataNewer"><value>The database contains data in a newer format than this version of the application can handle. You need to upgrade your software, or contact technical support.</value></data>
+  <data name="EMSG_SegmentationSRXInvalidDocument"><value>Invalid SRX document</value></data>
+  <data name="EMSG_TMOrContainerMissing"><value>The translation memory or TM container appears to be missing and may have been deleted.</value></data>
+  <data name="EMSG_NoRegionSpecificLanguageFound"><value>No region-specific language could be found for the specified language.</value></data>
+  <data name="EMSG_SegmentNotTokenized"><value>The segment is not tokenized and cannot be processed.</value></data>
+  <data name="EMSG_System"><value>The system-generated exception was thrown.</value></data>
+  <data name="EMSG_InvalidFieldName"><value>The field name is invalid.</value></data>
+  <data name="EMSG_TMXUnknownVersion"><value>The TMX Version cannot be processed.</value></data>
+  <data name="EMSG_TagAnchorNotOpen"><value>A closing tag has been found for a tag which has not been opened.</value></data>
+  <data name="EMSG_TMInvalidIteratorSize"><value>The iterator size is out of bounds.</value></data>
+  <data name="EMSG_TMToolsNoFileHeader"><value>The file cannot be processed as no usable file header was found.</value></data>
+  <data name="EMSG_TagWarningTagsDropped"><value>The TU was invalid due to tag errors, but could be correctly imported after paired tags were dropped (Warning).</value></data>
+  <data name="EMSG_LanguageResourceFileNotFound"><value>The language resource file could not be located.</value></data>
+  <data name="EMSG_TargetLanguageIncompatibleWithTM"><value>The target language of the translation unit is incompatible with the translation memory.</value></data>
+  <data name="EMSG_SegmentationTWBUnsupportedNestedExceptions"><value>Nested exception found in TWB rule (unsupported)</value></data>
+  <data name="EMSG_CannotInitializeFilterManager"><value>The Filter Manager could not be initialized.</value></data>
+  <data name="EMSG_SegmentationRuleLoadError"><value>The segmentation rules could not be loaded.</value></data>
+  <data name="EMSG_StorageFieldNotFound"><value>The required field does not exist.</value></data>
+  <data name="EMSG_TagAnchorNotClosed"><value>A closing tag has not been found for at least one tag in the segment.</value></data>
+  <data name="EMSG_TMFieldAlreadyExists"><value>A field with the specified name already exists.</value></data>
+  <data name="EMSG_Filter_CannotParseDate"><value>Cannot parse the date.</value></data>
+  <data name="EMSG_DataComponentIncompatible"><value>The selected data component is incompatible with the other data components.</value></data>
+  <data name="EMSG_ConfigurationInvalidResourceProviderType"><value>The resource provider is invalid.</value></data>
+  <data name="EMSG_SourceLanguageIncompatibleWithTM"><value>The source languge of the translation unit is incompatible with the translation memory.</value></data>
+  <data name="EMSG_StemmerErrorInStemmingRule"><value>The stemming rule cannot be processed.</value></data>
+  <data name="EMSG_FILTER_ErrorInFilterExpression"><value>Error in Filter Expression: {0} - position {1}, input "{2}"</value></data>
+  <data name="EMSG_InvalidSourceSegment"><value>The translation unit's source segment is invalid.</value></data>
+  <data name="EMSG_Filter_NotAPicklistField"><value>The field is not a picklist field.</value></data>
+  <data name="EMSG_EmbeddedResourceNotFound"><value>An expected, embedded resource could not be retrieved.</value></data>
+  <data name="EMSG_DATUNotInTM"><value>The requested translation unit could not be found in the translation memory.</value></data>
+  <data name="EMSG_TMAlreadyExists"><value>A TM with this name already exists.</value></data>
+  <data name="EMSG_DataComponentMissing"><value>A required data component is missing or unavailable.</value></data>
+  <data name="EMSG_EDIT_SystemField"><value>This operation cannot be performed on system fields.</value></data>
+  <data name="EMSG_SegmentationRuleDeserializationError"><value>An error occurred during deserializaton of the segmentation rules.</value></data>
+  <data name="EMSG_SegmentationUnknownVariable"><value>A segmentation rule referred to an undefined variable.</value></data>
+  <data name="EMSG_AuthUnknownOrNonauthenticatedUser"><value>The calling user is unknown or not authenticated.</value></data>
+  <data name="EMSG_DataComponentAlreadyInUse"><value>The selected data component is already in use.</value></data>
+  <data name="EMSG_Filter_ValueNotSurroundedByDoubleQuotes"><value>The value needs to be enclosed in double quotes.</value></data>
+  <data name="EMSG_Filter_InvalidFieldName"><value>Invalid field name.</value></data>
+  <data name="EMSG_SegmentationSRXInternalError"><value>Internal SRX parser error</value></data>
+  <data name="EMSG_TMExceededDescriptionFieldLimit"><value>The maximum length of the description field has been exceeded.</value></data>
+  <data name="EMSG_DAInvalidSegmentAfterDeserialization"><value>The segment is invalid. It could not be retrieved.</value></data>
+  <data name="EMSG_Filter_ExpectFieldName"><value>Expected a field name.</value></data>
+  <data name="EMSG_EDIT_NoSuchField"><value>The field does not exist.</value></data>
+  <data name="EMSG_SegmentationNoRulesForLanguage"><value>No segmentation rules are available for the specified language.</value></data>
+  <data name="EMSG_StorageIncompatibleAttributeType"><value>The field type is not compatible with the requested operation.</value></data>
+  <data name="EMSG_Other"><value>An unspecified error occurred.</value></data>
+  <data name="EMSG_InvalidSegmentPeripheralWhitespace"><value>The segment is invalid as it starts or ends with at least one whitespace character.</value></data>
+  <data name="EMSG_InconsistentData"><value>The data is inconsistent and cannot be used.</value></data>
+  <data name="EMSG_StorageError"><value>A storage error or database error occurred.</value></data>
+  <data name="EMSG_Filter_OperatorExpected"><value>Operator expected.</value></data>
+  <data name="EMSG_DataComponentNotOpen"><value>The selected data component must be opened first.</value></data>
+  <data name="EMSG_SegmentationInvalidRule"><value>The segmentation rule is invalid.</value></data>
+  <data name="EMSG_InvalidTargetSegment"><value>The translation unit's target segment is invalid.</value></data>
+  <data name="EMSG_TMUninitializedTMInCascade"><value>An element in the TM Cascade is not initialized.</value></data>
+  <data name="EMSG_TokenizerInvalidCharacterSet"><value>An invalid character set occurred in a tokenizer rule.</value></data>
+  <data name="EMSG_OK"><value>No error detected.</value></data>
+  <data name="EMSG_Filter_TrailingJunk"><value>Trailing junk at end of expression.</value></data>
+  <data name="EMSG_TMResourceAlreadyExists"><value>The specified resource already exists.</value></data>
+  <data name="EMSG_InvalidLanguageResourceFile"><value>The language resource file is invalid.</value></data>
+  <data name="EMSG_SegmentationTWBMalformedRule"><value>Invalid TWB segmentation rule</value></data>
+  <data name="EMSG_TMNoTMOpen"><value>No translation memory is open.</value></data>
+  <data name="EMSG_InvalidOperation"><value>An invalid operation was attempted.</value></data>
+  <data name="EMSG_StoragePicklistValueAlreadyExists"><value>The new picklist value name already exists in the field.</value></data>
+  <data name="EMSG_CorruptDataInResourceFile"><value>The language resource file contains corrupt data.</value></data>
+  <data name="EMSG_TMSearchModeNotSupported"><value>The TM does not support the required search mode.</value></data>
+  <data name="EMSG_TMXCannotDetermineLanguageDirection"><value>The language direction of the TMX file cannot be determined. Valid input files must be bilingual.</value></data>
+  <data name="EMSG_CannotInitializeSpring"><value>The Spring Framework could not be initialized.</value></data>
+  <data name="EMSG_EmptyTargetSegment"><value>The translation unit's target segment is empty or not set.</value></data>
+  <data name="EMSG_TMCannotModifyExactSearchOnlyFlag"><value>The TM setting "Exact Search Only" cannot be changed.</value></data>
+  <data name="EMSG_SegmentationTrailingJunk"><value>The segmentation rule could not be parsed due to trailing junk.</value></data>
+  <data name="EMSG_ConfigurationConnectionStringNotFound"><value>A required connection string could not be found in the configuration file.</value></data>
+  <data name="EMSG_TMImportFieldNotExists"><value>The translation memory cannot import the translation unit because the translation memory does not have a field corresponding to a field in the translation unit.</value></data>
+  <data name="EMSG_TMExceededTMNameLimit"><value>The maximum length of the translation memory name has been exceeded.</value></data>
+  <data name="EMSG_DAFieldTypesInconsistent"><value>The field types are inconsistent (internal error).</value></data>
+  <data name="EMSG_SegmentationUnknownRuleType"><value>The segmentation rule could not be parsed due to an unknown rule type.</value></data>
+  <data name="EMSG_TMExceededPicklistValueNameLimit"><value>The maximum length of the picklist value been exceeded.</value></data>
+  <data name="EMSG_SegmentationInvalidVariableName"><value>The segmentation rule could not be parsed due to an invalid variable reference.</value></data>
+  <data name="EMSG_StorageSchemaAlreadyExists"><value>The database schema already exists.</value></data>
+  <data name="EMSG_TMXUnexpectedInputData"><value>The TMX file cannot be processed since it contains unexpected data.</value></data>
+  <data name="EMSG_Filter_MultipleValuesNotBracketed"><value>Multiple values need to be enclosed in parentheses.</value></data>
+  <data name="EMSG_EDIT_InvalidValue"><value>The value is invalid for the specified field.</value></data>
+  <data name="EMSG_SQLITE_SQLiteOtherError"><value>The translation memory data file engine returned an error:
+{0}</value></data>
+  <data name="EMSG_SegmentationIllegalKeywordInRule"><value>The segmentation rule could not be parsed due to an unknown keyword.</value></data>
+  <data name="EMSG_EmptyOrInvalidTagID"><value>A tag ID is empty, invalid, or not set.</value></data>
+  <data name="EMSG_Filter_FieldNameNotSurroundedByDoubleQuotes"><value>The field name must be surrounded by double quotes.</value></data>
+  <data name="EMSG_TMResourceDoesNotExist"><value>The specified resource does not exist.</value></data>
+  <data name="EMSG_SegmentationSRXNoVersion"><value>No version information found in SRX header</value></data>
+  <data name="EMSG_UnexpectedDocumentContent"><value>The document cannot be processed since it contains unexpected contents.</value></data>
+  <data name="EMSG_InvalidPicklistValueName"><value>The picklist value name is invalid.</value></data>
+  <data name="EMSG_InvalidTMTargetLanguage"><value>The translation memory's target language is not valid. No region-neutral languages can be used.</value></data>
+  <data name="EMSG_SegmentationTWBUnsupportedMultipleMatchContexts"><value>Multiple positive match contexts detected in TWB rule (unsupported)</value></data>
+  <data name="EMSG_ReadonlyResource"><value>Attempt to modify a read-only resource.</value></data>
+  <data name="EMSG_TMXCannotAddTagData"><value>The TMX file cannot be processed as no tag data can be added to a text element.</value></data>
+  <data name="EMSG_TMIncompatibleTMLanguageDirectionInCascade"><value>The language direction of an element in the TM Cascade is incompatible with the cascade's language direction.</value></data>
+  <data name="EMSG_Filter_MultivalueFieldNotBracketed"><value>Values for multivalue fields need to be enclosed i parentheses.</value></data>
+  <data name="EMSG_TMCannotModifyFullTextSearchFlag"><value>Full-text search can only be enabled or disabled at TM creation time.</value></data>
+  <data name="EMSG_TMToolsIncompatibleLanguagesBetweenDocumentAndTM"><value>The file cannot be processed since its language direction is incompatible with the current TM.</value></data>
+  <data name="EMSG_EmptySourceSegment"><value>The translation unit's source segment is empty or not set.</value></data>
+  <data name="EMSG_Filter_EmptyFieldName"><value>Empty field name.</value></data>
+  <data name="EMSG_TMSourceLanguageMismatch"><value>The source language is not compatible with the TM's source language.</value></data>
+  <data name="EMSG_EmptyData"><value>No data found.</value></data>
+  <data name="EMSG_Filter_TrailingBackslash"><value>Trailing backslash.</value></data>
+  </root>

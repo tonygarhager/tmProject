@@ -1,0 +1,16 @@
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\Sdl.Core.PluginFramework.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\Sdl.Core.PluginFramework.pdb
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\Sdl.Core.PluginFramework.PackageSupport.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\System.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\System.Web.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\System.Windows.Forms.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\System.Xml.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\System.Xml.Linq.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\bin\Debug\Sdl.Core.PluginFramework.PackageSupport.pdb
+E:\work\tmProject\Sdl.Core.PluginFramework\obj\Debug\Sdl.Core.PluginFramework.csproj.AssemblyReference.cache
+E:\work\tmProject\Sdl.Core.PluginFramework\obj\Debug\Sdl.Core.PluginFramework.StringResources.resources
+E:\work\tmProject\Sdl.Core.PluginFramework\obj\Debug\Sdl.Core.PluginFramework.csproj.GenerateResource.cache
+E:\work\tmProject\Sdl.Core.PluginFramework\obj\Debug\Sdl.Core.PluginFramework.csproj.CoreCompileInputs.cache
+E:\work\tmProject\Sdl.Core.PluginFramework\obj\Debug\Sdl.Core.8EF05A42.Up2Date
+E:\work\tmProject\Sdl.Core.PluginFramework\obj\Debug\Sdl.Core.PluginFramework.dll
+E:\work\tmProject\Sdl.Core.PluginFramework\obj\Debug\Sdl.Core.PluginFramework.pdb
