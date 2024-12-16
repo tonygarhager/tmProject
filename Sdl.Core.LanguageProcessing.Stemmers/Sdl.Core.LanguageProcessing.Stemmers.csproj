@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{71ECB17E-AAA8-483C-9956-BF30F208D596}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.LanguageProcessing.Stemmers</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemmers\StemmerFactory.cs" />
+    <Compile Include="Snowball\Among.cs" />
+    <Compile Include="Snowball\Env.cs" />
+    <Compile Include="Snowball\Stemmer.cs" />
+    <Compile Include="Snowball\Stemmer_ar.cs" />
+    <Compile Include="Snowball\Stemmer_cs.cs" />
+    <Compile Include="Snowball\Stemmer_da.cs" />
+    <Compile Include="Snowball\Stemmer_de.cs" />
+    <Compile Include="Snowball\Stemmer_el.cs" />
+    <Compile Include="Snowball\Stemmer_en.cs" />
+    <Compile Include="Snowball\Stemmer_es.cs" />
+    <Compile Include="Snowball\Stemmer_fi.cs" />
+    <Compile Include="Snowball\Stemmer_fr.cs" />
+    <Compile Include="Snowball\Stemmer_ga.cs" />
+    <Compile Include="Snowball\Stemmer_hu.cs" />
+    <Compile Include="Snowball\Stemmer_id.cs" />
+    <Compile Include="Snowball\Stemmer_it.cs" />
+    <Compile Include="Snowball\Stemmer_lt.cs" />
+    <Compile Include="Snowball\Stemmer_ne.cs" />
+    <Compile Include="Snowball\Stemmer_nl.cs" />
+    <Compile Include="Snowball\Stemmer_nn.cs" />
+    <Compile Include="Snowball\Stemmer_pt.cs" />
+    <Compile Include="Snowball\Stemmer_ro.cs" />
+    <Compile Include="Snowball\Stemmer_ru.cs" />
+    <Compile Include="Snowball\Stemmer_sv.cs" />
+    <Compile Include="Snowball\Stemmer_tr.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

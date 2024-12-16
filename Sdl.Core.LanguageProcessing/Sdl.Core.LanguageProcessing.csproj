@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.LanguageProcessing</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\libs\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing.ICU2">
+      <HintPath>..\Sdl.Core.LanguageProcessing.ICU2\bin\Debug\Sdl.Core.LanguageProcessing.ICU2.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core\bin\Debug\Sdl.FileTypeSupport.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Implementation">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Implementation\bin\Debug\Sdl.FileTypeSupport.Framework.Implementation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\FuzzySearch\libs\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core.Utilities">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core.Utilities\bin\Debug\Sdl.FileTypeSupport.Framework.Core.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.AutoSuggest\AbstractAutoSuggestDictionaryAccessor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.AutoSuggest\AutoSuggestDictionaryAccessorFactory.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.AutoSuggest\FileBasedAutoSuggestDictionaryAccessor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.AutoSuggest\IAutoSuggestDictionaryAccessor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.AutoSuggest\PhraseMappingPair.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.AutoSuggest\PhraseMappingPairs.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.AutoSuggest\Utilities.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\CompositeResourceDataAccessor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\Configuration.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\LanguageResources.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\ResourceDataAccessorConfigurationElement.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\ResourceDataAccessorConfigurationElementCollection.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\ResourceDataAccessorConfigurationSection.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\ResourceFileResourceAccessor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Resources\ResourceStorage.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\EndComentMarker.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\EndLockedToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\EndRevisionMarkerToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\EndTagPairToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\PlaceholderTagToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\Serializer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\StartComentMarker.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\StartLockedToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\StartRevisionMarkerToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\StartTagPairToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\TextToken.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\Token.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.Serialization\TokenEnumerator.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation.T8\T8SegmentationEngine.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\BomNode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\BomSegmentationTreeManager.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\BomTree.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\CheckContainsSegmentVisitor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\Chunk.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\ChunkType.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\ContentIterator.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\DataContentLocation.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\Debug.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\Mode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\Node.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SegmentationEngine.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SegmentationEngineFactory.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SegmentationEngineRunner.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SegmentationInfo.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SegmentationMethod.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SegmentationTreeManager.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\Segmentor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SegmentorUtility.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\Settings.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\SpacePositionEnum.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\TagHelper.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\TargetSegmentCreationMode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\Tree.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\TreeIterator.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\WordStopParagraph.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Segmentation\WordStopStringBuilder.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.SegmentTransferTools\FixUpPlaceholderIdsVisitor.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.SegmentTransferTools\SegmentTransferHelper.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.SegmentTransferTools\TagContainer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\CachingStemmer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\DumbStemmer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\IStemmer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\RuleBasedStemmer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\StemmingRule.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\StemmingRuleParser.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\StemmingRuleSet.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\StemmingRuleSetIterator.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\StemmingRuleSetReader.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Stemming\VersionStemmingRule.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\DisjunctionNode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\FSATransition.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\FST.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\FSTTransition.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\Label.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\Matcher.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\MatchState.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\Node.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\Parser.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\RepetitiveNode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\SequenceNode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\State.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization.Transducer\TransitionNode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\AcronymRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\AlphanumRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\CalendarDateTimePatterns.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\CurrencyFSTRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DateTimePattern.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DateTimePatternComputer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DateTimeRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DefaultChineseFallbackRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DefaultFallbackRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DefaultJapaneseFallbackRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DefaultJAZHFallbackRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DefaultKoreanFallbackRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\DefaultThaiFallbackRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\EmailRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\FSTGenerator.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\FSTMatch.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\FSTRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\GenericRecognizerConfiguration.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\GenericRecognizerConfigurations.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\IRecognizerTextFilter.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\MeasureFSTRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\NumberFormatData.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\NumberFSTRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\NumberPatternComputer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\NumberSeparatorMode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\Recognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\RecognizerSettings.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\RegexRecognizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\RegexRecognizerPattern.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\SeparatorException.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\Tokenizer.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\TokenizerParameters.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\TokenizerSetup.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\TokenizerSetupFactory.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing.Tokenization\TrailingContext.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\AdvancedTokenization.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\CharacterSetParser.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\CurrencyFSTEx.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\DateTimeFSTEx.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\ErrorMessages.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\ILogLogger.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\IWordBoundaryFinder.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\LanguageProcessingException.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\LogManager.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\MeasureFSTEx.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\NLogLogger.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\NumberFSTEx.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\SegmentErrorCode.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\StandardWordBoundaryFinder.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\TokenizerHelper.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\Trie.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\TrieEnumerator.cs" />
+    <Compile Include="Sdl.Core.LanguageProcessing\TrieIterator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.Core.LanguageProcessing\ErrorMessages.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core.Settings\Sdl.FileTypeSupport.Framework.Core.Settings.csproj">
+      <Project>{D5A8143C-698B-4B8D-88B8-47CE92476DCE}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core.Settings</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

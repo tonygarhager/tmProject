@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="salmon"><value>Salmon</value></data>
+  <data name="inactivecaption"><value>InactiveCaption</value></data>
+  <data name="sandybrown"><value>SandyBrown</value></data>
+  <data name="silver"><value>Silver</value></data>
+  <data name="sienna"><value>Sienna</value></data>
+  <data name="navajowhite"><value>NavajoWhite</value></data>
+  <data name="palegreen"><value>PaleGreen</value></data>
+  <data name="darkturquoise"><value>DarkTurquoise</value></data>
+  <data name="yellow"><value>Yellow</value></data>
+  <data name="fuchsia"><value>Fuchsia</value></data>
+  <data name="darkorange"><value>DarkOrange</value></data>
+  <data name="darkorchid"><value>DarkOrchid</value></data>
+  <data name="mediumorchid"><value>MediumOrchid</value></data>
+  <data name="lemonchiffon"><value>LemonChiffon</value></data>
+  <data name="antiquewhite"><value>AntiqueWhite</value></data>
+  <data name="rosybrown"><value>RosyBrown</value></data>
+  <data name="cadetblue"><value>CadetBlue</value></data>
+  <data name="darkred"><value>DarkRed</value></data>
+  <data name="controllight"><value>ControlLight</value></data>
+  <data name="papayawhip"><value>PapayaWhip</value></data>
+  <data name="lavenderblush"><value>LavenderBlush</value></data>
+  <data name="lightgoldenrodyellow"><value>LightGoldenrodYellow</value></data>
+  <data name="windowtext"><value>WindowText</value></data>
+  <data name="palegoldenrod"><value>PaleGoldenrod</value></data>
+  <data name="whitesmoke"><value>WhiteSmoke</value></data>
+  <data name="activecaption"><value>ActiveCaption</value></data>
+  <data name="highlight"><value>Highlight</value></data>
+  <data name="desktop"><value>Desktop</value></data>
+  <data name="mediumvioletred"><value>MediumVioletRed</value></data>
+  <data name="lavender"><value>Lavender</value></data>
+  <data name="peachpuff"><value>PeachPuff</value></data>
+  <data name="springgreen"><value>SpringGreen</value></data>
+  <data name="slateblue"><value>SlateBlue</value></data>
+  <data name="slategray"><value>SlateGray</value></data>
+  <data name="dimgray"><value>DimGray</value></data>
+  <data name="ghostwhite"><value>GhostWhite</value></data>
+  <data name="lightyellow"><value>LightYellow</value></data>
+  <data name="moccasin"><value>Moccasin</value></data>
+  <data name="floralwhite"><value>FloralWhite</value></data>
+  <data name="skyblue"><value>SkyBlue</value></data>
+  <data name="gradientinactivecaption"><value>GradientInactiveCaption</value></data>
+  <data name="lightsteelblue"><value>LightSteelBlue</value></data>
+  <data name="blueviolet"><value>BlueViolet</value></data>
+  <data name="cornsilk"><value>Cornsilk</value></data>
+  <data name="windowframe"><value>WindowFrame</value></data>
+  <data name="buttonshadow"><value>ButtonShadow</value></data>
+  <data name="greenyellow"><value>GreenYellow</value></data>
+  <data name="lightsalmon"><value>LightSalmon</value></data>
+  <data name="darkkhaki"><value>DarkKhaki</value></data>
+  <data name="darkgreen"><value>DarkGreen</value></data>
+  <data name="chocolate"><value>Chocolate</value></data>
+  <data name="steelblue"><value>SteelBlue</value></data>
+  <data name="cornflowerblue"><value>CornflowerBlue</value></data>
+  <data name="lightcoral"><value>LightCoral</value></data>
+  <data name="lightgreen"><value>LightGreen</value></data>
+  <data name="burlywood"><value>BurlyWood</value></data>
+  <data name="turquoise"><value>Turquoise</value></data>
+  <data name="activeborder"><value>ActiveBorder</value></data>
+  <data name="inactiveborder"><value>InactiveBorder</value></data>
+  <data name="lightskyblue"><value>LightSkyBlue</value></data>
+  <data name="activecaptiontext"><value>ActiveCaptionText</value></data>
+  <data name="firebrick"><value>Firebrick</value></data>
+  <data name="lightslategray"><value>LightSlateGray</value></data>
+  <data name="blanchedalmond"><value>BlanchedAlmond</value></data>
+  <data name="aliceblue"><value>AliceBlue</value></data>
+  <data name="control"><value>Control</value></data>
+  <data name="unnamedcolor"><value>Unnamed Color</value></data>
+  <data name="buttonhighlight"><value>ButtonHighlight</value></data>
+  <data name="appworkspace"><value>AppWorkspace</value></data>
+  <data name="forestgreen"><value>ForestGreen</value></data>
+  <data name="crimson"><value>Crimson</value></data>
+  <data name="paleturquoise"><value>PaleTurquoise</value></data>
+  <data name="inactivecaptiontext"><value>InactiveCaptionText</value></data>
+  <data name="dodgerblue"><value>DodgerBlue</value></data>
+  <data name="controldarkdark"><value>ControlDarkDark</value></data>
+  <data name="powderblue"><value>PowderBlue</value></data>
+  <data name="palevioletred"><value>PaleVioletRed</value></data>
+  <data name="oldlace"><value>OldLace</value></data>
+  <data name="limegreen"><value>LimeGreen</value></data>
+  <data name="orangered"><value>OrangeRed</value></data>
+  <data name="mediumaquamarine"><value>MediumAquamarine</value></data>
+  <data name="menuhighlight"><value>MenuHighlight</value></data>
+  <data name="infotext"><value>InfoText</value></data>
+  <data name="darkseagreen"><value>DarkSeaGreen</value></data>
+  <data name="honeydew"><value>Honeydew</value></data>
+  <data name="azure"><value>Azure</value></data>
+  <data name="green"><value>Green</value></data>
+  <data name="linen"><value>Linen</value></data>
+  <data name="mediumseagreen"><value>MediumSeaGreen</value></data>
+  <data name="beige"><value>Beige</value></data>
+  <data name="black"><value>Black</value></data>
+  <data name="brown"><value>Brown</value></data>
+  <data name="coral"><value>Coral</value></data>
+  <data name="ivory"><value>Ivory</value></data>
+  <data name="olive"><value>Olive</value></data>
+  <data name="khaki"><value>Khaki</value></data>
+  <data name="white"><value>White</value></data>
+  <data name="wheat"><value>Wheat</value></data>
+  <data name="tan"><value>Tan</value></data>
+  <data name="red"><value>Red</value></data>
+  <data name="hotpink"><value>HotPink</value></data>
+  <data name="buttonface"><value>ButtonFace</value></data>
+  <data name="hottrack"><value>HotTrack</value></data>
+  <data name="goldenrod"><value>Goldenrod</value></data>
+  <data name="indianred"><value>IndianRed</value></data>
+  <data name="lightseagreen"><value>LightSeaGreen</value></data>
+  <data name="aquamarine"><value>Aquamarine</value></data>
+  <data name="transparent"><value>Transparent</value></data>
+  <data name="lawngreen"><value>LawnGreen</value></data>
+  <data name="darkblue"><value>DarkBlue</value></data>
+  <data name="darkcyan"><value>DarkCyan</value></data>
+  <data name="darkgray"><value>DarkGray</value></data>
+  <data name="lightpink"><value>LightPink</value></data>
+  <data name="lightblue"><value>LightBlue</value></data>
+  <data name="lightcyan"><value>LightCyan</value></data>
+  <data name="lightgray"><value>LightGray</value></data>
+  <data name="yellowgreen"><value>YellowGreen</value></data>
+  <data name="mediumspringgreen"><value>MediumSpringGreen</value></data>
+  <data name="deeppink"><value>DeepPink</value></data>
+  <data name="gainsboro"><value>Gainsboro</value></data>
+  <data name="gradientactivecaption"><value>GradientActiveCaption</value></data>
+  <data name="magenta"><value>Magenta</value></data>
+  <data name="darkgoldenrod"><value>DarkGoldenrod</value></data>
+  <data name="menubar"><value>MenuBar</value></data>
+  <data name="controllightlight"><value>ControlLightLight</value></data>
+  <data name="chartreuse"><value>Chartreuse</value></data>
+  <data name="scrollbar"><value>ScrollBar</value></data>
+  <data name="mediumturquoise"><value>MediumTurquoise</value></data>
+  <data name="menutext"><value>MenuText</value></data>
+  <data name="royalblue"><value>RoyalBlue</value></data>
+  <data name="seashell"><value>SeaShell</value></data>
+  <data name="maroon"><value>Maroon</value></data>
+  <data name="seagreen"><value>SeaGreen</value></data>
+  <data name="mediumslateblue"><value>MediumSlateBlue</value></data>
+  <data name="bisque"><value>Bisque</value></data>
+  <data name="olivedrab"><value>OliveDrab</value></data>
+  <data name="darkolivegreen"><value>DarkOliveGreen</value></data>
+  <data name="indigo"><value>Indigo</value></data>
+  <data name="saddlebrown"><value>SaddleBrown</value></data>
+  <data name="darkmagenta"><value>DarkMagenta</value></data>
+  <data name="mediumblue"><value>MediumBlue</value></data>
+  <data name="mistyrose"><value>MistyRose</value></data>
+  <data name="orchid"><value>Orchid</value></data>
+  <data name="orange"><value>Orange</value></data>
+  <data name="mediumpurple"><value>MediumPurple</value></data>
+  <data name="deepskyblue"><value>DeepSkyBlue</value></data>
+  <data name="tomato"><value>Tomato</value></data>
+  <data name="darksalmon"><value>DarkSalmon</value></data>
+  <data name="purple"><value>Purple</value></data>
+  <data name="mintcream"><value>MintCream</value></data>
+  <data name="controldark"><value>ControlDark</value></data>
+  <data name="controltext"><value>ControlText</value></data>
+  <data name="thistle"><value>Thistle</value></data>
+  <data name="darkviolet"><value>DarkViolet</value></data>
+  <data name="violet"><value>Violet</value></data>
+  <data name="graytext"><value>GrayText</value></data>
+  <data name="window"><value>Window</value></data>
+  <data name="midnightblue"><value>MidnightBlue</value></data>
+  <data name="darkslategray"><value>DarkSlateGray</value></data>
+  <data name="darkslateblue"><value>DarkSlateBlue</value></data>
+  <data name="highlighttext"><value>HighlightText</value></data>
+  <data name="aqua"><value>Aqua</value></data>
+  <data name="gray"><value>Gray</value></data>
+  <data name="gold"><value>Gold</value></data>
+  <data name="lime"><value>Lime</value></data>
+  <data name="menu"><value>Menu</value></data>
+  <data name="blue"><value>Blue</value></data>
+  <data name="cyan"><value>Cyan</value></data>
+  <data name="info"><value>Info</value></data>
+  <data name="navy"><value>Navy</value></data>
+  <data name="teal"><value>Teal</value></data>
+  <data name="peru"><value>Peru</value></data>
+  <data name="plum"><value>Plum</value></data>
+  <data name="pink"><value>Pink</value></data>
+  <data name="snow"><value>Snow</value></data>
+  </root>

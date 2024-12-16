@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{EBB3D14C-B471-4C9E-9BBB-83B115EB0991}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.Processing.Alignment</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core\bin\Debug\Sdl.FileTypeSupport.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core.Utilities">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core.Utilities\bin\Debug\Sdl.FileTypeSupport.Framework.Core.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Implementation">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Implementation\bin\Debug\Sdl.FileTypeSupport.Framework.Implementation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing">
+      <HintPath>..\Sdl.Core.LanguageProcessing\bin\Debug\Sdl.Core.LanguageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.IO">
+      <HintPath>..\Sdl.LanguagePlatform.IO\bin\Debug\Sdl.LanguagePlatform.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemory">
+      <HintPath>..\Sdl.LanguagePlatform.TranslationMemory\bin\Debug\Sdl.LanguagePlatform.TranslationMemory.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\libs\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Lingua">
+      <HintPath>..\Sdl.LanguagePlatform.Lingua\bin\Debug\Sdl.LanguagePlatform.Lingua.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemoryTools">
+      <HintPath>..\Sdl.LanguagePlatform.TranslationMemoryTools\bin\Debug\Sdl.LanguagePlatform.TranslationMemoryTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\AbstractAlignmentAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\CompositeAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\GaleAndChurchAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\HunAlignAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\IAlignmentAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\OptimisticAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\PositionAlignmentAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\RetrofitAlignmentAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\VersionOneAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Algorithms\VersionTwoAlgorithm.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Anchoring\AbstractAnchoringStrategy.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Anchoring\CognateAnchorSearch.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Anchoring\ConfirmedAlignmentsAnchorStrategy.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Anchoring\DocumentStructureAnchorSearch.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Anchoring\ExactMatchAnchorSearch.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Anchoring\IAnchoringStrategy.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.Anchoring\TokenComparisonAnchorSearch.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\AbstractTagCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\CompositeCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\ContextCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\DocumentStructureCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\GaleAndChurchCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\HunAlignAlignmentTypeCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\HunAlignCompositeCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\HunAlignLengthCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\HunAlignWordCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\IAlignmentCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\LCSCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\PartialMatchCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\TagCountCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\TagEqualsCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core.CostComputers\TagExistsCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignedPair.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignedPairsEnumerable.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentAlgorithmFactory.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentAlgorithmSettings.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentAlgorithmType.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentArrayElement.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentArrayFactory.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentCost.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentData.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentDiagonalArray.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentElement.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentOperation.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentPenalties.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentRectangularArray.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AlignmentTag.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\AutoSuggestCostComputer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\BilingualDictionaryParseException.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\CompositeCostComponent.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\CorpusStatistics.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\Counter.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\DefaultBilingualDictionary.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\DocumentSegmentId.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\IAlignmentArray.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\InvertedIndex.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\LanguagePlatformSegmentGenerator.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\MappingDocumentSegmentId.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\SegmentPairsRepairer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\StringPair.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Core\WordForager.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Extensions\AlignmentDataExtensions.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Extensions\AlignmentSettingsExtensions.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Extensions\CultureInfoExtensions.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\BilingualSerializationFlags.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\BilingualSerializerVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\BilingualTagPairToken.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdApplier.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdApplierContext.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdApplierNormalizer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdApplierUtilities.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdChangeApplier.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdDeleteApplier.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdInsertApplier.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\EdUtilities.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\ModelMapper.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\ReplaceTagPairVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.RetrofitApplier\TextChanges.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\AdjacentTagPairMerger.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\AlignmentToOriginalMapper.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\CollectTagPropertiesVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\CopyMetadataVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\ParagraphUnitIdPair.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\RemoveSegmentVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\RetrofitAlignmentDataComparer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\RetrofitAlignmentProcessor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\RetrofitTrackChangesProcessor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\ReverseGapAligner.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.ReverseAlignment\SegmentAndTagsMerger.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\AbstractSdlAlignPackageHandler.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\AlignmentSettingsInfo.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\ISdlAlignPackageHandler.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\ParagraphUnitParser.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\SdlAlignExporter.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\SdlAlignPackage.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\SdlAlignPackageHandler.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\SdlRetrofitPackage.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\SdlReverseAlignExporter.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.SdlAlignPackage\SdlReverseAlignPackageHandler.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Tokenization\TokenizerFactory.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment.Tokenization\TokensContainer.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AbstractAlignmentProcessor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignedProcessor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\Aligner.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignmentCrossoverLocator.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignmentGap.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignmentHelper.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignmentIndexInfo.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignmentProcessor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignmentQualityCalculator.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\AlignmentSegment.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\CrossingAlignmentInfo.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\DocumentAlignmentData.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\DocumentAlignmentDataList.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\DocumentStructureBuilder.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\DocumentStructureNode.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\GapAligner.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\MaxTagIdVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\MergeParagraphParser.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\ProgressEstimator.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\ReplaceTagIdVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\SegmentCollectionVisitor.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\SimpleTranslator.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\StringResources.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\TagAligner.cs" />
+    <Compile Include="Sdl.Core.Processing.Alignment\TMXEmitter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.Processing.Alignment.Common\Sdl.Core.Processing.Alignment.Common.csproj">
+      <Project>{ac50bed8-f3da-4399-bc0e-c8f43060be31}</Project>
+      <Name>Sdl.Core.Processing.Alignment.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.Processing.Processors.Storage\Sdl.Core.Processing.Processors.Storage.csproj">
+      <Project>{8d08fad8-609a-4aa2-8632-8cbf2f92295a}</Project>
+      <Name>Sdl.Core.Processing.Processors.Storage</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

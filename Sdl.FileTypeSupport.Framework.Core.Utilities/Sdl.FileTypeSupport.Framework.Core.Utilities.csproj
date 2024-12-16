@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{22E469DF-FF3C-4DA2-91D7-C1F402B095CA}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.FileTypeSupport.Framework.Core.Utilities</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core\bin\Debug\Sdl.FileTypeSupport.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="ManagedCompactEncodingDetector">
+      <HintPath>..\libs\ManagedCompactEncodingDetector.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core.Settings">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core.Settings\bin\Debug\Sdl.FileTypeSupport.Framework.Core.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Settings">
+      <HintPath>..\Sdl.Core.Settings\bin\Debug\Sdl.Core.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\BilingualContentHandlerAdapter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\BufferedBilingualContentHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\CharacterCountingIterator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\CompleteHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\Constants.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\DefaultDocumentItemFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\EventFiringBilingualProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\ExistingContentHandling.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\FileCompleteHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\InitializeHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\InvalidEncodingRemovalVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\ParagraphUnitBuffer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\ProcessParagraphUnitHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\SetFilePropertiesHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\SourceToTargetCopier.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.BilingualApi\TextCollectionVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Constants\Characters.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Encryption\EncryptionConstants.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Formatting\ColorUtilitesResources.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Formatting\ColorUtilities.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Formatting\FormattingGroup.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Formatting\FormattingInflator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Formatting\FormattingItemFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Formatting\FormattingStack.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\AbstractQuickTagBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\AlignmentDefaults.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\BilingualMessageLocation.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\Constants.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\DefaultFileTypeManager.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\DefaultQuickTagInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\FilePathProvider.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\FolderPathProvider.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\Framework1ExternalPreviewException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.IntegrationApi\QuickTagDefaults.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\AbstractContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\ChangeContextContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\CommentEndContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\CommentStartContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\CustomInfoContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\InlineEndTagContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\InlinePlaceholderTagContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\InlineStartTagContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\LocationMarkContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\LockedContentEndContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\LockedContentStartContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\NativeBuffer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\ParagraphComments.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\ParagraphUnitEndContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\ParagraphUnitStartContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\RevisionEndContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\RevisionStartContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\SegmentEndContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\SegmentStartContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\StructureTagContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi.Buffer\TextContentItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\AbstractFilePostTweaker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\AbstractFilePreTweaker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\DefaultPersistentFilePropertiesKeys.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\DefaultPropertiesFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\DefaultTranslationOrigin.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\DefaultTranslationOriginPropertiesKeys.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\LengthTypes.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\LineNumberTracker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\MetaDataTypes.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\RegExFileHelper.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\RegExFilePostTweaker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\RegExFilePreTweaker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\SeverityTypes.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\StandardContextTypes.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\TMMatchContextTypes.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.NativeApi\TMTranslationOriginMetaData.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Properties\Resources.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities\FileEncoding.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Utilities\PredicateAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Formatting\ColorUtilitesResources.resx" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Framework.Core.Utilities.Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

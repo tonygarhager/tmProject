@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B968761C-4C11-447A-AA7C-FC21E132F2C8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.Core.FineGrainedAlignment</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.FineGrainedAlignment.Core">
+      <HintPath>..\Sdl.Core.FineGrainedAlignment.Core\bin\Debug\Sdl.Core.FineGrainedAlignment.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Stat">
+      <HintPath>..\Sdl.LanguagePlatform.Stat\bin\Debug\Sdl.LanguagePlatform.Stat.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Lingua">
+      <HintPath>..\Sdl.LanguagePlatform.Lingua\bin\Debug\Sdl.LanguagePlatform.Lingua.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing">
+      <HintPath>..\Sdl.Core.LanguageProcessing\bin\Debug\Sdl.Core.LanguageProcessing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignableContentPairId.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignableContentPairWrapper.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignableCorpusId.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignedPhrase.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignerDefinition.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignmentDirection.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignmentEvidence.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\AlignResult.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\BilingualChiSquareComputer3.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\BilingualPhraseComputer3.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ChiSquaredAligner.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ChiSquaredLiftAligner.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ChiSquaredTranslationModel.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ChiSquaredTranslationModelBuilder.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ChiSquaredTranslationModelId.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ChiSquaredTranslationModelStoreReadOnly.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\CompactTrie.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\CooccurrenceCountBinaryReaderWriter2.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\CooccurrenceCounter2.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\DataEncoder.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\DbDataLocation.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\DbDoubleSparseMatrix.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\DbVocabularyFile.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\DiskBasedMergeCounter2.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ExtendableBilingualPhrase.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ExtensionPoint.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\FGAInitializer.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IAlignableContentPair.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IAlignableCorpus.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IAlignableCorpusManager.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IAlignerBroker.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IAlignerService.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IBinaryReaderWriter2.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IChiSquaredTranslationModelStore.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IChiSquaredTranslationModelStoreReadOnly.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ICombineMetrics.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\IFineGrainedAligner.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ITranslationModelDataService.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ITranslationModelManagementService.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ITranslationModelManager.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\LiftAligner.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ModelBasedAlignerDefinition.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\ModelNotFoundException.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\OnlineAligner.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\OnlineAlignerDefinition.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\SignificantAlignableContentPair.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\SimpleAlignerBroker.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\SimpleAlignmentEvidence.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\SimpleMinMetrics.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\SymmetrizedAlignmentResults.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TempFileGenerator2.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TempFileRemover.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TokenWithCount.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TrainedModelAligner.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TrainedModelBuildResults.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TrainedModelComputer.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TrainedTranslationModel.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TrainedTranslationModelBuilder.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TrainedTranslationModelId.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModel.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelCancelException.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelDetails.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelFitness.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelId.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelMatrixEntry.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelProgressEventArgs.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelProgressStage.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelTypes.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\TranslationModelVocabEntry.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\VocabularyFile3.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\WordAlignment.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\WordAlignmentComputer3.cs" />
+    <Compile Include="Sdl.Core.FineGrainedAlignment\WordAlignmentWithAlternatives.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

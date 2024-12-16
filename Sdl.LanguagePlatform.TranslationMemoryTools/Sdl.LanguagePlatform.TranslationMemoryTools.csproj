@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{41BABCEC-0A4A-4BF6-8A95-54ACB507B8FE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.LanguagePlatform.TranslationMemoryTools</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core\bin\Debug\Sdl.FileTypeSupport.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemory">
+      <HintPath>..\Sdl.LanguagePlatform.TranslationMemory\bin\Debug\Sdl.LanguagePlatform.TranslationMemory.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Lingua">
+      <HintPath>..\Sdl.LanguagePlatform.Lingua\bin\Debug\Sdl.LanguagePlatform.Lingua.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Stat">
+      <HintPath>..\Sdl.LanguagePlatform.Stat\bin\Debug\Sdl.LanguagePlatform.Stat.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\FuzzySearch\libs\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing">
+      <HintPath>..\Sdl.Core.LanguageProcessing\bin\Debug\Sdl.Core.LanguageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.IO">
+      <HintPath>..\Sdl.LanguagePlatform.IO\bin\Debug\Sdl.LanguagePlatform.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemoryImpl">
+      <HintPath>..\Sdl.LanguagePlatform.TranslationMemoryImpl\bin\Debug\Sdl.LanguagePlatform.TranslationMemoryImpl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Implementation">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Implementation\bin\Debug\Sdl.FileTypeSupport.Framework.Implementation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools.PhraseExtraction\DatabaseConverter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools.PhraseExtraction\PhraseExtractionProcessor.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools.PhraseExtraction\TMXDataEncoder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\ClassifiedTagPairInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\EditDistanceChangeSequence.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\EditDistanceClassifier.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\EdUtilities.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\InvalidSegmentContentException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\LinguaSegmentBuilder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\LinguaTuBuilderSettings.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataEditDistanceApplier.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataPosition.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataQuickTagApplier.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataRange.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataSegmentBuilder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataSegmentPositionLocator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataTagApplier.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataTokenApplier.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\MarkupDataTokenMapping.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\SegmentBuilderWithTagApplier.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\TextCollector.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\TUConverter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryTools\TUOperations.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="EMSG_ConfigurationAbstractType"><value>A type referenced in the configuration is abstract and cannot be instantiated.</value></data>
+  <data name="EMSG_ConfigurationCannotResolveType"><value>A type referenced in the configuration could not be resolved.</value></data>
+  <data name="EMSG_ConfigurationCannotInstantiateOrCastType"><value>A type referenced in the configuration could not be instantiated or casted.</value></data>
+  <data name="EMSG_TokenizerInvalidNumericFormat"><value>An invalid numeric format occurred in a number token.</value></data>
+  <data name="EMSG_ResourceNotAvailable"><value>The requested language resource cannot be loaded for the specified culture.</value></data>
+  <data name="EMSG_SegmentationIllegalContinuation"><value>The segmentation rule could not be parsed due to an invalid continuation specifier.</value></data>
+  <data name="EMSG_ConfigurationInvalidType"><value>A type referenced in the configuration is invalid for the desired operation.</value></data>
+  <data name="EMSG_SegmentationEmptyRuleSet"><value>The segmentation rules are empty.</value></data>
+  <data name="EMSG_NoRegionSpecificLanguageFound"><value>No region-specific language could be found for the specified language.</value></data>
+  <data name="EMSG_SegmentNotTokenized"><value>The segment is not tokenized and cannot be processed.</value></data>
+  <data name="EMSG_LanguageResourceFileNotFound"><value>The language resource file could not be located.</value></data>
+  <data name="EMSG_SegmentationRuleLoadError"><value>The segmentation rules could not be loaded.</value></data>
+  <data name="EMSG_StemmerErrorInStemmingRule"><value>The stemming rule cannot be processed.</value></data>
+  <data name="EMSG_SegmentationRuleDeserializationError"><value>An error occurred during deserializaton of the segmentation rules.</value></data>
+  <data name="EMSG_SegmentationUnknownVariable"><value>A segmentation rule referred to an undefined variable.</value></data>
+  <data name="EMSG_SegmentationNoRulesForLanguage"><value>No segmentation rules are available for the specified language.</value></data>
+  <data name="EMSG_SegmentationInvalidRule"><value>The segmentation rule is invalid.</value></data>
+  <data name="EMSG_TokenizerInvalidCharacterSet"><value>An invalid character set occurred in a tokenizer rule.</value></data>
+  <data name="EMSG_InvalidLanguageResourceFile"><value>The language resource file is invalid.</value></data>
+  <data name="EMSG_SegmentationTrailingJunk"><value>The segmentation rule could not be parsed due to trailing junk.</value></data>
+  <data name="EMSG_SegmentationUnknownRuleType"><value>The segmentation rule could not be parsed due to an unknown rule type.</value></data>
+  <data name="EMSG_SegmentationInvalidVariableName"><value>The segmentation rule could not be parsed due to an invalid variable reference.</value></data>
+  <data name="EMSG_SegmentationIllegalKeywordInRule"><value>The segmentation rule could not be parsed due to an unknown keyword.</value></data>
+  </root>

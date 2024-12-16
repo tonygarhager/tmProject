@@ -1,0 +1,215 @@
+﻿AB	Abkhazian	1538
+AA	Afar	1539
+AF	Afrikaans	1078
+SQ	Albanian	1052
+AM	Amharic	1118
+AR-DZ	Arabic (Algeria)	5121
+AR-BH	Arabic (Bahrain)	15361
+AR-EG	Arabic (Egypt)	3073
+AR-IQ	Arabic (Iraq)	2049
+AR-JO	Arabic (Jordan)	11265
+AR-KW	Arabic (Kuwait)	13313
+AR-LB	Arabic (Lebanon)	12289
+AR-LY	Arabic (Libya)	4097
+AR-MA	Arabic (Morocco)	6145
+AR-OM	Arabic (Oman)	8193
+AR-QA	Arabic (Qatar)	16385
+AR-SA	Arabic (Saudi Arabia)	1025
+AR-SY	Arabic (Syria)	10241
+AR-TN	Arabic (Tunisia)	7169
+AR-AE	Arabic (U.A.E)	14337
+AR-YE	Arabic (Yemen)	9217
+AS	Assamese	1101
+AY	Aymara	1024
+AZ-XC	Azeri (Cyrillic)	1068
+AZ-XE	Azeri (Latin)	2092
+BA	Bashkir	1133
+EU	Basque	1069
+BN	Bengali	1093
+BN-BD	Bengali (Bangladesh)	2117
+BH	Bihari	1540
+BI	Bislama	1541
+BR	Breton	1150
+BG	Bulgarian	1026
+MY	Burmese	1109
+BE	Byelorussian	1059
+CA	Catalan	1027
+CH	Chewa	1024
+ZH-HK	Chinese (Hong Kong)	3076
+ZH-XM	Chinese (Macau)	1028
+ZH-CN	Chinese (PRC)	2052
+ZH-SG	Chinese (Singapore)	4100
+ZH-TW	Chinese (Taiwan)	1028
+CO	Corsican	1155
+HR	Croatian	1050
+CS	Czech	1029
+DA	Danish	1030
+NL-BE	Dutch (Belgium)	2067
+NL	Dutch (Netherlands)	1043
+EN-AU	English (Australia)	3081
+EN-BZ	English (Belize)	10249
+EN-GB	English (Britain)	2057
+EN-CA	English (Canada)	4105
+EN-CR	English (Caribbean)	9225
+EN-IN	English (India)	6153
+EN-IE	English (Ireland)	6153
+EN-JM	English (Jamaica)	8201
+EN-NZ	English (New Zealand)	5129
+EN-PH	English (Philippines)	13321
+EN-ZA	English (South Africa)	7177
+EN-TR	English (Trinidad)	11273
+EN-US	English (United States)	1033
+EN-RH	English (Zimbabwe)	12297
+EO	Esperanto	1542
+ET	Estonian	1061
+FO	Faeroese	1080
+FA	Farsi	1065
+FJ	Fijian	1543
+FL	Filipino	1124
+FI	Finnish	1035
+FR-BE	French (Belgium)	2060
+FR-CA	French (Canada)	3084
+FR	French (France)	1036
+FR-LU	French (Luxembourg)	5132
+FR-MC	French (Monaco)	6156
+FR-CH	French (Switzerland)	4108
+GD	Gaelic (Scotland)	1084
+GL	Galician	1110
+DE-AT	German (Austria)	3079
+DE	German (Germany)	1031
+DE-LI	German (Liechtenstein)	5127
+DE-LU	German (Luxembourg)	4103
+DE-CH	German (Switzerland)	2055
+EL	Greek	1032
+GN	Guarani	1024
+GU	Gujarati	1024
+HA	Hausa	1128
+HE	Hebrew	1037
+HI	Hindi	1024
+HU	Hungarian	1038
+IS	Icelandic	1039
+IG	Igbo	1136
+IN	Indonesian	1057
+IA	Interlingua	1544
+IE	Interlingue; Occidental	1545
+IK	Inupiaq	1546
+GA	Irish	2108
+IT	Italian	1040
+IT-CH	Italian (Switzerland)	2064
+JA	Japanese	1041
+JW	Javanese (Roman)	1024
+KL	Kalaallisut; Greenlandic	1547
+KN	Kannada	1099
+KA	Kashmiri	1120
+KK	Kazakh	1087
+KM	Khmer	1107
+RW	Kinyarwanda	1159
+KY	Kirghiz	1024
+KO	Korean	1042
+KU	Kurdish	1024
+LO	Lao	1108
+LV	Latvian	1062
+LN	Lingala	1536
+LT	Lithuanian	1063
+MK	Macedonian (FYROM)	1071
+MG	Malagasy	1024
+MS-BX	Malay (Brunei Darussalam)	2110
+MS-MY	Malay (Malaysia)	1086
+ML	Malayalam	2124
+ML-IN	Malayalam (India)	1100
+MI	Maori	1153
+MR	Marathi	1102
+MO	Moldavian	1024
+MN-XC	Mongolian (Cyrillic)	1024
+NA	Nauru	1548
+NE	Nepali	1121
+NO-NO	Norwegian (Bokmål)	1044
+NO-XY	Norwegian (Nynorsk)	2068
+OC	Occitan	1154
+OR	Oriya	1096
+OM	Oromo	1138
+PS	Pashto	1024
+PL	Polish	1045
+PT-BR	Portuguese (Brazil)	1046
+PT	Portuguese (Portugal)	2070
+PA	Punjabi	1094
+QU	Quechua	1024
+RO	Romanian	1048
+RO-MV	Romanian (Moldova)	1048
+RM	Romansh	1047
+RN	Ruanda	1024
+RD	Rundi	1024
+RU	Russian	1049
+RU-MV	Russian (Moldova)	1049
+SZ	Sami (Lappish)	1024
+SM	Samoan	1549
+SG	Sango	1550
+SA	Sanskrit	1103
+SR-XC	Serbian (Cyrillic)	3098
+SR	Serbian (Latin)	2074
+SH	Serbo-Croatian	1537
+ST	Sesotho	1132
+SN	Shona	1551
+SD	Sindhi	1113
+SI	Sinhalese	1115
+SK	Slovak	1051
+SL	Slovenian	1060
+SO	Somali	1024
+ES	Spanish	1034
+ES-AR	Spanish (Argentina)	11274
+ES-BO	Spanish (Bolivia)	16394
+ES-CN	Spanish (Chile)	13322
+ES-CO	Spanish (Colombia)	9226
+ES-CR	Spanish (Costa Rica)	5130
+ES-DO	Spanish (Dominican Republic)	7178
+ES-EC	Spanish (Ecuador)	12298
+ES-SV	Spanish (El Salvador)	17418
+ES-GT	Spanish (Guatemala)	4106
+ES-HN	Spanish (Honduras)	18442
+ES-MX	Spanish (Mexican)	2058
+ES-NI	Spanish (Nicaragua)	19466
+ES-PA	Spanish (Panama)	6154
+ES-PY	Spanish (Paraguay)	15370
+ES-PE	Spanish (Peru)	10250
+ES-PR	Spanish (Puerto Rico)	20490
+ES-US	Spanish (United States)	21514
+ES-UY	Spanish (Uruguay)	14346
+ES-VE	Spanish (Venezuela)	8202
+ES-XM	Spanish --International--	1034
+ES-XL	Spanish --Latin America--	1034
+ES-XY	Spanish --Modern--	3082
+SU	Sundanese (Roman)	1024
+SW	Swahili	1089
+SS	Swati	1552
+SV	Swedish	1053
+SV-FI	Swedish (Finland)	2077
+TL	Tagalog	1024
+TG	Tajik	1024
+TA	Tamil	1097
+TT	Tatar	1092
+TE	Telugu	1098
+TH	Thai	1054
+BO	Tibetan	1105
+DZ	Tibetan - Bhutan (Dzongkha)	2129
+TI	Tigrinya	1139
+TO	Tonga (Tonga Islands)	1553
+TS	Tsonga	1073
+TN	Tswana	1074
+TR	Turkish	1055
+TK	Turkmen	1024
+TW	Twi	1554
+UG	Uighur	1024
+UK	Ukrainian	1058
+UR	Urdu	1056
+UR-PK	Urdu (Pakistan)	2080
+UZ-XC	Uzbek (Cyrillic)	2115
+UZ-XL	Uzbek (Latin)	1091
+VI	Vietnamese	1066
+VO	Volapük	1555
+CY	Welsh	2057
+FY	Western Frisian	1122
+WO	Wolof	1160
+XH	Xhosa	1076
+JI	Yiddish	1024
+YO	Yoruba	1130
+ZU	Zulu	1077

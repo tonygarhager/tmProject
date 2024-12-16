@@ -1,0 +1,273 @@
+﻿af	Afrikaans	54	0x0036
+af-ZA	Afrikaans (South Africa)	1078	0x0436
+am-ET	Amharic (Ethiopia)	1118	0x045e
+ar	Arabic	1	0x0001
+ar-AE	Arabic (U.A.E.)	14337	0x3801
+ar-BH	Arabic (Bahrain)	15361	0x3c01
+ar-DZ	Arabic (Algeria)	5121	0x1401
+ar-EG	Arabic (Egypt)	3073	0x0c01
+ar-IQ	Arabic (Iraq)	2049	0x0801
+ar-JO	Arabic (Jordan)	11265	0x2c01
+ar-KW	Arabic (Kuwait)	13313	0x3401
+ar-LB	Arabic (Lebanon)	12289	0x3001
+ar-LY	Arabic (Libya)	4097	0x1001
+ar-MA	Arabic (Morocco)	6145	0x1801
+ar-OM	Arabic (Oman)	8193	0x2001
+ar-QA	Arabic (Qatar)	16385	0x4001
+ar-SA	Arabic (Saudi Arabia)	1025	0x0401
+ar-SY	Arabic (Syria)	10241	0x2801
+ar-TN	Arabic (Tunisia)	7169	0x1c01
+ar-YE	Arabic (Yemen)	9217	0x2401
+arn-CL	Mapudungun (Chile)	1146	0x047a
+as-IN	Assamese (India)	1101	0x044d
+az	Azeri	44	0x002c
+az-Cyrl-AZ	Azeri (Cyrillic, Azerbaijan)	2092	0x082c
+az-Latn-AZ	Azeri (Latin, Azerbaijan)	1068	0x042c
+ba-RU	Bashkir (Russia)	1133	0x046d
+be	Belarusian	35	0x0023
+be-BY	Belarusian (Belarus)	1059	0x0423
+bg	Bulgarian	2	0x0002
+bg-BG	Bulgarian (Bulgaria)	1026	0x0402
+bn-BD	Bengali (Bangladesh)	2117	0x0845
+bn-IN	Bengali (India)	1093	0x0445
+bo-CN	Tibetan (People's Republic of China)	1105	0x0451
+br-FR	Breton (France)	1150	0x047e
+bs-Cyrl-BA	Bosnian (Cyrillic) (Bosnia and Herzegovina)	8218	0x201a
+bs-Latn-BA	Bosnian (Latin) (Bosnia and Herzegovina)	5146	0x141a
+ca	Catalan	3	0x0003
+ca-ES	Catalan (Catalan)	1027	0x0403
+co-FR	Corsican (France)	1155	0x0483
+cs	Czech	5	0x0005
+cs-CZ	Czech (Czech Republic)	1029	0x0405
+cy-GB	Welsh (United Kingdom)	1106	0x0452
+da	Danish	6	0x0006
+da-DK	Danish (Denmark)	1030	0x0406
+de	German	7	0x0007
+de-AT	German (Austria)	3079	0x0c07
+de-CH	German (Switzerland)	2055	0x0807
+de-DE	German (Germany)	1031	0x0407
+de-LI	German (Liechtenstein)	5127	0x1407
+de-LU	German (Luxembourg)	4103	0x1007
+dsb-DE	Lower Sorbian (Germany)	2094	0x082e
+dv	Divehi	101	0x0065
+dv-MV	Divehi (Maldives)	1125	0x0465
+el	Greek	8	0x0008
+el-GR	Greek (Greece)	1032	0x0408
+en	English	9	0x0009
+en-029	English (Caribbean)	9225	0x2409
+en-AU	English (Australia)	3081	0x0c09
+en-BZ	English (Belize)	10249	0x2809
+en-CA	English (Canada)	4105	0x1009
+en-GB	English (United Kingdom)	2057	0x0809
+en-IE	English (Ireland)	6153	0x1809
+en-IN	English (India)	16393	0x4009
+en-JM	English (Jamaica)	8201	0x2009
+en-MY	English (Malaysia)	17417	0x4409
+en-NZ	English (New Zealand)	5129	0x1409
+en-PH	English (Republic of the Philippines)	13321	0x3409
+en-SG	English (Singapore)	18441	0x4809
+en-TT	English (Trinidad and Tobago)	11273	0x2c09
+en-US	English (United States)	1033	0x0409
+en-ZA	English (South Africa)	7177	0x1c09
+en-ZW	English (Zimbabwe)	12297	0x3009
+es	Spanish	10	0x000a
+es-AR	Spanish (Argentina)	11274	0x2c0a
+es-BO	Spanish (Bolivia)	16394	0x400a
+es-CL	Spanish (Chile)	13322	0x340a
+es-CO	Spanish (Colombia)	9226	0x240a
+es-CR	Spanish (Costa Rica)	5130	0x140a
+es-DO	Spanish (Dominican Republic)	7178	0x1c0a
+es-EC	Spanish (Ecuador)	12298	0x300a
+es-ES	Spanish (Spain)	3082	0x0c0a
+es-GT	Spanish (Guatemala)	4106	0x100a
+es-HN	Spanish (Honduras)	18442	0x480a
+es-MX	Spanish (Mexico)	2058	0x080a
+es-NI	Spanish (Nicaragua)	19466	0x4c0a
+es-PA	Spanish (Panama)	6154	0x180a
+es-PE	Spanish (Peru)	10250	0x280a
+es-PR	Spanish (Puerto Rico)	20490	0x500a
+es-PY	Spanish (Paraguay)	15370	0x3c0a
+es-SV	Spanish (El Salvador)	17418	0x440a
+es-US	Spanish (United States)	21514	0x540a
+es-UY	Spanish (Uruguay)	14346	0x380a
+es-VE	Spanish (Venezuela)	8202	0x200a
+et	Estonian	37	0x0025
+et-EE	Estonian (Estonia)	1061	0x0425
+eu	Basque	45	0x002d
+eu-ES	Basque (Basque)	1069	0x042d
+fa	Persian	41	0x0029
+fa-IR	Persian (Iran)	1065	0x0429
+fi	Finnish	11	0x000b
+fi-FI	Finnish (Finland)	1035	0x040b
+fil-PH	Filipino (Philippines)	1124	0x0464
+fo	Faroese	56	0x0038
+fo-FO	Faroese (Faroe Islands)	1080	0x0438
+fr	French	12	0x000c
+fr-BE	French (Belgium)	2060	0x080c
+fr-CA	French (Canada)	3084	0x0c0c
+fr-CH	French (Switzerland)	4108	0x100c
+fr-FR	French (France)	1036	0x040c
+fr-LU	French (Luxembourg)	5132	0x140c
+fr-MC	French (Principality of Monaco)	6156	0x180c
+fy-NL	Frisian (Netherlands)	1122	0x0462
+ga-IE	Irish (Ireland)	2108	0x083c
+gl	Galician	86	0x0056
+gl-ES	Galician (Galician)	1110	0x0456
+gsw-FR	Alsatian (France)	1156	0x0484
+gu	Gujarati	71	0x0047
+gu-IN	Gujarati (India)	1095	0x0447
+ha-Latn-NG	Hausa (Latin) (Nigeria)	1128	0x0468
+he	Hebrew	13	0x000d
+he-IL	Hebrew (Israel)	1037	0x040d
+hi	Hindi	57	0x0039
+hi-IN	Hindi (India)	1081	0x0439
+hr	Croatian	26	0x001a
+hr-BA	Croatian (Latin) (Bosnia and Herzegovina)	4122	0x101a
+hr-HR	Croatian (Croatia)	1050	0x041a
+hsb-DE	Upper Sorbian (Germany)	1070	0x042e
+hu	Hungarian	14	0x000e
+hu-HU	Hungarian (Hungary)	1038	0x040e
+hy	Armenian	43	0x002b
+hy-AM	Armenian (Armenia)	1067	0x042b
+id	Indonesian	33	0x0021
+id-ID	Indonesian (Indonesia)	1057	0x0421
+ig-NG	Igbo (Nigeria)	1136	0x0470
+ii-CN	Yi (People's Republic of China)	1144	0x0478
+is	Icelandic	15	0x000f
+is-IS	Icelandic (Iceland)	1039	0x040f
+it	Italian	16	0x0010
+it-CH	Italian (Switzerland)	2064	0x0810
+it-IT	Italian (Italy)	1040	0x0410
+iu-Cans-CA	Inuktitut (Canada)	1117	0x045d
+iu-Latn-CA	Inuktitut (Latin) (Canada)	2141	0x085d
+ja	Japanese	17	0x0011
+ja-JP	Japanese (Japan)	1041	0x0411
+ka	Georgian	55	0x0037
+ka-GE	Georgian (Georgia)	1079	0x0437
+kk	Kazakh	63	0x003f
+kk-KZ	Kazakh (Kazakhstan)	1087	0x043f
+kl-GL	Greenlandic (Greenland)	1135	0x046f
+km-KH	Khmer (Cambodia)	1107	0x0453
+kn	Kannada	75	0x004b
+kn-IN	Kannada (India)	1099	0x044b
+ko	Korean	18	0x0012
+ko-KR	Korean (Korea)	1042	0x0412
+kok	Konkani	87	0x0057
+kok-IN	Konkani (India)	1111	0x0457
+ky	Kyrgyz	64	0x0040
+ky-KG	Kyrgyz (Kyrgyzstan)	1088	0x0440
+lb-LU	Luxembourgish (Luxembourg)	1134	0x046e
+lo-LA	Lao (Lao P.D.R.)	1108	0x0454
+lt	Lithuanian	39	0x0027
+lt-LT	Lithuanian (Lithuania)	1063	0x0427
+lv	Latvian	38	0x0026
+lv-LV	Latvian (Latvia)	1062	0x0426
+mi-NZ	Maori (New Zealand)	1153	0x0481
+mk	Macedonian	47	0x002f
+mk-MK	Macedonian (Former Yugoslav Republic of Macedonia)	1071	0x042f
+ml-IN	Malayalam (India)	1100	0x044c
+mn	Mongolian	80	0x0050
+mn-MN	Mongolian (Cyrillic, Mongolia)	1104	0x0450
+mn-Mong-CN	Mongolian (Traditional Mongolian) (People's Republic of China)	2128	0x0850
+moh-CA	Mohawk (Canada)	1148	0x047c
+mr	Marathi	78	0x004e
+mr-IN	Marathi (India)	1102	0x044e
+ms	Malay	62	0x003e
+ms-BN	Malay (Brunei Darussalam)	2110	0x083e
+ms-MY	Malay (Malaysia)	1086	0x043e
+mt-MT	Maltese (Malta)	1082	0x043a
+nb-NO	Norwegian, Bokmål (Norway)	1044	0x0414
+ne-NP	Nepali (Nepal)	1121	0x0461
+nl	Dutch	19	0x0013
+nl-BE	Dutch (Belgium)	2067	0x0813
+nl-NL	Dutch (Netherlands)	1043	0x0413
+nn-NO	Norwegian, Nynorsk (Norway)	2068	0x0814
+no	Norwegian	20	0x0014
+nso-ZA	Sesotho sa Leboa (South Africa)	1132	0x046c
+oc-FR	Occitan (France)	1154	0x0482
+or-IN	Oriya (India)	1096	0x0448
+pa	Punjabi	70	0x0046
+pa-IN	Punjabi (India)	1094	0x0446
+pl	Polish	21	0x0015
+pl-PL	Polish (Poland)	1045	0x0415
+prs-AF	Dari (Afghanistan)	1164	0x048c
+ps-AF	Pashto (Afghanistan)	1123	0x0463
+pt	Portuguese	22	0x0016
+pt-BR	Portuguese (Brazil)	1046	0x0416
+pt-PT	Portuguese (Portugal)	2070	0x0816
+qut-GT	K'iche (Guatemala)	1158	0x0486
+quz-BO	Quechua (Bolivia)	1131	0x046b
+quz-EC	Quechua (Ecuador)	2155	0x086b
+quz-PE	Quechua (Peru)	3179	0x0c6b
+rm-CH	Romansh (Switzerland)	1047	0x0417
+ro	Romanian	24	0x0018
+ro-RO	Romanian (Romania)	1048	0x0418
+ru	Russian	25	0x0019
+ru-RU	Russian (Russia)	1049	0x0419
+rw-RW	Kinyarwanda (Rwanda)	1159	0x0487
+sa	Sanskrit	79	0x004f
+sa-IN	Sanskrit (India)	1103	0x044f
+sah-RU	Yakut (Russia)	1157	0x0485
+se-FI	Sami (Northern) (Finland)	3131	0x0c3b
+se-NO	Sami (Northern) (Norway)	1083	0x043b
+se-SE	Sami (Northern) (Sweden)	2107	0x083b
+si-LK	Sinhala (Sri Lanka)	1115	0x045b
+sk	Slovak	27	0x001b
+sk-SK	Slovak (Slovakia)	1051	0x041b
+sl	Slovenian	36	0x0024
+sl-SI	Slovenian (Slovenia)	1060	0x0424
+sma-NO	Sami (Southern) (Norway)	6203	0x183b
+sma-SE	Sami (Southern) (Sweden)	7227	0x1c3b
+smj-NO	Sami (Lule) (Norway)	4155	0x103b
+smj-SE	Sami (Lule) (Sweden)	5179	0x143b
+smn-FI	Sami (Inari) (Finland)	9275	0x243b
+sms-FI	Sami (Skolt) (Finland)	8251	0x203b
+sq	Albanian	28	0x001c
+sq-AL	Albanian (Albania)	1052	0x041c
+sr	Serbian	31770	0x7c1a
+sr-Cyrl-BA	Serbian (Cyrillic) (Bosnia and Herzegovina)	7194	0x1c1a
+sr-Cyrl-CS	Serbian (Cyrillic, Serbia)	3098	0x0c1a
+sr-Latn-BA	Serbian (Latin) (Bosnia and Herzegovina)	6170	0x181a
+sr-Latn-CS	Serbian (Latin, Serbia)	2074	0x081a
+sv	Swedish	29	0x001d
+sv-FI	Swedish (Finland)	2077	0x081d
+sv-SE	Swedish (Sweden)	1053	0x041d
+sw	Kiswahili	65	0x0041
+sw-KE	Kiswahili (Kenya)	1089	0x0441
+syr	Syriac	90	0x005a
+syr-SY	Syriac (Syria)	1114	0x045a
+ta	Tamil	73	0x0049
+ta-IN	Tamil (India)	1097	0x0449
+te	Telugu	74	0x004a
+te-IN	Telugu (India)	1098	0x044a
+tg-Cyrl-TJ	Tajik (Cyrillic) (Tajikistan)	1064	0x0428
+th	Thai	30	0x001e
+th-TH	Thai (Thailand)	1054	0x041e
+tk-TM	Turkmen (Turkmenistan)	1090	0x0442
+tn-ZA	Setswana (South Africa)	1074	0x0432
+tr	Turkish	31	0x001f
+tr-TR	Turkish (Turkey)	1055	0x041f
+tt	Tatar	68	0x0044
+tt-RU	Tatar (Russia)	1092	0x0444
+tzm-Latn-DZ	Tamazight (Latin) (Algeria)	2143	0x085f
+ug-CN	Uighur (People's Republic of China)	1152	0x0480
+uk	Ukrainian	34	0x0022
+uk-UA	Ukrainian (Ukraine)	1058	0x0422
+ur	Urdu	32	0x0020
+ur-PK	Urdu (Islamic Republic of Pakistan)	1056	0x0420
+uz	Uzbek	67	0x0043
+uz-Cyrl-UZ	Uzbek (Cyrillic, Uzbekistan)	2115	0x0843
+uz-Latn-UZ	Uzbek (Latin, Uzbekistan)	1091	0x0443
+vi	Vietnamese	42	0x002a
+vi-VN	Vietnamese (Vietnam)	1066	0x042a
+wo-SN	Wolof (Senegal)	1160	0x0488
+xh-ZA	isiXhosa (South Africa)	1076	0x0434
+yo-NG	Yoruba (Nigeria)	1130	0x046a
+zh-CHS	Chinese (Simplified)	4	0x0004
+zh-CHT	Chinese (Traditional)	31748	0x7c04
+zh-CN	Chinese (People's Republic of China)	2052	0x0804
+zh-HK	Chinese (Hong Kong S.A.R.)	3076	0x0c04
+zh-MO	Chinese (Macao S.A.R.)	5124	0x1404
+zh-SG	Chinese (Singapore)	4100	0x1004
+zh-TW	Chinese (Taiwan)	1028	0x0404
+zu-ZA	isiZulu (South Africa)	1077	0x0435

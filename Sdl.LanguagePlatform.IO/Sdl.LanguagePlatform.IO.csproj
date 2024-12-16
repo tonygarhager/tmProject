@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FB6CA7C2-5FEC-4843-9A92-F15769083223}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.LanguagePlatform.IO</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Lingua">
+      <HintPath>..\Sdl.LanguagePlatform.Lingua\bin\Debug\Sdl.LanguagePlatform.Lingua.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemory">
+      <HintPath>..\Sdl.LanguagePlatform.TranslationMemory\bin\Debug\Sdl.LanguagePlatform.TranslationMemory.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing">
+      <HintPath>..\Sdl.Core.LanguageProcessing\bin\Debug\Sdl.Core.LanguageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\CommentEvent.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\EndOfInputEvent.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\Event.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\IEventReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\IEventReceiver.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\ITUStreamContext.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\StartOfInputEvent.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\TUEvent.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.Streams\TUStreamContext.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\AbstractEmitter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\body.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\bpt.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\ContentBearingTag.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\EntityMappings.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\ept.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\GenericCleaner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\header.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\headerSegtype.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\hi.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\it.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\itPos.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\map.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\note.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\ph.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\prop.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\SDLXCleaner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\SDLXEmitter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\seg.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\sub.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TM8Emitter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\tmx.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXConstants.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXConversions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXReaderSettings.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXStartOfInputEvent.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXTools.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXTUBuilder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXWriterSettings.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\TMXXmlResolver.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\tu.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\tuSegtype.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\tuv.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\ude.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\ut.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\WorkbenchCleaner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\WorkbenchEmitter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\WSCleaner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO.TMX\WSEmitter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO\IllegalCharacterFilter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.IO\MultiFileTextReader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.LanguagePlatform.IO.TMX\tmx14.xsd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

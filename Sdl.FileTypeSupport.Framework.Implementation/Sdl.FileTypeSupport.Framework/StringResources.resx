@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="SerializableMarkupDataContainer_InvalidFilePropertiesError"><value>Value must be of type FileProperties.</value></data>
+  <data name="SpringFrameworkList_IndexRangeInsertListMethodError"><value>Index out of range for SpringFrameworkList.InsertList method</value></data>
+  <data name="QuickInsertName_qSmallCaps"><value>SmallCaps</value></data>
+  <data name="DocumentItemFactory_DifferentSourceTargetPropertiesError"><value>Source and target segments in a segment pair must have the same properties.</value></data>
+  <data name="MultiFileConverter_NoFileExtractorsError"><value>No file extractors have been specified.</value></data>
+  <data name="SpringFrameworkObject_IndexRangeInsertConstructorArgError"><value>Index out of range for SpringFrameworkObject.InsertConstructorArg method</value></data>
+  <data name="SpringFrameworkFile_XMLDocNullError"><value>Internal Error: _XmlDoc is null! Cannot save to file</value></data>
+  <data name="QuickInsertDescription_qSmallCaps"><value>Small caps formatting</value></data>
+  <data name="FilterManagerAdministrator_PropertyNotObjectError"><value>The value of the '{0}' property is not an &lt;object&gt;.</value></data>
+  <data name="FileAdministrator_IncorrectFormatError"><value>Incorrect format for embeddedResource parameter</value></data>
+  <data name="BilingualToSourceConverter_NoPropertiesFactoryError"><value>No properties factory set!</value></data>
+  <data name="QuickInsertName_qBold"><value>Bold</value></data>
+  <data name="QuickInsertDescription_qNoSmallCaps"><value>Turn small caps formatting off</value></data>
+  <data name="SpringFrameworkFile_IndexRangeInsertObjectError"><value>Index out of range for SpringFrameworkFile.InsertObject method</value></data>
+  <data name="NativeFileWriting"><value>File Writing</value></data>
+  <data name="StructureTag_MarkupVisitorError"><value>Markup data visitor pattern should never be used for structure tags. They are not part of markup content.</value></data>
+  <data name="SpringFrameworkObject_ConstructorNotDocumentElementError"><value>Spring Constructor Arg being inserted is not a element in this document!</value></data>
+  <data name="QuickTags_DuplicateIDError"><value>QuickInsert with same ID already exists!</value></data>
+  <data name="QuickInsertDescription_qBold"><value>Bold formatting</value></data>
+  <data name="NativeToBilingualConverter_MismatchRevisionError"><value>End revision call does not have matching start revision call!</value></data>
+  <data name="NativeToBilingualConverter_MismatchCommentError"><value>End comment call does not have matching start comment call!</value></data>
+  <data name="SpringFrameworkObject_NameEmptyInsertPropertyError"><value>name parameter is empty in SpringFrameworkObject.InsertProperty()</value></data>
+  <data name="QuickInsertDescription_qNoStrikeThrough"><value>Turn strike through formatting off</value></data>
+  <data name="FilterManagerAdministrator_InsertDefinitionIndexRangeError"><value>Index out of range for FilterManagerAdministrator.InsertDefinition() method</value></data>
+  <data name="MessageLocationDescriptionForLineAndOffsetNumbers"><value>Line {0} offset {1} to line {2} offset {3}.</value></data>
+  <data name="NativeToBilingualConverter_UnknownItemError"><value>Unknown item type in _UnclosedContentPairs!</value></data>
+  <data name="SpringFrameworkList_ObjectExistsError"><value>Object being inserted already exists in collection!</value></data>
+  <data name="QuickInsertName_qStrikeThrough"><value>StrikeThrough</value></data>
+  <data name="SpringFrameworkList_IndexRangeInsertItemError"><value>Index out of range for SpringFrameworkList.InsertItem method</value></data>
+  <data name="MultiFileConverter_DifferentDocumentPropertiessError"><value>Bilingual file type uses different document properties. The document properties from the bilingual file were ignored.
+Document properties used: '{0}'
+Document properties from the file: '{1}'</value></data>
+  <data name="QuickInsertName_qSuperscript"><value>Superscript</value></data>
+  <data name="QuickInsertName_qOptionalHyphen"><value>OptionalHyphen</value></data>
+  <data name="QuickInsertName_qNoStrikeThrough"><value>NoStrikeThrough</value></data>
+  <data name="SpringObjectProperty_HasParentError"><value>Item already has parent in SpringObjectProperty.SetObjectValue method</value></data>
+  <data name="NativeToBilingualConverter_NoLocalizablePUPresentError"><value>Attempt to add content while no localizable ParagraphUnit is present!</value></data>
+  <data name="AbstractMarkupData_ParentOtherCollectionError"><value>Attempt to set Parent property when item is still part of another collection.</value></data>
+  <data name="FilterManagerAdministrator_FilterDefinitionNullFindError"><value>filterDefinition is null! Cannot find definition</value></data>
+  <data name="QuickInsertDescription_qNoDoubleUnderline"><value>Turn double underline formatting off</value></data>
+  <data name="QuickInsertDescription_qSortOrder"><value>Sort order</value></data>
+  <data name="VerificationManager_DifferentDocumentPropertiesError"><value>Bilingual file type uses different document properties. The document properties from the bilingual file were ignored.
+Document properties used: '{0}'
+Document properties from the file: '{1}'</value></data>
+  <data name="FilterDefinitionAdministrator_NoFileTypeInformationError"><value>The file type definition file '{0}' does not contain an object element with id 'FileTypeInformation'</value></data>
+  <data name="VerificationManager_MissingMessageReporterError"><value>Message reporter not found.</value></data>
+  <data name="MarkupDataContainer_InvalidStartLocationError"><value>The start location is not a valid location.</value></data>
+  <data name="VerificationManager_MissingProgressReporterError"><value>Progress reporter not found.</value></data>
+  <data name="FilterManager_MissingFilterDefinitionIDError"><value>File type definition with ID '{0}' does not exist in the file type manager.</value></data>
+  <data name="QuickInsertDescription_qNonBreakingHyphen"><value>Non-breaking hyphen character</value></data>
+  <data name="FilterManager_FileDoesNotExist"><value>The file at location '{0}' does not exist!</value></data>
+  <data name="FilterManager_NotBilingualFileTypeError"><value>The specified file type definition is not an intermediate bilingual document file type.</value></data>
+  <data name="MultiFileConverter_FileDocumentSourceLanguageError"><value>Source language in the file ({0}) differs from the document ({1}).</value></data>
+  <data name="SpringFilterComponentBuilder_ReadConfigurationError"><value>Failed to read the configuration file '{0}'.</value></data>
+  <data name="FilterDefinition_UnknownDefinitionName"><value>unknown</value></data>
+  <data name="SpringFrameworkObject_EmptyTypeClassNameError"><value>Empty type argument in SpringFrameworkObject.GetObjectClassName()</value></data>
+  <data name="FilterManagerAdministrator_UnhandledOpInsertDefinitionError"><value>Unhandled operation in FilterDefinitionAdministrator.InsertDefinition()!</value></data>
+  <data name="FileSniffingProcess"><value>File Type Detection</value></data>
+  <data name="MultiFileConverter_FilterDefinitionNotFoundError"><value>Filter definition '{0}' not found or could not be used to construct a generator.</value></data>
+  <data name="QuickInsertDescription_qDoubleUnderline"><value>Double underline formatting</value></data>
+  <data name="NativeToBilingualConverter_RevisionNestedTagError"><value>Revision is incorrectly nested with a tag pair!</value></data>
+  <data name="FilterManagerAdministrator_PropertyNotTypeError"><value>The value of the '{0}' property is not of type '{1}'.</value></data>
+  <data name="FilterManagerAdministrator_UnhandledOpAddDefinitionError"><value>Unhandled operation in FilterDefinitionAdministrator.AddDefinition()!</value></data>
+  <data name="SpringFrameworkObject_InvalidTypeClassNameError"><value>Invalid type argument format in SpringFrameworkObject.GetObjectClassName()</value></data>
+  <data name="FilterManager_FileTypeDefinitionNotFoundError"><value>The file type with ID: '{0}' is required to process this content, but it could not be found.</value></data>
+  <data name="QuickInsertDescription_qSuperscript"><value>Superscript formatting</value></data>
+  <data name="QuickInsertDescription_qStrikeThrough"><value>Strike through formatting</value></data>
+  <data name="FileTypeLoadFailed"><value>Cannot load file type: </value></data>
+  <data name="SpringFilterComponentBuilder_LocateConfigurationError"><value>The configuration file '{0}' could not be located.</value></data>
+  <data name="Paragraph_WrongPUParentError"><value>Attempting to set the Parent property to a ParagraphUnit which does not have this paragraph as source or target.</value></data>
+  <data name="QuickInsertDescription_qSubscript"><value>Subscript formatting</value></data>
+  <data name="QuickInsertName_qNoBold"><value>NoBold</value></data>
+  <data name="QuickInsertName_qItalic"><value>Italic</value></data>
+  <data name="FilterDefinition_NoComponentBuilderError"><value>Component builder must be specified before using the file type definition.</value></data>
+  <data name="Text_NullError"><value>Text is null</value></data>
+  <data name="BilingualToNativeConverter_PUMissingMessage"><value>Missing one or more ParagraphUnits containing localizable content for sub-segments in other ParagraphUnits.</value></data>
+  <data name="SpringFrameworkObject_HasParentInsertPropetyError"><value>Spring property already has Parent in SpringFrameworkObject.InsertProperty method</value></data>
+  <data name="QuickInsertName_qNoUnderline"><value>NoUnderline</value></data>
+  <data name="SpringFrameworkObject_ConstructorExistsCollectionError"><value>constructor-arg being inserted already exists in collection!</value></data>
+  <data name="NativeToBilingualConverter_MismatchLockedContentError"><value>End locked content call does not have matching start locked content call!</value></data>
+  <data name="QuickInsertName_qNoSuperscript"><value>NoSuperscript</value></data>
+  <data name="SpringFrameworkList_HasParentInsertItemError"><value>Item already has parent in SpringFrameworkList.InsertItem method</value></data>
+  <data name="SpringFrameworkObject_NameExistsInsertPropertyError"><value>Spring property with name {0} already exists when trying to InsertProperty()</value></data>
+  <data name="SpringObjectProperty_InvalidDocumentElementError"><value>Object being set is not a element in this document!</value></data>
+  <data name="Paragraph_NoSplitError"><value>Paragraphs cannot be split.</value></data>
+  <data name="SpringFrameworkFile_NullXmlError"><value>The XML document is null in SpringFrameworkFile</value></data>
+  <data name="FilterManagerAdministrator_EmptyConstructorFindError"><value>Empty constructor-arg: Cannot find definition</value></data>
+  <data name="SpringFrameworkList_InvalidElementError"><value>Object being inserted is not a element in this document!</value></data>
+  <data name="BilingualToSourceConverter_PropertiesNotSetError"><value>FileComplete() called before file properties have been set through SetFileProperties().</value></data>
+  <data name="SpringFrameworkFile_NotDocumentElementError"><value>Object being inserted is not a element in this document!</value></data>
+  <data name="FilterManagerConfigAdministrator_NullElementError"><value>Element cannot be null in FilterManagerConfigAdministrator ctor()</value></data>
+  <data name="MarkupDataContainer_AlreadyInCollectionError"><value>Attempting to insert an item that is already part of a collection.</value></data>
+  <data name="NativeToBilingualConverter_BufferContainsUnlclosedPairsErrors"><value>ParagraphUnit/LockedContent buffer should only contain items if there are unclosed pairs!</value></data>
+  <data name="QuickInsertName_qNoSmallCaps"><value>NoSmallCaps</value></data>
+  <data name="SubContentProcessorIsMissing"><value>The processor for this type of embedded content no longer exists. Check your Embedded Content File 
+Types settings.</value></data>
+  <data name="FilterManager_FileNotSupportedError"><value>One or more files not supported: </value></data>
+  <data name="NativeToBilingualConverter_RemoveFromEmptyStackError"><value>Attempt to remove a container from an empty stack!</value></data>
+  <data name="QuickInsertName_qSortOrder"><value>SortOrder</value></data>
+  <data name="MarkupDataContainer_WrongCollectionError"><value>The start location is not a location inside this collection.</value></data>
+  <data name="SpringFrameworkFile_FilePathEmptyError"><value>Internal Error: filePath is empty! Cannot save to file</value></data>
+  <data name="SpringFrameworkList_IndexRangeInsertNullError"><value>Index out of range for SpringFrameworkList.InsertNull method</value></data>
+  <data name="SpringFrameworkObject_NotDocumentElementError"><value>Spring Property being inserted is not a element in this document!</value></data>
+  <data name="FileTypeComponentBuilderNotWithCreator"><value>File type component builder must implement IFileTypeComponentBuilderWithFileTypeCreator.</value></data>
+  <data name="SpringFrameworkObject_ConstructorHasParentInsertError"><value>Spring constructor-arg already has parent in SpringFrameworkObject.InsertConstructorArg method</value></data>
+  <data name="Paragraph_WrongPUError"><value>Attempting to change the Parent property while the paragraph is still part of another ParagraphUnit.</value></data>
+  <data name="QuickInsertDescription_qNoBold"><value>Turn bold formatting off</value></data>
+  <data name="FileProcessing"><value>File Processing</value></data>
+  <data name="SpringFrameworkObject_NullConstructorArgRemoveConstructorArgError"><value>Null constructorArg argument in SpringFrameworkObject.RemoveConstructorArg()</value></data>
+  <data name="QuickInsertName_qUnderline"><value>Underline</value></data>
+  <data name="QuickInsertDescription_qItalic"><value>Italic formatting</value></data>
+  <data name="FilterManagerAdministrator_WrongConstructorArgNumberError"><value>The value of the '{0}' object has {1} constructor arguments (expected only one).</value></data>
+  <data name="SpringFrameworkFile_NoElementFoundError"><value>No &lt;{0}&gt; element found in Spring Framework File!</value></data>
+  <data name="SpringFrameworkObject_EmptyTypeAssemblyError"><value>Empty type argument in SpringFrameworkObject.GetObjectAssemblyName()</value></data>
+  <data name="FilterManager_NoFileTypeSupportError"><value>None of the installed file types supports the file '{0}'.</value></data>
+  <data name="SpringFrameworkList_IndexRangeInsertObjectError"><value>Index out of range for SpringFrameworkList.InsertObject method</value></data>
+  <data name="SpringFrameworkFile_FilePathNullError"><value>Internal Error: filePath is null! Cannot save to file</value></data>
+  <data name="QuickInsertDescription_qNoSubscript"><value>Turn subscript formatting off</value></data>
+  <data name="NativeToBilingialConverter_UnmatchedTagPairError"><value>Unmatched tag pair/revisioned or locked content calls detected!</value></data>
+  <data name="QuickInsertName_qNoDoubleUnderline"><value>NoDoubleUnderline</value></data>
+  <data name="FilterDefinition_FileSnifferFailedError"><value>File sniffer for file type '{0}' failed:
+{1}</value></data>
+  <data name="QuickInsertDescription_qNoItalic"><value>Turn italic formatting off</value></data>
+  <data name="SpringFrameworkList_NullListItemRemoveListItemError"><value>Null listItem argument in SpringFrameworkList.RemoveListItem()</value></data>
+  <data name="FilterManagerAdministrator_RemoveDefinitionError"><value>Could not remove list item in FilterManagerAdministrator.RemoveDefinition()!</value></data>
+  <data name="SpringFrameworkFile_ObjectExistsError"><value>Object being inserted already exists in collection!</value></data>
+  <data name="MarkupDataContainer_IndexRangeError"><value>Index out of range ({0}). It must be a number from 0 up to the number of items in the collection ({1}).</value></data>
+  <data name="QuickInsertName_qSubscript"><value>Subscript</value></data>
+  <data name="NativeToBilingualConverter_LockedNestedTagError"><value>Locked content is incorrectly nested with a tag pair!</value></data>
+  <data name="QuickInsertName_qDoubleUnderline"><value>DoubleUnderline</value></data>
+  <data name="QuickTagAdministrator_SampleTextMarker"><value>(Sample text)</value></data>
+  <data name="Segment_NoSplitError"><value>Segments cannot be split.</value></data>
+  <data name="FilterManager_NoFilterDefinitionSpecifiedError"><value>File type definition not specified.</value></data>
+  <data name="NativeToBilingualConverter_ProcessContentBeforeStartError"><value>Attempted to process content before StartOfInput()</value></data>
+  <data name="SpringFrameworkList_IndexRangeInsertListValueError"><value>Index out of range for SpringFrameworkList.InsertListValue method</value></data>
+  <data name="FilterManagerAdministrator_EmptyConstructionArgError"><value>Empty constructor-arg: Cannot remove definition</value></data>
+  <data name="VerificationManager_NoFileExtractorsError"><value>No file extractors have been specified.</value></data>
+  <data name="SpringFrameworkObject_NullPropertyRemovePropertyError"><value>Null property argument in SpringFrameworkObject.RemoveProperty()</value></data>
+  <data name="FilterManager_NoDefaultBilingualFileTypeError"><value>No default bilingual file type has been set.</value></data>
+  <data name="NativeToBilingualConverter_EndTagNestedLockedError"><value>End tag '{0}' is incorrectly nested with locked content!</value></data>
+  <data name="EmptyFileMessage"><value>File is empty.</value></data>
+  <data name="DuplicateFilterIDsError"><value>More than one file type with ID {0} exists. You must remove the additional file types before processing files.</value></data>
+  <data name="FileExtractor_NoFileError"><value>No parser has been specified.</value></data>
+  <data name="MultiFileConverter_FileDocumentTargetLanguageError"><value>Target language in the file ({0}) differs from the document ({1}).</value></data>
+  <data name="QuickInsertName_qNoItalic"><value>NoItalic</value></data>
+  <data name="SpringFrameworkFile_NullObjectRemoveObjectError"><value>Null springObject argument in SpringFrameworkFile.RemoveObject()</value></data>
+  <data name="QuickInsertDescription_qOptionalHyphen"><value>Optional hyphen character</value></data>
+  <data name="NativeToBilingualConverter_CommentNestedTagError"><value>Comment is incorrectly nested with a tag pair!</value></data>
+  <data name="QuickInsertDescription_qNoUnderline"><value>Turn underline formatting off</value></data>
+  <data name="SpringFrameworkFile_ObjectHasParentInsertObjectError"><value>Object already has parent in SpringFrameworkFile.InsertObject method</value></data>
+  <data name="NativeToBilingualConverter_PUNotReleasedError"><value>ParagraphUnit buffer should have been released at the end of the file!</value></data>
+  <data name="AbstractMarkupData_WrongCollectionError"><value>Attempt to set Parent property to a collection that does not contain this item.</value></data>
+  <data name="QuickInsertName_qNoSubscript"><value>NoSubscript</value></data>
+  <data name="MultiFileConverter_NoOutputPropertiesProviderError"><value>OutputPropertiesProvider has not been set!</value></data>
+  <data name="SerializableMarkupDataContainer_InvalidDocumentPropertiesError"><value>Value must be of type DocumentProperties.</value></data>
+  <data name="QuickInsertDescription_qNoSuperscript"><value>Turn superscript formatting off</value></data>
+  <data name="FilterManager_MissingFilterDefinitionError"><value>The file type definition does not exist in the file type manager.</value></data>
+  <data name="SpringFrameworkObject_IndexRangeInsertPropertyError"><value>Index out of range for SpringFrameworkObject.InsertProperty method</value></data>
+  <data name="SpringFrameworkObject_InvalidTypeAssemblyError"><value>Invalid type argument format in SpringFrameworkObject.GetObjectAssemblyName()</value></data>
+  <data name="FilterManagerAdminsitrator_FilterDefinitionNullError"><value>filterDefinitionPath is null! Cannot add definition.</value></data>
+  <data name="FilterManagerAdministrator_NoConstructorArgError"><value>No constructor-arg element found in Filter Manager &lt;object&gt;!</value></data>
+  <data name="Text_NoPropertiesError"><value>Text properties not set.</value></data>
+  <data name="BilingualToNativeConverter_UnrecognizedValue"><value>Unrecognized value for ContentRestriction.</value></data>
+  <data name="QuickInsertName_qNonBreakingHyphen"><value>NonBreakingHyphen</value></data>
+  <data name="FilterManagerAdministrator_FilterDefinitionNullError"><value>filterDefinitionFilePath is null! Cannot remove definition</value></data>
+  <data name="FilterManagerAdministrator_FilterDefinitionEmptyError"><value>filterDefinitionPath is empty! Cannot add definition</value></data>
+  <data name="QuickInsertDescription_qUnderline"><value>Underline formatting</value></data>
+  <data name="SpringFilterDefinition_IncorrectXml"><value>XML string could not be used to initialize a Spring file type defintion: {0}</value></data>
+  <data name="NativeToBilingualConverter_NoMatchingStartError"><value>End tag '{0}' does not have a matching start tag.</value></data>
+  </root>

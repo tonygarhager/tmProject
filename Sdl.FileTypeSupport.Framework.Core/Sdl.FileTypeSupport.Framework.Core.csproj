@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3D2F8EF7-A42B-4BE0-9355-4D5E82C47BF5}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.FileTypeSupport.Framework.Core</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Settings">
+      <HintPath>..\Sdl.Core.Settings\bin\Debug\Sdl.Core.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.FileTypeSupport.Framework.Core.Settings">
+      <HintPath>..\Sdl.FileTypeSupport.Framework.Core.Settings\bin\Debug\Sdl.FileTypeSupport.Framework.Core.Settings.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.PluginFramework">
+      <HintPath>..\Sdl.Core.PluginFramework\bin\Debug\Sdl.Core.PluginFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\AbstractBilingualContentHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\AbstractBilingualContentProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\AbstractBilingualFileTypeComponent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\AbstractBilingualParser.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\BilingualContentMessageReporterProxy.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\DependencyFileLocator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IAbstractDataContent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IAbstractMarker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IAbstractMarkupData.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IAbstractMarkupDataContainer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IAbstractTag.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualContentHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualContentMessageReporter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualContentMessageReporterWithExtendedData.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualContentProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualDocumentFileWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualDocumentOutputProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualDocumentOutputPropertiesAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualDocumentParser.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualDocumentWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualFileTypeComponent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualParser.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualToNativeConverter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualVerifier.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IBilingualWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ICommentMarker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IDocumentItemFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IDocumentProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IFileProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ILocationMarker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ILockedContainer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ILockedContent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IMarkupDataVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\INativeToBilingualConverter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IOtherMarker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IParagraph.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IParagraphUnit.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IPlaceholderTag.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IRepetitionsTable.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IRevisionMarker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IRevisionProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ISegment.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ISegmentPair.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ISerializableMarkupDataContainer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IStructureTag.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ISubSegmentReference.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\ITagPair.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\IText.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\LevelLocation.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\Location.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\NotSplittableException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\RevisionType.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.BilingualApi\TextLocation.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.IntegrationApi\IFileTypeSettingsConverterComponentBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.IntegrationApi\IProjectAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Core.Properties\Resources.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\AbstractBooleanFormatting.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\AbstractFormattingItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\BackgroundColor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\Bold.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\FontName.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\FontSize.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\IFormattingGroup.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\IFormattingItem.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\IFormattingItemFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\IFormattingVisitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\Italic.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\Strikethrough.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\TextColor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\TextDirection.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\TextPosition.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\Underline.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.Formatting\UnknownFormatting.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi.Implementation\FileTypeCreator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi.QuickInserts\IQuickInsert.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi.QuickInserts\IQuickInsertDefinitionsManager.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi.QuickInserts\IQuickInsertsBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi.QuickInserts\QuickInsertConstants.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi.QuickInserts\QuickInsertIds.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\AbstractFileTypeDefinitionComponent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\AbstractSingleFileRefreshablePreviewController.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\AbstractSourceAndTargetFileRefreshablePreviewController.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\BatchProgressEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\BilingualDocumentOutputPropertiesProvider.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\BilingualParserFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\BilingualVerifiersProvider.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\DynamicFilterComponentBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ExtendedMessageEventData.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileNotSupportedException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileTypeComponentBuilderAttribute.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileTypeComponentBuilderExtensionAttribute.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileTypeCreatorAttribute.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileTypeCreatorWizardPage.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileTypeDefinitionCustomizationLevel.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileTypeDefinitionNotFoundException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\FileTypeProfile.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\GeneratorId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IAbstractGenerator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IAbstractPreviewApplication.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IAbstractPreviewControl.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IAbstractPreviewController.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IAbstractUpdatablePreview.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IAdditionalGeneratorsInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IApplicationPreviewType.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IBilingualDocumentGenerator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IBilingualProcessorContainer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IconDescriptor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IControlPreviewType.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IDefaultFileTypeSettingsProvider.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IDefaultQuickTagInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileExtractor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileGenerator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeComponentBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeComponentBuilderAdapter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeCreator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeDefinition.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeDefinitionAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeDefinitionConfiguringControl.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeDefinitionFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeInformation.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFileTypeManager.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IFilterFramework1FilterDefinitionFile.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IGeneratorInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IInteractivePreviewComponent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IInteractivePreviewComponentFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IMessageLocation.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IMultiFileConverter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\INavigablePreview.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IPreviewSet.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IPreviewSets.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IPreviewSetsFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IPreviewType.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IPreviewUpdatedViaRefresh.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IPreviewUpdatedViaSegmentFile.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IQuickTag.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IQuickTagContent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IQuickTags.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IQuickTagsFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISettingsAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISingleFilePreviewApplication.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISingleFilePreviewControl.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISingleFilePreviewController.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISingleFileRefreshablePreview.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISourceAndTargetFilePreviewApplication.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISourceAndTargetFilePreviewControl.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISourceAndTargetFilePreviewController.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISourceAndTargetFileRefreshablePreview.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISubContentComponentBuilder.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISubContentExtractor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\ISubContentGenerator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\IVerifierCollection.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\MessageEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\NativeGeneratorProvider.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\NoDefaultBilingualFileTypeException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\NotBilingualFileTypeException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\OneOrMoreFilesNotSupportedException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\OutputPropertiesProvider.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\PreviewApplicationId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\PreviewClosedEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\PreviewControlHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\PreviewControlId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\PreviewSetId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\PreviewSetKind.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\QuickTagDefaultId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\SegmentReference.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\SegmentSelectedEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\SubContentProcessorDoesNotExistException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\TemplateComponentBuilderManager.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.IntegrationApi\UnknownFileTypeDefinitionException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\AbstractNativeExtractionContentProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\AbstractNativeExtractionGenerationContentProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\AbstractNativeFileParser.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\AbstractNativeFileTypeComponent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\AbstractNativeFileWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\AbstractNativeGenerationContentProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ConflictingIdException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ContentRestriction.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ContextPurpose.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\DependencyFileLinkOption.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\DependencyFileUsage.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\DetectionLevel.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\EncodingCategory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ErrorLevel.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\FileId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IAbstractBasicTagProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IAbstractInlineTagProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IAbstractNativeContentHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IAbstractTagProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IBasicMessageReporter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IBasicMessageReporterWithExtendedData.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IComment.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ICommentProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IContextInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IContextProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ICustomInfoProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IdConflictResolution.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IDependencyFileProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IEndTagProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IFilePostTweaker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IFilePreTweaker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IFileTweaker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ILockedContentProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IMetaDataContainer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeContentCycleAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeContentStreamMessageReporter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeExtractionContentHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeExtractionContentProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeExtractor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeFileParser.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeFileSniffer.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeFileTypeComponent.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeFileVerifier.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeFileWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeGenerationContentHandler.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeGenerationContentProcessor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeGenerator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeLocationTracker.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeOutputFileProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeOutputSettingsAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeSubContentExtractor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeSubContentGenerator.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\INativeTextLocationMessageReporter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IOutputFileInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IParagraphUnitProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IParser.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IPersistentFileConversionProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IPlaceholderTagProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IPropertiesFactory.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISegmentPairProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISharedObjects.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISharedObjectsAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IStartTagProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IStructureInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\IStructureTagProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISubContentAware.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISubContentParser.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISubContentPublisher.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISubContentWriter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISubSegmentProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISupportsPersistenceId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ISupportsUniqueId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ITextProperties.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ITranslationOrigin.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\LocationMarkerId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\LockTypeFlags.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\NativeTextLocation.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ParagraphUnitId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ProcessSubContentEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ProgressEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\ProgressReporter.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\RepetitionId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\RevisionTypeNotSupportedException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\SegmentationHint.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\SegmentId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\Severity.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\SharedObjectPublishedEventArgs.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\SniffInfo.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\SourceCount.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\TagId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework.NativeApi\TextContextMatchLevel.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\Direction.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\FileJanitor.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\FileTypeDefinitionId.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\FileTypeSupportException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\Pair.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\TempFileManager.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\UserCancelledException.cs" />
+    <Compile Include="Sdl.FileTypeSupport.Framework\VersionInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Framework.Core.IntegrationApi\FileTypeProfile.xsd" />
+    <EmbeddedResource Include="Sdl.FileTypeSupport.Framework.Core.Properties\Resources.resx" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

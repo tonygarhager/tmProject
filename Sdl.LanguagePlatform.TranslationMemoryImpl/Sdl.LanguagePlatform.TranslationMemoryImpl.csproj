@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{1B9D3B74-0C71-40C5-B3CF-CF2282CA85EE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.LanguagePlatform.TranslationMemoryImpl</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Lingua">
+      <HintPath>..\Sdl.LanguagePlatform.Lingua\bin\Debug\Sdl.LanguagePlatform.Lingua.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.TranslationMemory">
+      <HintPath>..\Sdl.LanguagePlatform.TranslationMemory\bin\Debug\Sdl.LanguagePlatform.TranslationMemory.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing">
+      <HintPath>..\Sdl.Core.LanguageProcessing\bin\Debug\Sdl.Core.LanguageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.Globalization">
+      <HintPath>..\Sdl.Core.Globalization\bin\Debug\Sdl.Core.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.ServiceModel\v4.0_4.0.0.0__b77a5c561934e089\System.ServiceModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.FineGrainedAlignment">
+      <HintPath>..\Sdl.Core.FineGrainedAlignment\bin\Debug\Sdl.Core.FineGrainedAlignment.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite">
+      <HintPath>..\..\FuzzySearch\libs\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.FineGrainedAlignment.Core">
+      <HintPath>..\Sdl.Core.FineGrainedAlignment.Core\bin\Debug\Sdl.Core.FineGrainedAlignment.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Configuration">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\libs\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\AlignableTu.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\AlignableTuId.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\DefaultAlignableCorpusManagerFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\IAlignableStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\SerializablePersistentObjectToken.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\SqliteTranslationModelStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\StorageBasedAlignableCorpus.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\StorageBasedAlignableCorpusId.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\StorageBasedAlignableCorpusManager.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\TuAlignmentData.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.FGA\TuAlignmentDataInternal.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\AttributeDeclaration.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\AttributeValue.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\Configuration.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\ConfigurationElement.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\ConfigurationSection.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\DbObject.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\DbStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\InMemoryStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\InMemoryStorageImpl.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\IStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\PickValue.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\Resource.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\Segment.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SqliteStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SqlStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SqlStorageFilterParameterBuilder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\StorageFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\TranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\TranslationUnit.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\Utils.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\XmlSegmentSerializer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\AbstractAnnotatedSegment.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\AbstractScorer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\AnnotatedDocumentSegment.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\AnnotatedSegment.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\AnnotatedTmManager.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\AnnotatedTranslationMemory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\AnnotatedTranslationUnit.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\API.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\CachedResourceDataAccessor.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\CallContext.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ChiSquaredTranslationModelStore.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\Container.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ContainerBasedTranslationModelDataService.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ContainerBasedTranslationModelService.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ContainerFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\DatabaseContainer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\DbStorageBase.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\DefaultTranslationModelManagerFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\DocumentScorer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\EmbeddedResourceDataAccessor.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\FileContainer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\IAlignableTranslationMemoryService.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\IAnnotatedSegment.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ILocalizableTokenExtensions.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\Importer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ImportParameters.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ImportType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\InMemoryContainer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\IReindexableTranslationMemoryService.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ISubsegmentTranslationMemoryService.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ITranslationMemoryService.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ITranslationModelService.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ITranslationModelStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ITranslationUnitFilteringStrategy.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\LanguageResource.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\LegacyCMConverter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\NamedConnectionStringContainer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ObjectFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\Permission.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ResourceManager.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\Scorer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\Searcher.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\SegmentSerialization.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\ServerInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\SqliteStorageUtils.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\SqlStorageUtils.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\StorageException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\StorageFactoryBase.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\SubsegmentSearcher.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TokenSerialization.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationMemorySetup.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationModelCallContext.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationModelDataServiceInner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationModelManagementServiceInner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationModelManager.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationModelStorageFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationUnitClientFilteringStrategy.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationUnitFilteringStrategyFactory.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TranslationUnitServerFilteringStrategy.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\Translator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TuContextData.cs" />
+    <Compile Include="Sdl.LanguagePlatform.TranslationMemoryImpl\TuHashInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SQL.CreateSchemaSQL.sql" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SQL.CreateSchemaSQLite.sql" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SQL.CreateTMSchemaSQL.sql" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SQL.DropSchemaSQL.sql" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.TranslationMemoryImpl.Storage\SQL.DropSchemaSQLite.sql" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.TranslationMemoryImpl\Sdl.LanguagePlatform.NLP.oldresources" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

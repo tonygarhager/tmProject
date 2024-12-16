@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{F8492590-C93F-40DA-AB99-5A1E1245AEF8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.LanguagePlatform.Stat</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Lingua">
+      <HintPath>..\Sdl.LanguagePlatform.Lingua\bin\Debug\Sdl.LanguagePlatform.Lingua.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing">
+      <HintPath>..\Sdl.Core.LanguageProcessing\bin\Debug\Sdl.Core.LanguageProcessing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.HMM\HMM.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.HMM\HMMImplMealy.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.HMM\HMMImplMoore.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.HMM\HMMType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.HMM\Path.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\AlignmentProviderDirect.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\AlignmentProviderFromFile.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\BilingualPhrase.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\BilingualPhraseComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\BilingualPhraseComputer2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\BilingualPhraseFileComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\ChiSquareScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\ChiSquareScoreProvider2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\DiskBasedBilingualPhraseCounter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\DiskBasedBilingualPhraseCounter2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\ExtendableBilingualPhrase.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\ExtensionPoint.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\IAlignmentProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\IBilingualPhraseCounter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\IBilingualPhraseCounter2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\ICombineMetrics.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\IScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\IScoreProvider2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\LTPScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\ScoreProviderType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\SimpleAverageMetrics.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\SimpleMinMetrics.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\WordAlignmentComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\WordAlignmentComputer2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat.WordAlignment\WordAlignmentFileComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\AlignmentTable.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BilingualChiSquareComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BilingualChiSquareComputer2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BilingualDictionaryFile.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BilingualDictionaryFile2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BilingualPhrase.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BilingualPhraseReaderWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BinaryDoubleSparseMatrix.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\BinaryDoubleSparseMatrix2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\CompactTrie.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\CompressedInt.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\ContingencyTable.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\CooccurrenceCount.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\CooccurrenceCountBinaryReaderWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\CooccurrenceCounter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DataFileInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DataFileInfo2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DataFileType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DataLocation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DataLocation2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DiskBasedMergeCounter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DiskBasedMergeSorter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\DoubleSparseMatrix.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\FileMapping.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\FloatSparseMatrix.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\FrequencyFileComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\FrequencyFileReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\FrequencyFileReader2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\FrequencyFileWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\FrequencyFileWriter2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\IBinaryReaderWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\ICountable.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\IKeyToStringMapper.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\IntegerFileReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\IntegerFileWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\IntSegment.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\InvertedFileComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\InvertedFileReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\IOccurrenceCounter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\KeyValueAction.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\LTPComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\MMap.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\MonolingualChiSquareComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\MultiLabelIntTrie.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\NGram.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\NGramComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\NGramFileComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\NGramReaderWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\NGramTree.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\Phrase.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\PhraseDictionary.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\PhraseDictionary2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\PhraseExtractionCancelException.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\PhrasePair.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\PhraseReaderWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\PlainFileReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\PlainFileWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\Posting.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\ProgressEventArgs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\ProgressStage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\SparseArray.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\SparseMatrix.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\SparseMatrixIO.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\SpecialTokenIDs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\StringSubstringGenerator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\SubstringGenerator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\SuffixArray.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\SuffixArrayComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\TempFileGenerator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\TokenFileReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\TokenFileReader2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\TokenFileWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\TokenFileWriter2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\VocabularyFile.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\VocabularyFile2.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\WordAlignmentFileReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Stat\WordAlignmentFileWriter.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

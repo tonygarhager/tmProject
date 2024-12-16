@@ -3,7 +3,86 @@
   "WorkspaceRootPath": "E:\\work\\tmProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|e:\\work\\tmproject\\fuzzymatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{EBB3D14C-B471-4C9E-9BBB-83B115EB0991}|Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.csproj|e:\\work\\tmproject\\sdl.core.processing.alignment\\sdl.core.processing.alignment\\mergeparagraphparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB3D14C-B471-4C9E-9BBB-83B115EB0991}|Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.csproj|solutionrelative:sdl.core.processing.alignment\\sdl.core.processing.alignment\\mergeparagraphparser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D5A8143C-698B-4B8D-88B8-47CE92476DCE}|Sdl.FileTypeSupport.Framework.Core.Settings\\Sdl.FileTypeSupport.Framework.Core.Settings.csproj|e:\\work\\tmproject\\sdl.filetypesupport.framework.core.settings\\sdl.filetypesupport.framework.core.settings\\filetypesettingspageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D5A8143C-698B-4B8D-88B8-47CE92476DCE}|Sdl.FileTypeSupport.Framework.Core.Settings\\Sdl.FileTypeSupport.Framework.Core.Settings.csproj|solutionrelative:sdl.filetypesupport.framework.core.settings\\sdl.filetypesupport.framework.core.settings\\filetypesettingspageattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB3D14C-B471-4C9E-9BBB-83B115EB0991}|Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.csproj|e:\\work\\tmproject\\sdl.core.processing.alignment\\sdl.core.processing.alignment.core.algorithms\\abstractalignmentalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB3D14C-B471-4C9E-9BBB-83B115EB0991}|Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.csproj|solutionrelative:sdl.core.processing.alignment\\sdl.core.processing.alignment.core.algorithms\\abstractalignmentalgorithm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41BABCEC-0A4A-4BF6-8A95-54ACB507B8FE}|Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools.csproj|e:\\work\\tmproject\\sdl.languageplatform.translationmemorytools\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BABCEC-0A4A-4BF6-8A95-54ACB507B8FE}|Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools.csproj|solutionrelative:sdl.languageplatform.translationmemorytools\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B9D3B74-0C71-40C5-B3CF-CF2282CA85EE}|Sdl.LanguagePlatform.TranslationMemoryImpl\\Sdl.LanguagePlatform.TranslationMemoryImpl.csproj|e:\\work\\tmproject\\sdl.languageplatform.translationmemoryimpl\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B9D3B74-0C71-40C5-B3CF-CF2282CA85EE}|Sdl.LanguagePlatform.TranslationMemoryImpl\\Sdl.LanguagePlatform.TranslationMemoryImpl.csproj|solutionrelative:sdl.languageplatform.translationmemoryimpl\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD4E7E48-9639-4E3A-B327-ABB50AA6F525}|Sdl.LanguagePlatform.Lingua\\Sdl.LanguagePlatform.Lingua.csproj|e:\\work\\tmproject\\sdl.languageplatform.lingua\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD4E7E48-9639-4E3A-B327-ABB50AA6F525}|Sdl.LanguagePlatform.Lingua\\Sdl.LanguagePlatform.Lingua.csproj|solutionrelative:sdl.languageplatform.lingua\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB6CA7C2-5FEC-4843-9A92-F15769083223}|Sdl.LanguagePlatform.IO\\Sdl.LanguagePlatform.IO.csproj|e:\\work\\tmproject\\sdl.languageplatform.io\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB6CA7C2-5FEC-4843-9A92-F15769083223}|Sdl.LanguagePlatform.IO\\Sdl.LanguagePlatform.IO.csproj|solutionrelative:sdl.languageplatform.io\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ABB02D3B-4924-4F29-B13D-AC1E62696FC8}|Sdl.LanguagePlatform.Core\\Sdl.LanguagePlatform.Core.csproj|E:\\work\\tmProject\\sdl.languageplatform.core\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ABB02D3B-4924-4F29-B13D-AC1E62696FC8}|Sdl.LanguagePlatform.Core\\Sdl.LanguagePlatform.Core.csproj|solutionrelative:sdl.languageplatform.core\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D08FAD8-609A-4AA2-8632-8CBF2F92295A}|Sdl.Core.Processing.Processors.Storage\\Sdl.Core.Processing.Processors.Storage.csproj|e:\\work\\tmproject\\sdl.core.processing.processors.storage\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D08FAD8-609A-4AA2-8632-8CBF2F92295A}|Sdl.Core.Processing.Processors.Storage\\Sdl.Core.Processing.Processors.Storage.csproj|solutionrelative:sdl.core.processing.processors.storage\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBB3D14C-B471-4C9E-9BBB-83B115EB0991}|Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.csproj|e:\\work\\tmproject\\sdl.core.processing.alignment\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBB3D14C-B471-4C9E-9BBB-83B115EB0991}|Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.csproj|solutionrelative:sdl.core.processing.alignment\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC50BED8-F3DA-4399-BC0E-C8F43060BE31}|Sdl.Core.Processing.Alignment.Common\\Sdl.Core.Processing.Alignment.Common.csproj|e:\\work\\tmproject\\sdl.core.processing.alignment.common\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC50BED8-F3DA-4399-BC0E-C8F43060BE31}|Sdl.Core.Processing.Alignment.Common\\Sdl.Core.Processing.Alignment.Common.csproj|solutionrelative:sdl.core.processing.alignment.common\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|e:\\work\\tmproject\\sdl.core.languageprocessing\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|solutionrelative:sdl.core.languageprocessing\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94EEE2C8-2673-4B10-A024-59CE35284060}|Sdl.Core.Globalization\\Sdl.Core.Globalization.csproj|e:\\work\\tmproject\\sdl.core.globalization\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94EEE2C8-2673-4B10-A024-59CE35284060}|Sdl.Core.Globalization\\Sdl.Core.Globalization.csproj|solutionrelative:sdl.core.globalization\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B968761C-4C11-447A-AA7C-FC21E132F2C8}|Sdl.Core.FineGrainedAlignment\\Sdl.Core.FineGrainedAlignment.csproj|E:\\work\\tmProject\\sdl.core.finegrainedalignment\\sdl.core.finegrainedalignment\\alignablecorpusid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B968761C-4C11-447A-AA7C-FC21E132F2C8}|Sdl.Core.FineGrainedAlignment\\Sdl.Core.FineGrainedAlignment.csproj|solutionrelative:sdl.core.finegrainedalignment\\sdl.core.finegrainedalignment\\alignablecorpusid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{41BABCEC-0A4A-4BF6-8A95-54ACB507B8FE}|Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools.csproj|e:\\work\\tmproject\\sdl.languageplatform.translationmemorytools\\sdl.languageplatform.translationmemorytools\\tuconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{41BABCEC-0A4A-4BF6-8A95-54ACB507B8FE}|Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools.csproj|solutionrelative:sdl.languageplatform.translationmemorytools\\sdl.languageplatform.translationmemorytools\\tuconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Sdl.Core.LanguageProcessing||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|E:\\work\\tmProject\\sdl.core.languageprocessing\\sdl.core.languageprocessing.tokenization\\datetimerecognizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|solutionrelative:sdl.core.languageprocessing\\sdl.core.languageprocessing.tokenization\\datetimerecognizer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|E:\\work\\tmProject\\sdl.core.languageprocessing\\sdl.core.languageprocessing.segmenttransfertools\\segmenttransferhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|solutionrelative:sdl.core.languageprocessing\\sdl.core.languageprocessing.segmenttransfertools\\segmenttransferhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|E:\\work\\tmProject\\sdl.core.languageprocessing\\sdl.core.languageprocessing.autosuggest\\filebasedautosuggestdictionaryaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE93324E-1BA4-40F2-BF0B-756C1FC42C01}|Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj|solutionrelative:sdl.core.languageprocessing\\sdl.core.languageprocessing.autosuggest\\filebasedautosuggestdictionaryaccessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59E89ACC-C474-4F67-A942-F1824634D9C4}|Sdl.Core.LanguageProcessing.ICU2\\Sdl.Core.LanguageProcessing.ICU2.csproj|E:\\work\\tmProject\\sdl.core.languageprocessing.icu2\\sdl.core.languageprocessing.icu2\\wordboundaryfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59E89ACC-C474-4F67-A942-F1824634D9C4}|Sdl.Core.LanguageProcessing.ICU2\\Sdl.Core.LanguageProcessing.ICU2.csproj|solutionrelative:sdl.core.languageprocessing.icu2\\sdl.core.languageprocessing.icu2\\wordboundaryfinder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|E:\\work\\tmProject\\fuzzymatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6777B61B-660E-41FA-A803-69B22D8B5FB7}|FuzzyMatch\\FuzzyMatch.csproj|solutionrelative:fuzzymatch\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -18,32 +97,273 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileTypeSettingsPageAttribute.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.FileTypeSupport.Framework.Core.Settings\\Sdl.FileTypeSupport.Framework.Core.Settings\\FileTypeSettingsPageAttribute.cs",
+              "RelativeDocumentMoniker": "Sdl.FileTypeSupport.Framework.Core.Settings\\Sdl.FileTypeSupport.Framework.Core.Settings\\FileTypeSettingsPageAttribute.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.FileTypeSupport.Framework.Core.Settings\\Sdl.FileTypeSupport.Framework.Core.Settings\\FileTypeSettingsPageAttribute.cs",
+              "RelativeToolTip": "Sdl.FileTypeSupport.Framework.Core.Settings\\Sdl.FileTypeSupport.Framework.Core.Settings\\FileTypeSettingsPageAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:52:35.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbstractAlignmentAlgorithm.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.Core.Algorithms\\AbstractAlignmentAlgorithm.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.Core.Algorithms\\AbstractAlignmentAlgorithm.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.Core.Algorithms\\AbstractAlignmentAlgorithm.cs",
+              "RelativeToolTip": "Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment.Core.Algorithms\\AbstractAlignmentAlgorithm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:49:42.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryTools\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryTools\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryTools\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryTools\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:46:38.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MergeParagraphParser.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment\\MergeParagraphParser.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment\\MergeParagraphParser.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment\\MergeParagraphParser.cs",
+              "RelativeToolTip": "Sdl.Core.Processing.Alignment\\Sdl.Core.Processing.Alignment\\MergeParagraphParser.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAD4vxEAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:38:14.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryImpl\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryImpl\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryImpl\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryImpl\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:46:19.256Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.Lingua\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.Lingua\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.Lingua\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.Lingua\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:46:10.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.IO\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.IO\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.IO\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.IO\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:46:03.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.Processing.Processors.Storage\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.Processing.Processors.Storage\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.Processing.Processors.Storage\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.Core.Processing.Processors.Storage\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBMAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:45:46.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.Processing.Alignment\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.Core.Processing.Alignment\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBoAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:44:39.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment.Common\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.Processing.Alignment.Common\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.Processing.Alignment.Common\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.Core.Processing.Alignment.Common\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:44:30.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.LanguageProcessing\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.Core.LanguageProcessing\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAswA4AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:44:16.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.Globalization\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.Globalization\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.Globalization\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.Core.Globalization\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAswBIAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:43:59.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.Core\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.Core\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.Core\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.Core\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAswA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:06:55.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TUConverter.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools\\TUConverter.cs",
+              "RelativeDocumentMoniker": "Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools\\TUConverter.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools\\TUConverter.cs",
+              "RelativeToolTip": "Sdl.LanguagePlatform.TranslationMemoryTools\\Sdl.LanguagePlatform.TranslationMemoryTools\\TUConverter.cs",
+              "ViewState": "AgIAAGoBAAAAAAAAAAAWwHUBAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:29:27.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AlignableCorpusId.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.FineGrainedAlignment\\Sdl.Core.FineGrainedAlignment\\AlignableCorpusId.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.FineGrainedAlignment\\Sdl.Core.FineGrainedAlignment\\AlignableCorpusId.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.FineGrainedAlignment\\Sdl.Core.FineGrainedAlignment\\AlignableCorpusId.cs",
+              "RelativeToolTip": "Sdl.Core.FineGrainedAlignment\\Sdl.Core.FineGrainedAlignment\\AlignableCorpusId.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAWwD0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T06:25:12.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Sdl.Core.LanguageProcessing",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj",
+              "RelativeDocumentMoniker": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj",
+              "RelativeToolTip": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-16T06:11:36.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SegmentTransferHelper.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.SegmentTransferTools\\SegmentTransferHelper.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.SegmentTransferTools\\SegmentTransferHelper.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.SegmentTransferTools\\SegmentTransferHelper.cs",
+              "RelativeToolTip": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.SegmentTransferTools\\SegmentTransferHelper.cs",
+              "ViewState": "AgIAANYAAAAAAAAAAAAWwOEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:55:59.803Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DateTimeRecognizer.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.Tokenization\\DateTimeRecognizer.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.Tokenization\\DateTimeRecognizer.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.Tokenization\\DateTimeRecognizer.cs",
+              "RelativeToolTip": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.Tokenization\\DateTimeRecognizer.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAWwHsAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:55:30.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FileBasedAutoSuggestDictionaryAccessor.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.AutoSuggest\\FileBasedAutoSuggestDictionaryAccessor.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.AutoSuggest\\FileBasedAutoSuggestDictionaryAccessor.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.AutoSuggest\\FileBasedAutoSuggestDictionaryAccessor.cs",
+              "RelativeToolTip": "Sdl.Core.LanguageProcessing\\Sdl.Core.LanguageProcessing.AutoSuggest\\FileBasedAutoSuggestDictionaryAccessor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:55:02.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WordBoundaryFinder.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing.ICU2\\Sdl.Core.LanguageProcessing.ICU2\\WordBoundaryFinder.cs",
+              "RelativeDocumentMoniker": "Sdl.Core.LanguageProcessing.ICU2\\Sdl.Core.LanguageProcessing.ICU2\\WordBoundaryFinder.cs",
+              "ToolTip": "E:\\work\\tmProject\\Sdl.Core.LanguageProcessing.ICU2\\Sdl.Core.LanguageProcessing.ICU2\\WordBoundaryFinder.cs",
+              "RelativeToolTip": "Sdl.Core.LanguageProcessing.ICU2\\Sdl.Core.LanguageProcessing.ICU2\\WordBoundaryFinder.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAMwGYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T05:49:58.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\work\\tmProject\\FuzzyMatch\\Program.cs",
               "RelativeDocumentMoniker": "FuzzyMatch\\Program.cs",
               "ToolTip": "E:\\work\\tmProject\\FuzzyMatch\\Program.cs",
               "RelativeToolTip": "FuzzyMatch\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:58:32.84Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileBasedTMHelper.cs",
-              "DocumentMoniker": "E:\\work\\tmProject\\FuzzyMatch\\FileBasedTMHelper.cs",
-              "RelativeDocumentMoniker": "FuzzyMatch\\FileBasedTMHelper.cs",
-              "ToolTip": "E:\\work\\tmProject\\FuzzyMatch\\FileBasedTMHelper.cs",
-              "RelativeToolTip": "FuzzyMatch\\FileBasedTMHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-15T17:59:46.064Z"
+              "WhenOpened": "2024-12-15T17:58:32.84Z"
             },
             {
               "$type": "Bookmark",
@@ -52,6 +372,18 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FileBasedTMHelper.cs",
+              "DocumentMoniker": "E:\\work\\tmProject\\FuzzyMatch\\FileBasedTMHelper.cs",
+              "RelativeDocumentMoniker": "FuzzyMatch\\FileBasedTMHelper.cs",
+              "ToolTip": "E:\\work\\tmProject\\FuzzyMatch\\FileBasedTMHelper.cs",
+              "RelativeToolTip": "FuzzyMatch\\FileBasedTMHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T17:59:46.064Z"
             }
           ]
         }

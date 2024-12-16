@@ -1,0 +1,222 @@
+﻿Abkhazian	AB	1538
+Afar	AA	1539
+Afrikaans	AF	1078
+Albanian	SQ	1052
+Amharic	AM	1118
+Arabic (Algeria)	AR-DZ	5121
+Arabic (Bahrain)	AR-BH	15361
+Arabic (Egypt)	AR-EG	3073
+Arabic (Iraq)	AR-IQ	2049
+Arabic (Jordan)	AR-JO	11265
+Arabic (Kuwait)	AR-KW	13313
+Arabic (Lebanon)	AR-LB	12289
+Arabic (Libya)	AR-LY	4097
+Arabic (Morocco)	AR-MA	6145
+Arabic (Oman)	AR-OM	8193
+Arabic (Qatar)	AR-QA	16385
+Arabic (Saudi Arabia)	AR-SA	1025
+Arabic (Syria)	AR-SY	10241
+Arabic (Tunisia)	AR-TN	7169
+Arabic (U.A.E)	AR-AE	14337
+Arabic (Yemen)	AR-YE	9217
+Armenian	HY	1067
+Assamese	AS	1101
+Aymara	AY	1024
+Azeri (Cyrillic)	AZ-XC	1068
+Azeri (Latin)	AZ-XE	2092
+Bashkir	BA	1133
+Basque	EU	1069
+Bengali	BN	1093
+Bengali (Bangladesh)	BN-BD	2117
+Bihari	BH	1540
+Bislama	BI	1541
+Bosnian	BS	1050
+Breton	BR	1150
+Bulgarian	BG	1026
+Burmese	MY	1109
+Byelorussian	BE	1059
+Catalan	CA	1027
+Chewa	CH	1024
+Chinese (Hong Kong)	ZH-HK	3076
+Chinese (Macau)	ZH-XM	1028
+Chinese (PRC)	ZH-CN	2052
+Chinese (Singapore)	ZH-SG	4100
+Chinese (Taiwan)	ZH-TW	1028
+Corsican	CO	1155
+Croatian	HR	1050
+Czech	CS	1029
+Danish	DA	1030
+Dutch (Belgium)	NL-BE	2067
+Dutch (Netherlands)	NL	1043
+English (Australia)	EN-AU	3081
+English (Belize)	EN-BZ	10249
+English (Britain)	EN-GB	2057
+English (Canada)	EN-CA	4105
+English (Caribbean)	EN-CR	9225
+English (Ireland)	EN-IE	16393
+English (India)	EN-IN	6153
+English (Jamaica)	EN-JM	8201
+English (New Zealand)	EN-NZ	5129
+English (Philippines)	EN-PH	13321
+English (South Africa)	EN-ZA	7177
+English (Trinidad)	EN-TR	11273
+English (United States)	EN-US	1033
+English (Zimbabwe)	EN-RH	12297
+Esperanto	EO	1542
+Estonian	ET	1061
+Faeroese	FO	1080
+Farsi	FA	1065
+Fijian	FJ	1543
+Filipino	FL	1124
+Finnish	FI	1035
+French (Belgium)	FR-BE	2060
+French (Canada)	FR-CA	3084
+French (France)	FR	1036
+French (Luxembourg)	FR-LU	5132
+French (Monaco)	FR-MC	6156
+French (Switzerland)	FR-CH	4108
+Gaelic (Scotland)	GD	1084
+Galician	GL	1110
+Georgian	KA	1079
+German (Austria)	DE-AT	3079
+German (Germany)	DE	1031
+German (Liechtenstein)	DE-LI	5127
+German (Luxembourg)	DE-LU	4103
+German (Switzerland)	DE-CH	2055
+Greek	EL	1032
+Guarani	GN	1024
+Gujarati	GU	1024
+Hausa	HA	1128
+Hebrew	HE	1037
+Hindi	HI	1024
+Hmong	HM	1066
+Hungarian	HU	1038
+Icelandic	IS	1039
+Igbo	IG	1136
+Indonesian	IN	1057
+Interlingua	IA	1544
+Interlingue; Occidental	IE	1545
+Inupiaq	IK	1546
+Irish	GA	2108
+Italian	IT	1040
+Italian (Switzerland)	IT-CH	2064
+Japanese	JA	1041
+Javanese (Roman)	JW	1024
+Kalaallisut; Greenlandic	KL	1547
+Kannada	KN	1099
+Kashmiri	KS	2144
+Kashmiri (Arabic)	KS-AR	1120
+Kazakh	KK	1087
+Khmer	KM	1107
+Kinyarwanda	RW	1159
+Kirghiz	KY	1024
+Korean	KO	1042
+Kurdish	KU	1024
+Lao	LO	1108
+Latin	LA	1142
+Latvian	LV	1062
+Lingala	LN	1536
+Lithuanian	LT	1063
+Macedonian (FYROM)	MK	1071
+Malagasy	MG	1024
+Malay (Brunei Darussalam)	MS-BX	2110
+Malay (Malaysia)	MS-MY	1086
+Malayalam	ML	1100
+Malayalam (India)	ML-IN	1100
+Maltese	MT	1082
+Maori	MI	1153
+Marathi	MR	1102
+Moldavian	MO	1024
+Mongolian (Cyrillic)	MN-XC	1024
+Nauru	NA	1548
+Nepali	NE	1121
+Norwegian (Bokmål)	NO-NO	1044
+Norwegian (Nynorsk)	NO-XY	2068
+Occitan	OC	1154
+Oriya	OR	1096
+Oromo	OM	1138
+Pashto	PS	1024
+Polish	PL	1045
+Portuguese (Brazil)	PT-BR	1046
+Portuguese (Portugal)	PT	2070
+Punjabi	PA	1094
+Quechua	QU	1024
+Romanian	RO	1048
+Romanian (Moldova)	RO-MV	1048
+Romansh	RM	1047
+Ruanda	RN	1024
+Rundi	RD	1024
+Russian	RU	1049
+Russian (Moldova)	RU-MV	1049
+Sami (Lappish)	SZ	1024
+Samoan	SM	1549
+Sango	SG	1550
+Sanskrit	SA	1103
+Serbian (Cyrillic)	SR-XC	3098
+Serbian (Latin)	SR	2074
+Serbo-Croatian	SH	1537
+Sesotho	ST	1132
+Shona	SN	1551
+Sindhi	SD	1113
+Sinhalese	SI	1115
+Slovak	SK	1051
+Slovenian	SL	1060
+Somali	SO	1024
+Spanish	ES	1034
+Spanish (Argentina)	ES-AR	11274
+Spanish (Bolivia)	ES-BO	16394
+Spanish (Chile)	ES-CN	13322
+Spanish (Colombia)	ES-CO	9226
+Spanish (Costa Rica)	ES-CR	5130
+Spanish (Dominican Republic)	ES-DO	7178
+Spanish (Ecuador)	ES-EC	12298
+Spanish (El Salvador)	ES-SV	17418
+Spanish (Guatemala)	ES-GT	4106
+Spanish (Honduras)	ES-HN	18442
+Spanish (Mexican)	ES-MX	2058
+Spanish (Nicaragua)	ES-NI	19466
+Spanish (Panama)	ES-PA	6154
+Spanish (Paraguay)	ES-PY	15370
+Spanish (Peru)	ES-PE	10250
+Spanish (Puerto Rico)	ES-PR	20490
+Spanish (Uruguay)	ES-UY	14346
+Spanish (United States)	ES-US	1034
+Spanish (Venezuela)	ES-VE	8202
+Spanish -International-	ES-XM	1034
+Spanish -Latin America-	ES-XL	1034
+Spanish -Modern-	ES-XY	3082
+Sundanese (Roman)	SU	1024
+Swahili	SW	1089
+Swati	SS	1552
+Swedish	SV	1053
+Swedish (Finland)	SV-FI	2077
+Tagalog	TL	1024
+Tajik	TG	1024
+Tamil	TA	1097
+Tatar	TT	1092
+Telugu	TE	1098
+Thai	TH	1054
+Tibetan	BO	1105
+Tibetan - Bhutan (Dzongkha)	DZ	2129
+Tigrinya	TI	1139
+Tonga (Tonga Islands)	TO	1553
+Tsonga	TS	1073
+Tswana	TN	1074
+Turkish	TR	1055
+Turkmen	TK	1024
+Twi	TW	1554
+Uighur	UG	1024
+Ukrainian	UK	1058
+Urdu	UR	1056
+Urdu (Pakistan)	UR-PK	1056
+Uzbek (Cyrillic)	UZ-XC	2115
+Uzbek (Latin)	UZ-XL	1091
+Vietnamese	VI	1066
+Volapük	VO	1555
+Welsh	CY	2057
+Western Frisian	FY	1122
+Wolof	WO	1160
+Xhosa	XH	1076
+Yiddish	JI	1024
+Yoruba	YO	1130
+Zulu	ZU	1077

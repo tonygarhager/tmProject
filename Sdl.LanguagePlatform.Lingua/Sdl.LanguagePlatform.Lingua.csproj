@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{AD4E7E48-9639-4E3A-B327-ABB50AA6F525}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <LangVersion>8.0</LangVersion>
+    <AssemblyName>Sdl.LanguagePlatform.Lingua</AssemblyName>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_MSIL\System.Runtime.Serialization\v4.0_4.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.LanguagePlatform.Core">
+      <HintPath>..\Sdl.LanguagePlatform.Core\bin\Debug\Sdl.LanguagePlatform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing">
+      <HintPath>..\Sdl.Core.LanguageProcessing\bin\Debug\Sdl.Core.LanguageProcessing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>C:\Windows\Microsoft.NET\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="Sdl.Core.LanguageProcessing.Stemmers">
+      <HintPath>..\Sdl.Core.LanguageProcessing.Stemmers\bin\Debug\Sdl.Core.LanguageProcessing.Stemmers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\AlignmentItem.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\AlignmentOperation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\CharSubstringScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\CostBasedAlignmentComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\IAlignmentCostComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\IExtensionDisambiguator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\ISequenceAlignmentItemScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\LengthAlignmentCostComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\LongestCommonSubsequenceComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\SequenceAlignmentComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\SimpleCharLCSScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\SimpleCharLSAScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\SimpleLCSScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Alignment\StringLengthAlignmentCostComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.EditDistance\EditDistanceComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\AbstractPostingsIterator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\BlockedStoragePostingsIterator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\CachedBlockedFuzzyIndexStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\CacheItem.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\ClusterSearchMode.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\DiceFeatureVectorOverlapComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\FuzzySearcher.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\Hit.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\HitAscendingComparer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\HitDescendingComparer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\ICentroidComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IFeatureVector.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IFeatureVectorStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IFuzzyDataReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IFuzzyIndex.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IFuzzyIndexStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\InMemoryClusteredFuzzyIndex.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\InMemoryFeatureVectorCluster.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\InMemoryFuzzyIndex.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IntFeatureVector.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IOverlapComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IPostingsBlockReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IPostingsBlockStorage.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\IPostingsBlockWriter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\PostingsBlock.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\PostingsInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\ScoringMethod.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\SimpleFeatureVectorCentroidComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Index\WeightedFeatureVector.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Locales\FieldCode.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Locales\LocaleInfo.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Locales\LocaleInfoSet.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Locales\LocaleSource.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\FormatHandle.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\LanguageMap.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\LanguageRule.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\MapRule.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\Rule.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\SRX.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\SRXReader.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\SRXSegmentationEngine.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.SRX\SRXToT8Converter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.Segmentation.T8\TWBRuleConverter.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.TermRecognition\CaseAwareCharSubsequenceScoreProvider.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.TermRecognition\FeatureToRangeMapping.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.TermRecognition\ScoredItem.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.TermRecognition\SubstringAlignmentDisambiguator.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.TermRecognition\TermFinder.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua.TermRecognition\TermFinderResult.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\AlignedRange.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\AlignedSubstring.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\CharTrigramVector.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\FeatureVectorType.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\Hash.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\InsertDeleteCostComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\LanguageTools.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\PairedTag.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\Range.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SegmentEditDistanceComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SimilarityComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SimilarityComputers.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SimilarityMatrix.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SnowballWrapper.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\StringIntTrie.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\Substring.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SuffixTree.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SuffixTreeComputer.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SuffixTreeEdge.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\SuffixTreeNode.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\TagAligner.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\TagAssociation.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\TagAssociations.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\TagPairs.cs" />
+    <Compile Include="Sdl.LanguagePlatform.Lingua\TokenIndexLcsScoreProvider.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Sdl.LanguagePlatform.Lingua.Locales\sdlx.txt" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.Lingua.Locales\tms.txt" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.Lingua.Locales\twb-vista.txt" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.Lingua.Locales\vistahp-en.txt" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.Lingua.Locales\win7-en.txt" />
+    <EmbeddedResource Include="Sdl.LanguagePlatform.Lingua.Locales\XPSP2-en.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

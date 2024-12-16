@@ -51,9 +51,29 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Sdl.Core.Api\Sdl.Core.Api.csproj">
+      <Project>{9a1bdd78-1a30-464d-a019-83b4fc5ed36d}</Project>
+      <Name>Sdl.Core.Api</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.Core.TM.ImportExport\Sdl.Core.TM.ImportExport.csproj">
+      <Project>{978e617e-0a66-404d-b40e-89cb02425d58}</Project>
+      <Name>Sdl.Core.TM.ImportExport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Core\Sdl.FileTypeSupport.Framework.Core.csproj">
+      <Project>{3d2f8ef7-a42b-4be0-9355-4d5e82c47bf5}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.FileTypeSupport.Framework.Implementation\Sdl.FileTypeSupport.Framework.Implementation.csproj">
+      <Project>{675467f5-b1d3-4b88-a826-90a8fa65ff88}</Project>
+      <Name>Sdl.FileTypeSupport.Framework.Implementation</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Sdl.LanguagePlatform.Core\Sdl.LanguagePlatform.Core.csproj">
       <Project>{abb02d3b-4924-4f29-b13d-ac1e62696fc8}</Project>
       <Name>Sdl.LanguagePlatform.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Sdl.LanguagePlatform.TranslationMemory\Sdl.LanguagePlatform.TranslationMemory.csproj">
+      <Project>{97609707-ac19-4a2b-9c94-8a50ebbdff95}</Project>
+      <Name>Sdl.LanguagePlatform.TranslationMemory</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
